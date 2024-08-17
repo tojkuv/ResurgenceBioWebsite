@@ -1,0 +1,42 @@
+﻿@inherits LayoutComponentBase
+
+@using Microsoft.FluentUI.AspNetCore.Components
+
+@inject NavigationManager Navigation
+
+<div id="main-layout" class="flex flex-col min-h-screen @_theme">
+    <!-- Navigation Menu at the Top -->
+    <header>
+        @* <NavMenu/> *@
+    </header>
+
+    <!-- Main Content Section -->
+    <main class="@_contentSection">
+        @Body
+    </main>
+
+    <!-- Footer or additional content could go here -->
+    <Footer FullSizeFooter="@IsHomePage"></Footer>
+</div>
+
+<FluentToastProvider/>
+<FluentDialogProvider/>
+<FluentTooltipProvider/>
+<FluentMessageBarProvider/>
+
+
+@* <div id="blazor-error-ui" data-nosnippet> *@
+@*     An unhandled error has occurred. *@
+@*     <a href="." class="reload">Reload</a> *@
+@*     <span class="dismiss">🗙</span> *@
+@* </div> *@
+
+@code
+{
+    // todo: implement `prefers-color-scheme` setting and theme selector. use javascript (blazor cannot access the DOM) (https://tailwindcss.com/docs/dark-mode#supporting-system-preference-and-manual-selection). can it be done in the main layout?
+    private readonly string _theme = "";
+
+    private readonly string _contentSection = "flex flex-col sm:prose-sm md:prose-base lg:prose-lg xl:prose-xl 2xl:prose-2xl mt-16";
+
+    private bool IsHomePage => Navigation.Uri == Navigation.BaseUri;
+}

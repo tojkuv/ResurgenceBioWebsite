@@ -1,0 +1,26 @@
+<h3>SlideIn</h3>
+
+<div class="h-full transition duration-500 transform @_animationStyles">
+    @ChildContent
+</div>
+
+@code {
+    [Parameter, EditorRequired] public RenderFragment? ChildContent { get; set; } = default;
+
+    private string _animationStyles = "translate-x-full opacity-0";
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await Task.Delay(300);
+            TriggerAnimation();
+        }
+    }
+
+    private void TriggerAnimation()
+    {
+        _animationStyles = "translate-x-0 opacity-100";
+        StateHasChanged();
+    }
+}
