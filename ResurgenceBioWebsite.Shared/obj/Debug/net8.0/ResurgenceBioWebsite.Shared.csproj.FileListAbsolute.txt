@@ -9,6 +9,7 @@ C:\Users\machine\OneDrive\source\repos\ResurgenceBioWebsite\ResurgenceBioWebsite
 C:\Users\machine\OneDrive\source\repos\ResurgenceBioWebsite\ResurgenceBioWebsite.Shared\obj\Debug\net8.0\ResurgenceBioWebsite.Shared.AssemblyInfoInputs.cache
 C:\Users\machine\OneDrive\source\repos\ResurgenceBioWebsite\ResurgenceBioWebsite.Shared\obj\Debug\net8.0\ResurgenceBioWebsite.Shared.AssemblyInfo.cs
 C:\Users\machine\OneDrive\source\repos\ResurgenceBioWebsite\ResurgenceBioWebsite.Shared\obj\Debug\net8.0\ResurgenceBioWebsite.Shared.csproj.CoreCompileInputs.cache
+C:\Users\machine\OneDrive\source\repos\ResurgenceBioWebsite\ResurgenceBioWebsite.Shared\obj\Debug\net8.0\ResurgenceBioWebsite.Shared.sourcelink.json
 C:\Users\machine\OneDrive\source\repos\ResurgenceBioWebsite\ResurgenceBioWebsite.Shared\obj\Debug\net8.0\jsmodules\jsmodules.build.manifest.json
 C:\Users\machine\OneDrive\source\repos\ResurgenceBioWebsite\ResurgenceBioWebsite.Shared\obj\Debug\net8.0\scopedcss\bundle\ResurgenceBioWebsite.Shared.styles.css
 C:\Users\machine\OneDrive\source\repos\ResurgenceBioWebsite\ResurgenceBioWebsite.Shared\obj\Debug\net8.0\staticwebassets.build.json

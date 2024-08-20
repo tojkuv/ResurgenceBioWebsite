@@ -114,9 +114,7 @@
             "related": ".xml"
           }
         },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ],
+        "frameworkReferences": ["Microsoft.AspNetCore.App"],
         "build": {
           "build/Microsoft.AspNetCore.Components.WebAssembly.Server.targets": {}
         }
@@ -1787,9 +1785,7 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
-      "originalTargetFrameworks": [
-        "net9.0"
-      ],
+      "originalTargetFrameworks": ["net9.0"],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
@@ -1809,9 +1805,7 @@
         }
       },
       "warningProperties": {
-        "warnAsError": [
-          "NU1605"
-        ]
+        "warnAsError": ["NU1605"]
       },
       "restoreAuditProperties": {
         "enableAudit": "true",

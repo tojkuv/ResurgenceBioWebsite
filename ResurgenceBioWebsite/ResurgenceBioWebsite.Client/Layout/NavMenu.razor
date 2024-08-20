@@ -1,95 +1,111 @@
-﻿
-
-<nav class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
-    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
-            <img src="https://flowbite.com/docs/images/logo.svg" class="h-8" alt="Flowbite Logo">
-            <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
-        </a>
-        <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-            <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Get started</button>
-            <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
-                <span class="sr-only">Open main menu</span>
-                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
-                </svg>
+﻿<nav class="flex h-14 flex-row overflow-x-clip !border-[#2f375a]" style="border-bottom: 1px solid;">
+    <div class="container mx-auto flex h-full flex-row items-center space-x-2 px-2 sm:px-4 lg:px-6">
+        <div class="flex flex-row items-center max-lg:flex-none lg:hidden">
+            <button type="button" class="relative inline-flex aspect-square h-7 items-center justify-center rounded bg-neutral-800 hover:bg-neutral-700">
+                <p>=</p>
             </button>
         </div>
-        <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
-            <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-                <li>
-                    <a href="#" class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500" aria-current="page">Home</a>
-                </li>
-                <li>
-                    <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
-                </li>
-                <li>
-                    <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Services</a>
-                </li>
-                <li>
-                    <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
-                </li>
-            </ul>
+
+        <div class="max-lg:hidden max-lg:flex-none lg:w-40 lg:shrink-0">
+            <a href="" class="space-x1 flex cursor-pointer flex-row items-center space-x-1.5 px-2 py-1">
+                <img src="https://flowbite.com/docs/images/logo.svg" alt="Home" class="width-auto h-5"/>
+                <p class="text-white">ResurgenceBio</p>
+            </a>
+        </div>
+
+        <div class="h-full max-lg:hidden lg:flex lg:flex-1 lg:items-center lg:justify-center lg:space-x-4">
+            <div class="group relative flex h-full flex-col justify-center">
+                <p class="m-0 inline-block cursor-default text-white no-underline group-hover:text-[#3cf5f7]">About Us</p>
+
+                <nav class="absolute left-0 top-full z-10 hidden min-w-max flex-col gap-5 bg-[#090b34] p-4 shadow group-hover:flex !border-[#2f375a]" style="border: 1px solid;">
+                    <a href="BoardOfDirectors" class="relative inline-flex cursor-pointer text-white no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">
+                        Board of Directors
+                    </a>
+                    <a href="Advisors" class="relative inline-flex cursor-pointer text-white no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">
+                        Advisors
+                    </a>
+                    <a href="SafetyReviewCommittee" class="relative inline-flex cursor-pointer text-white no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">
+                        Safety Review <br/>
+                        Committee (SRC)
+                    </a>
+                    <a href="AttbAccreditation" class="relative inline-flex cursor-pointer text-white no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">AATB Accreditation</a>
+                    <a href="OversightAgreement" class="relative inline-flex cursor-pointer text-white no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">
+                        Oversight Agreements
+                    </a>
+                </nav>
+            </div>
+
+            <div class="group relative flex h-full flex-col justify-center">
+                <p class="m-0 inline-block cursor-default text-white no-underline group-hover:text-[#3cf5f7]">Publications</p>
+
+                <nav class="absolute left-0 top-full z-10 hidden min-w-max flex-col gap-5 bg-[#090b34] p-4 shadow group-hover:flex !border-[#2f375a]" style="border: 1px solid;">
+                    <a href="GuidelinesAndPolicies" class="relative inline-flex cursor-pointer text-white no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">
+                        Guidelines and Policies
+                    </a>
+                    <a href="Reports" class="relative inline-flex cursor-pointer text-white no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">
+                        Reports
+                    </a>
+                    <a href="Articles" class="relative inline-flex cursor-pointer text-white no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">
+                        Articles
+                    </a>
+                </nav>
+            </div>
+
+            <div class="group relative flex h-full flex-col justify-center">
+                <p class="m-0 inline-block cursor-default text-white no-underline group-hover:text-[#3cf5f7]">Projects</p>
+
+                <nav class="absolute left-0 top-full z-10 hidden min-w-max flex-col gap-5 bg-[#090b34] p-4 shadow group-hover:flex !border-[#2f375a]" style="border: 1px solid;">
+                    <a href="LearningPlatform" class="relative inline-flex cursor-pointer text-white no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">Learning Platform</a>
+                    <a href="InventoryOperationsManagement" class="relative inline-flex cursor-pointer text-white no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">
+                        Inventory Operations <br/>
+                        Management
+                    </a>
+                    <a href="DocumentationDevelopment" class="relative inline-flex cursor-pointer text-white no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">
+                        Documentation <br/>
+                        Development
+                    </a>
+                    <a href="AldehydeStabilizedPreservationProtocol" class="relative inline-flex cursor-pointer text-white no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">
+                        Aldehyde Stabilized <br/>
+                        Preservation Protocol
+                    </a>
+                </nav>
+            </div>
+
+            <a href="Fundraising" class="relative inline-block cursor-pointer text-white no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">Fundraising</a>
+            <a href="Volunteering" class="relative inline-block cursor-pointer text-white no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">Volunteering</a>
+            <a href="Faq" class="relative inline-block cursor-pointer text-white no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">FAQ</a>
+        </div>
+
+        <div class="flex items-center justify-end space-x-3 max-lg:grow">
+            <a href="CaresReporting" class="relative inline-block max-lg:hidden cursor-pointer text-white no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">CARES Reporting</a>
+            <a href="Emergency" class="relative inline-block cursor-pointer rounded bg-rose-600 p-3 no-underline text-white hover:bg-rose-400">Emergency</a>
         </div>
     </div>
 </nav>
 
+@code
+{
+    // section: Tailwind CSS styling
+    private const string NavContainer = "";
+    private const string NavItem = "";
 
+    private const string NavDropdown = "";
+    private const string DropdownContent = "";
 
-@* <nav class="@NavContainer"> *@
-@*     <a href="" class="@NavLink"> *@
-@*         <img src="images/nav-menu-logo.png" alt="Home" class="@LogoHomeNavImage"/> *@
-@*     </a> *@
-@* *@
-@*     <div class="@NavDropdown"> *@
-@*         <a class="@NavItem">About Us</a> *@
-@*         <div class="@DropdownContent"> *@
-@*             <a href="BoardOfDirectors" class="@NavLink">Board of Directors</a> *@
-@*             <a href="Advisors" class="@NavLink">Advisors</a> *@
-@*             <a href="SafetyReviewCommittee" class="@NavLink">Safety Review Committee (SRC)</a> *@
-@*             <a href="AttbAccreditation" class="@NavLink">AATB Accreditation</a> *@
-@*             <a href="OversightAgreement" class="@NavLink">Oversight Agreements</a> *@
-@*         </div> *@
-@*     </div> *@
-@* *@
-@*     <div class="@NavDropdown"> *@
-@*         <a class="@NavItem">Projects</a> *@
-@*         <div class="@DropdownContent"> *@
-@*             <a href="LearningPlatform" class="@NavLink">Learning Platform</a> *@
-@*             <a href="InventoryOperationsManagement" class="@NavLink">Inventory Operations Management</a> *@
-@*             <a href="DocumentationDevelopment" class="@NavLink">Documentation Development</a> *@
-@*             <a href="AldehydeStabilizedPreservationProtocol" class="@NavLink">Aldehyde Stabilized Preservation Protocol</a> *@
-@*         </div> *@
-@*     </div> *@
-@* *@
-@*     <div class="@NavDropdown"> *@
-@*         <a class="@NavItem">Publications</a> *@
-@*         <div class="@DropdownContent"> *@
-@*             <a href="GuidelinesAndPolicies" class="@NavLink">Guidelines and Policies</a> *@
-@*             <a href="Reports" class="@NavLink">Reports</a> *@
-@*             <a href="Articles" class="@NavLink">Articles</a> *@
-@*         </div> *@
-@*     </div> *@
-@* *@
-@*     <a href="Fundraising" class="@NavLink">Fundraising</a> *@
-@*     <a href="Volunteering" class="@NavLink">Volunteering</a> *@
-@*     <a href="Faq" class="@NavLink">FAQ</a> *@
-@* *@
-@*     <span style="flex-grow: 1"></span> *@
-@* *@
-@*     <a href="CaresReporting" class="@NavLink">CARES Reporting</a> *@
-@*     <a href="Emergency" class="@NavLink">Emergency</a> *@
-@* </nav> *@
-@* *@
-@* @code *@
-@* { *@
-@*     // Tailwind CSS styling *@
-@*     private const string NavContainer = "relative flex items-center bg-blue-600 p-1 px-3"; *@
-@*     private const string NavItem = "relative inline-block p-1 hover:bg-blue-400 hover:rounded cursor-pointer"; *@
-@*      *@
-@*     private const string NavDropdown = "relative inline-block group"; *@
-@*     private const string DropdownContent = "hidden group-hover:block absolute bg-blue-600 min-w-[160px] z-10 rounded shadow top-full left-0"; *@
-@* *@
-@*     private const string NavLink = $"{NavItem}"; *@
-@*     private const string LogoHomeNavImage = $"h-5 width-auto"; *@
-@* } *@
+    private const string NavLink = $"{NavItem}";
+    private const string LogoHomeNavImage = $"";
+
+    // section: Component logic
+    private bool _mdMenuExpanded = false;
+    private bool _mobileMenuExpanded = false;
+
+    private void ToggleMdMenu()
+    {
+        _mdMenuExpanded = !_mdMenuExpanded;
+    }
+
+    private void ToggleMobileMenu()
+    {
+        _mobileMenuExpanded = !_mobileMenuExpanded;
+    }
+}

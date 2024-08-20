@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2DZOGkZS9f/tqZ4pvxuETdNi1f7vQUtq95UiFsQdGiQ=",
+  "Hash": "mvX5luDTW/6g6TVrFi5gq2ddwUIxbN6JXoiF1DtUdm4=",
   "Source": "ResurgenceBioWebsite.Shared",
   "BasePath": "_content/ResurgenceBioWebsite.Shared",
   "Mode": "Default",
@@ -808,8 +808,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "6pqz8bsss0",
-      "Integrity": "FrrTtczTUEHjkhc/zWRPC7CmxeXI0JCZGc1+76qQ8B4=",
+      "Fingerprint": "zn81560ltg",
+      "Integrity": "4eC2cpDYu1fqce3szH+7ZlrazTagbkwaafQ31/QFHNQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\exampleJsInterop.js"
@@ -2157,51 +2157,6 @@
       ]
     },
     {
-      "Route": "exampleJsInterop.6pqz8bsss0.js",
-      "AssetFile": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Shared\\wwwroot\\exampleJsInterop.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "247"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"FrrTtczTUEHjkhc/zWRPC7CmxeXI0JCZGc1+76qQ8B4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 11 Aug 2024 16:01:46 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "6pqz8bsss0"
-        },
-        {
-          "Name": "label",
-          "Value": "exampleJsInterop.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-FrrTtczTUEHjkhc/zWRPC7CmxeXI0JCZGc1+76qQ8B4="
-        }
-      ]
-    },
-    {
       "Route": "exampleJsInterop.js",
       "AssetFile": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Shared\\wwwroot\\exampleJsInterop.js",
       "Selectors": [],
@@ -2212,7 +2167,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "247"
+          "Value": "241"
         },
         {
           "Name": "Content-Type",
@@ -2220,11 +2175,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"FrrTtczTUEHjkhc/zWRPC7CmxeXI0JCZGc1+76qQ8B4=\""
+          "Value": "\"4eC2cpDYu1fqce3szH+7ZlrazTagbkwaafQ31/QFHNQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 11 Aug 2024 16:01:46 GMT"
+          "Value": "Sat, 17 Aug 2024 19:52:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2234,7 +2189,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-FrrTtczTUEHjkhc/zWRPC7CmxeXI0JCZGc1+76qQ8B4="
+          "Value": "sha256-4eC2cpDYu1fqce3szH+7ZlrazTagbkwaafQ31/QFHNQ="
+        }
+      ]
+    },
+    {
+      "Route": "exampleJsInterop.zn81560ltg.js",
+      "AssetFile": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Shared\\wwwroot\\exampleJsInterop.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "241"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4eC2cpDYu1fqce3szH+7ZlrazTagbkwaafQ31/QFHNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 17 Aug 2024 19:52:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zn81560ltg"
+        },
+        {
+          "Name": "label",
+          "Value": "exampleJsInterop.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4eC2cpDYu1fqce3szH+7ZlrazTagbkwaafQ31/QFHNQ="
         }
       ]
     },
@@ -2265,7 +2265,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 17 Aug 2024 07:29:06 GMT"
+          "Value": "Tue, 20 Aug 2024 02:23:40 GMT"
         },
         {
           "Name": "Link",
@@ -2310,7 +2310,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 17 Aug 2024 07:29:06 GMT"
+          "Value": "Tue, 20 Aug 2024 02:23:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2351,7 +2351,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 17 Aug 2024 07:29:06 GMT"
+          "Value": "Tue, 20 Aug 2024 02:23:40 GMT"
         },
         {
           "Name": "Link",

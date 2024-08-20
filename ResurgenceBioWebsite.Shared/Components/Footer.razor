@@ -8,14 +8,14 @@
 @*     <InputText @bind-Value="_email.EmailAddress" type="email" placeholder="Email" class="border-none shadow-none no-underline focus:outline-none active:transform-none w-40 h-10 rounded bg-[#1e1e2e] text-white flex-auto"/> *@
 @* </EditForm> *@
 
-<footer class="container mx-auto px-4 bg-[#090b34] text-white">
+<footer class="px-4 text-white">
     <div class="py-4"></div>
 
     <hr class="border-none h-px bg-[#2f375a]"/>
 
     @* Submit address section *@
-    <div class="flex flex-col md:flex-row items-center justify-center md:justify-between px-3 py-1">
-        <p class="text-xl text-center md:text-start w-full md:w-3/5 lg:w-2/5">
+    <div class="flex flex-col md:flex-row mx-2 md:mx-4 items-center justify-center md:justify-between">
+        <p class="text-xl m-0 text-center md:text-start w-full md:w-3/5 lg:w-2/5">
             Want to receive news and updates?
         </p>
 
@@ -28,25 +28,26 @@
                    @oninput="e => _email.EmailAddress = e.Value.ToString()"
                    class="border-none shadow-none no-underline focus:outline-none active:transform-none h-10 rounded bg-[#2f375a] font-serif text-gray-400 px-2.5 lg:w-64"/>
 
-            <button type="submit" class="border-none shadow-none no-underline focus:outline-none active:transform-none cursor-pointer font-serif text-white bg-[#219899] hover:bg-[#167070] h-10 px-6 rounded">Get Notified</button>
+            <button type="submit" class="border-none shadow-none no-underline focus:outline-none active:transform-none cursor-pointer font-serif text-white bg-[#167070] hover:bg-[#219899] h-10 px-6 rounded">Get Notified</button>
         </form>
     </div>
 
     <hr class="border-none h-px bg-[#2f375a]"/>
 
     @* company logo, tag line, and social media *@
-    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 grid-flow-row place-content-evenly px-3 py-4">
-        <div class="col-span-2 sm:col-span-3 md:col-span-2 place-self-center flex flex-col items-center md:items-start">
-            <img src="./images/nav-menu-logo.png" alt="" class="h-11"/>
+    <div class="flex flex-row w-full my-4 gap-5 place-content-evenly">
+        <div class="w-full md:max-lg:w-2/6 lg:w-2/5 place-self-center flex flex-col items-center justify-center gap-4">
+            <img src="./images/resurgence-bio.png" alt="" class="h-11"/>
 
-            <p class="text-pretty text-center md:text-start text-gray-400 leading-relaxed max-w-full md:max-w-72">
-                Lorem ipsum odor amet, consectetuer adipiscing elit. Nam elit ante semper semper eleifend.
-            </p>
+            <div class="flex flex-row w-full items-center justify-center gap-5">
+                <a href="Fundraising" class="text-gray-400 text-xs md:text-base no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">Fundraising</a>
+                <a href="Volunteering" class="text-gray-400 text-xs md:text-base no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">Volunteering</a>
+            </div>
 
-            <div class="flex place-content-evenly md:place-content-start gap-2">
+            <div class="flex place-content-evenly gap-2">
                 @foreach (var item in _socialMedia)
                 {
-                    <button class="border-none shadow-none no-underline focus:outline-none active:transform-none cursor-pointer text-white bg-[#2f375a] hover:bg-[#202641] rounded flex items-center justify-center w-11 h-11 md:max-lg:h-9 md:max-lg:w-9 p-3 md:max-lg:p-1">
+                    <button class="border-none shadow-none no-underline focus:outline-none active:transform-none cursor-pointer text-white bg-[#202641] hover:bg-[#2f375a] rounded flex items-center justify-center w-11 h-11 md:max-lg:h-9 md:max-lg:w-9 p-3 md:max-lg:p-1">
                         <svg class="fill-[#219899] h-6 w-6 md:max-lg:h-4 md:max-lg:w-4">
                             <use href="@item"></use>
                         </svg>
@@ -55,23 +56,49 @@
             </div>
         </div>
 
-        @for (var i = 0; i < 4; i++)
-        {
-            <div class="place-self-center hidden md:block">
-                <p class="text-lg font-semibold">
-                    Heading @(i+1)
+        <div class="max-md:hidden md:max-lg:w-4/6 lg:w-3/5 grid grid-cols-3 gap-5">
+            <div class="w-36 flex flex-col gap-3">
+                <p class="text-lg m-0 font-semibold">
+                    About US
                 </p>
 
-                <nav class="flex flex-col gap-y-3">
-                    <a href="#" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">ItemItem</a>
-                    <a href="#" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">ItemItem</a>
-                    <a href="#" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">ItemItem Item</a>
-                    <a href="#" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">ItemItem Item</a>
-                    <a href="#" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">ItemItem Item</a>
-                    <a href="#" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">ItemItem</a>
+                <nav class="flex flex-col gap-3">
+                    <a href="BoardOfDirectors" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">Board of Directors</a>
+                    <a href="Advisors" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">Advisors</a>
+                    <a href="SafetyReviewCommittee" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">Safety Review Committee (SRC)</a>
+                    <a href="AttbAccreditation" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">AATB Accreditation</a>
+                    <a href="OversightAgreement" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">Oversight Agreements</a>
                 </nav>
             </div>
-        }
+
+            <div class="w-36 flex flex-col gap-3">
+                <p class="text-lg m-0 font-semibold">
+                    Publications
+                </p>
+
+                <nav class="flex flex-col gap-3">
+                    <a href="GuidelinesAndPolicies" class="text-gray-400 no-underline flex flex-col hover:text-white hover:underline hover:decoration-[#3cf5f7]">
+                        <p class="m-0">Guidelines</p>
+                        <p class="m-0">and Policies</p>
+                    </a>
+                    <a href="Reports" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">Reports</a>
+                    <a href="Articles" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">Articles</a>
+                </nav>
+            </div>
+
+            <div class="w-36 flex flex-col gap-3">
+                <p class="text-lg m-0 font-semibold">
+                    Projects
+                </p>
+
+                <nav class="flex flex-col gap-3">
+                    <a href="LearningPlatform" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">Learning Platform</a>
+                    <a href="InventoryOperationsManagement" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">Inventory Operations Management</a>
+                    <a href="DocumentationDevelopment" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">Documentation Development</a>
+                    <a href="AldehydeStabilizedPreservationProtocol" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">Aldehyde Stabilized Preservation Protocol</a>
+                </nav>
+            </div>
+        </div>
     </div>
 
     <hr class="border-none h-px bg-[#2f375a]"/>
@@ -80,26 +107,21 @@
     <div class="flex place-content-evenly gap-2 py-2 overflow-x-clip md:whitespace-nowrap">
         @foreach (var imageUrl in _logoUrls)
         {
-        <img src="@imageUrl" class="h-4 sm:h-7 md:h-10 lg:h-14 w-auto" alt=""/>
+            <img src="@imageUrl" class="h-4 sm:h-7 md:h-10 lg:h-12 xl:h-14 w-auto" alt=""/>
         }
     </div>
-
-
-
-
-
 
 
     <hr class="border-none h-px bg-[#2f375a]"/>
 
     @* legal disclosures section *@
-    <div class="flex flex-col sm:flex-row items-center justify-between px-3 pb-3 sm:pb-2">
+    <div class="flex flex-col sm:flex-row items-center justify-between pb-2">
         <p class="text-gray-400 text-xs md:text-base">Copyright &copy ResurgenceBio, 20XX-@DateTime.Today.Year.</p>
 
         <div class="flex items-center justify-between gap-4">
-            <a href="#" class="text-gray-400 text-xs md:text-base no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]"> Terms & Conditions </a>
-            <a href="#" class="text-gray-400 text-xs md:text-base no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]"> Trademark Policy</a>
-            <a href="#" class="text-gray-400 text-xs md:text-base no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]"> Privacy Policy</a>
+            <a href="TermsAndConditions" class="text-gray-400 text-xs md:text-base no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]"> Terms & Conditions </a>
+            <a href="TrademarkPolicy" class="text-gray-400 text-xs md:text-base no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]"> Trademark Policy</a>
+            <a href="PrivacyPolicy" class="text-gray-400 text-xs md:text-base no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]"> Privacy Policy</a>
         </div>
     </div>
 </footer>
@@ -109,13 +131,13 @@
     // Tailwind styling
 
     // Component parameters
-    [Parameter] public bool FullSizeFooter { get; set; } = false;
+    // [Parameter] public bool FullSizeFooter { get; set; } = false;
 
     // Context of elements
 
     private string[] _logoUrls = ["./images/pdc.png", "./images/biomedical-research.png", "./images/tomorrow-bio.png", "./images/european-biostasis-foundation.png", "./images/suspended-animation.png", "./images/biostasis-technologies.png"];
 
-    private string[] _socialMedia = ["icons/linkedin.svg#linkedin-icon", "icons/instagram.svg#instagram-icon", "icons/facebook.svg#facebook-icon", "icons/youtube.svg#youtube-icon", "icons/discord.svg#discord-icon", ];
+    private string[] _socialMedia = ["icons/linkedin.svg#linkedin-icon", "icons/instagram.svg#instagram-icon", "icons/facebook.svg#facebook-icon", "icons/youtube.svg#youtube-icon", "icons/discord.svg#discord-icon",];
 
     private Email _email = new();
 
@@ -124,38 +146,38 @@
         // TODO: Handle email submission
     }
 
-    private readonly InfoCard[] _infoCards =
-    [
-        new InfoCard
-        {
-            Icon = new Icons.Regular.Size32.WindowWrench(),
-            Heading = "Adipiscing",
-            Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        },
-        new InfoCard
-        {
-            Icon = new Icons.Regular.Size32.WindowWrench(),
-            Heading = "Arcu",
-            Description = "Lorem ipsum odor amet, consectetuer adipiscing elit. Dui facilisi sociosqu faucibus adipiscing dignissim senectus ornare. Odio hac neque molestie arcu massa integer ante tellus. Montes orci orci dolor ipsum rutrum dis efficitur lorem. Tempus gravida arcu donec ad massa egestas inceptos elit. Taciti habitant duis habitasse diam ut at. Tristique vehicula porta nibh nulla mi fringilla. Vehicula amet augue orci sed sagittis. Suscipit augue netus potenti ullamcorper ut in leo commodo. Torquent praesent nulla, congue platea ipsum nisi."
-        },
-        new InfoCard
-        {
-            Icon = new Icons.Regular.Size32.WindowWrench(),
-            Heading = "Etiam",
-            Description = "Lorem ipsum odor amet, consectetuer adipiscing elit. Platea habitasse nisl laoreet vel arcu lobortis maecenas. Vulputate hac ultricies justo purus ex; dolor urna fames interdum. Nullam scelerisque in porta blandit potenti hac placerat. Libero nunc condimentum potenti vivamus in justo. Ultricies nunc mi non magnis ut. Venenatis cubilia habitant pharetra fringilla hac vel phasellus aenean? Dis nam sed scelerisque enim nascetur."
-        },
-        new InfoCard
-        {
-            Icon = new Icons.Regular.Size32.WindowWrench(),
-            Heading = "Arcu",
-            Description = "Lorem ipsum odor amet, consectetuer adipiscing elit. Dui facilisi sociosqu faucibus adipiscing dignissim senectus ornare. Odio hac neque molestie arcu massa integer ante tellus. Montes orci orci dolor ipsum rutrum dis efficitur lorem. Tempus gravida arcu donec ad massa egestas inceptos elit. Taciti habitant duis habitasse diam ut at. Tristique vehicula porta nibh nulla mi fringilla. Vehicula amet augue orci sed sagittis. Suscipit augue netus potenti ullamcorper ut in leo commodo. Torquent praesent nulla, congue platea ipsum nisi."
-        },
-        new InfoCard
-        {
-            Icon = new Icons.Regular.Size32.WindowWrench(),
-            Heading = "Etiam",
-            Description = "Lorem ipsum odor amet, consectetuer adipiscing elit. Platea habitasse nisl laoreet vel arcu lobortis maecenas. Vulputate hac ultricies justo purus ex; dolor urna fames interdum. Nullam scelerisque in porta blandit potenti hac placerat. Libero nunc condimentum potenti vivamus in justo. Ultricies nunc mi non magnis ut. Venenatis cubilia habitant pharetra fringilla hac vel phasellus aenean? Dis nam sed scelerisque enim nascetur."
-        }
-    ];
+    // private readonly InfoCard[] _infoCards =
+    // [
+    //     new InfoCard
+    //     {
+    //         Icon = new Icons.Regular.Size32.WindowWrench(),
+    //         Heading = "Adipiscing",
+    //         Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    //     },
+    //     new InfoCard
+    //     {
+    //         Icon = new Icons.Regular.Size32.WindowWrench(),
+    //         Heading = "Arcu",
+    //         Description = "Lorem ipsum odor amet, consectetuer adipiscing elit. Dui facilisi sociosqu faucibus adipiscing dignissim senectus ornare. Odio hac neque molestie arcu massa integer ante tellus. Montes orci orci dolor ipsum rutrum dis efficitur lorem. Tempus gravida arcu donec ad massa egestas inceptos elit. Taciti habitant duis habitasse diam ut at. Tristique vehicula porta nibh nulla mi fringilla. Vehicula amet augue orci sed sagittis. Suscipit augue netus potenti ullamcorper ut in leo commodo. Torquent praesent nulla, congue platea ipsum nisi."
+    //     },
+    //     new InfoCard
+    //     {
+    //         Icon = new Icons.Regular.Size32.WindowWrench(),
+    //         Heading = "Etiam",
+    //         Description = "Lorem ipsum odor amet, consectetuer adipiscing elit. Platea habitasse nisl laoreet vel arcu lobortis maecenas. Vulputate hac ultricies justo purus ex; dolor urna fames interdum. Nullam scelerisque in porta blandit potenti hac placerat. Libero nunc condimentum potenti vivamus in justo. Ultricies nunc mi non magnis ut. Venenatis cubilia habitant pharetra fringilla hac vel phasellus aenean? Dis nam sed scelerisque enim nascetur."
+    //     },
+    //     new InfoCard
+    //     {
+    //         Icon = new Icons.Regular.Size32.WindowWrench(),
+    //         Heading = "Arcu",
+    //         Description = "Lorem ipsum odor amet, consectetuer adipiscing elit. Dui facilisi sociosqu faucibus adipiscing dignissim senectus ornare. Odio hac neque molestie arcu massa integer ante tellus. Montes orci orci dolor ipsum rutrum dis efficitur lorem. Tempus gravida arcu donec ad massa egestas inceptos elit. Taciti habitant duis habitasse diam ut at. Tristique vehicula porta nibh nulla mi fringilla. Vehicula amet augue orci sed sagittis. Suscipit augue netus potenti ullamcorper ut in leo commodo. Torquent praesent nulla, congue platea ipsum nisi."
+    //     },
+    //     new InfoCard
+    //     {
+    //         Icon = new Icons.Regular.Size32.WindowWrench(),
+    //         Heading = "Etiam",
+    //         Description = "Lorem ipsum odor amet, consectetuer adipiscing elit. Platea habitasse nisl laoreet vel arcu lobortis maecenas. Vulputate hac ultricies justo purus ex; dolor urna fames interdum. Nullam scelerisque in porta blandit potenti hac placerat. Libero nunc condimentum potenti vivamus in justo. Ultricies nunc mi non magnis ut. Venenatis cubilia habitant pharetra fringilla hac vel phasellus aenean? Dis nam sed scelerisque enim nascetur."
+    //     }
+    // ];
 
 }

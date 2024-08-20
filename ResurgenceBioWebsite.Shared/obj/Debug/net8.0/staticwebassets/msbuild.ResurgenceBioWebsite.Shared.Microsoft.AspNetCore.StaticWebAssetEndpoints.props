@@ -12,17 +12,17 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"x2rx4ajns0"},{"Name":"integrity","Value":"sha256-WeOKCkI7IdJHs2kCqsKgLfiWX4/sNPbaRUspOLefkCY="},{"Name":"label","Value":"_content/ResurgenceBioWebsite.Shared/background.png"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"378"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022WeOKCkI7IdJHs2kCqsKgLfiWX4/sNPbaRUspOLefkCY=\u0022"},{"Name":"Last-Modified","Value":"Sun, 11 Aug 2024 16:01:45 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ResurgenceBioWebsite.Shared/exampleJsInterop.6pqz8bsss0.js">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\exampleJsInterop.js'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"6pqz8bsss0"},{"Name":"integrity","Value":"sha256-FrrTtczTUEHjkhc/zWRPC7CmxeXI0JCZGc1\u002B76qQ8B4="},{"Name":"label","Value":"_content/ResurgenceBioWebsite.Shared/exampleJsInterop.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"247"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022FrrTtczTUEHjkhc/zWRPC7CmxeXI0JCZGc1\u002B76qQ8B4=\u0022"},{"Name":"Last-Modified","Value":"Sun, 11 Aug 2024 16:01:46 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ResurgenceBioWebsite.Shared/exampleJsInterop.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\exampleJsInterop.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-FrrTtczTUEHjkhc/zWRPC7CmxeXI0JCZGc1\u002B76qQ8B4="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"247"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022FrrTtczTUEHjkhc/zWRPC7CmxeXI0JCZGc1\u002B76qQ8B4=\u0022"},{"Name":"Last-Modified","Value":"Sun, 11 Aug 2024 16:01:46 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-4eC2cpDYu1fqce3szH\u002B7ZlrazTagbkwaafQ31/QFHNQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"241"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00224eC2cpDYu1fqce3szH\u002B7ZlrazTagbkwaafQ31/QFHNQ=\u0022"},{"Name":"Last-Modified","Value":"Sat, 17 Aug 2024 19:52:12 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ResurgenceBioWebsite.Shared/exampleJsInterop.zn81560ltg.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\exampleJsInterop.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"zn81560ltg"},{"Name":"integrity","Value":"sha256-4eC2cpDYu1fqce3szH\u002B7ZlrazTagbkwaafQ31/QFHNQ="},{"Name":"label","Value":"_content/ResurgenceBioWebsite.Shared/exampleJsInterop.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"241"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00224eC2cpDYu1fqce3szH\u002B7ZlrazTagbkwaafQ31/QFHNQ=\u0022"},{"Name":"Last-Modified","Value":"Sat, 17 Aug 2024 19:52:12 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>

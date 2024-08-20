@@ -41,12 +41,12 @@
       "PackagePath": "staticwebassets\\images\\european-biostasis-foundation.png"
     },
     {
-      "Id": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\images\\nav-menu-logo.png",
-      "PackagePath": "staticwebassets\\images\\nav-menu-logo.png"
-    },
-    {
       "Id": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\images\\pdc.png",
       "PackagePath": "staticwebassets\\images\\pdc.png"
+    },
+    {
+      "Id": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\images\\resurgence-bio.png",
+      "PackagePath": "staticwebassets\\images\\resurgence-bio.png"
     },
     {
       "Id": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\images\\suspended-animation.png",

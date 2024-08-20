@@ -1,20 +1,15 @@
 /** @type {import('tailwindcss').Config} */
-const defaultTheme = require('tailwindcss/defaultTheme')
+const defaultTheme = require("tailwindcss/defaultTheme");
 
 module.exports = {
   content: {
     relative: true,
-    files: [
-      '../../**/*.{razor,html}',
-    ],
+    files: ["../../**/*.{razor,html}"],
   },
-  important: '#main-layout',
   plugins: [
-      require('@tailwindcss/typography'),
-    require('@tailwindcss/forms'),
-    require('@tailwindcss/line-clamp'),
+    require("@tailwindcss/typography"),
+    require("@tailwindcss/forms"),
+    require("@tailwindcss/line-clamp"),
   ],
-  presets: [
-    require(`../../ResurgenceBioWebsite.Shared/Styles/main-theme.js`),
-  ],
-}
+  presets: [require(`../../ResurgenceBioWebsite.Shared/Styles/main-theme.js`)],
+};

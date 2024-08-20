@@ -4,25 +4,28 @@
 
 @inject NavigationManager Navigation
 
-<div id="main-layout" class="flex flex-col min-h-screen @_theme">
+@* todo: implement `prefers-color-scheme` setting and theme selector. use javascript (blazor cannot access the DOM) (https://tailwindcss.com/docs/dark-mode#supporting-system-preference-and-manual-selection). can it be done in the main layout? *@
+<div id="main-layout" class="min-h-screen flex flex-col items-center justify-start !bg-[#090b34]">
     <!-- Navigation Menu at the Top -->
-    <header>
-        @* <NavMenu/> *@
+    <header class="w-full">
+        <NavMenu/>
     </header>
 
     <!-- Main Content Section -->
-    <main class="@_contentSection">
+    <main class="md:prose-base container sm:prose-sm lg:prose-lg xl:prose-xl 2xl:prose-2xl mt-16">
         @Body
     </main>
 
     <!-- Footer or additional content could go here -->
-    <Footer FullSizeFooter="@IsHomePage"></Footer>
+    <div class="container">
+        <Footer></Footer>
+    </div>
 </div>
 
-<FluentToastProvider/>
-<FluentDialogProvider/>
-<FluentTooltipProvider/>
-<FluentMessageBarProvider/>
+@* <FluentToastProvider/> *@
+@* <FluentDialogProvider/> *@
+@* <FluentTooltipProvider/> *@
+@* <FluentMessageBarProvider/> *@
 
 
 @* <div id="blazor-error-ui" data-nosnippet> *@
@@ -33,10 +36,5 @@
 
 @code
 {
-    // todo: implement `prefers-color-scheme` setting and theme selector. use javascript (blazor cannot access the DOM) (https://tailwindcss.com/docs/dark-mode#supporting-system-preference-and-manual-selection). can it be done in the main layout?
-    private readonly string _theme = "";
-
-    private readonly string _contentSection = "flex flex-col sm:prose-sm md:prose-base lg:prose-lg xl:prose-xl 2xl:prose-2xl mt-16";
-
     private bool IsHomePage => Navigation.Uri == Navigation.BaseUri;
 }
