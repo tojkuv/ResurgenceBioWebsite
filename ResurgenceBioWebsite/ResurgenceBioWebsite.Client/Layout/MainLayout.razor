@@ -5,7 +5,10 @@
 @inject NavigationManager Navigation
 
 @* todo: implement `prefers-color-scheme` setting and theme selector. use javascript (blazor cannot access the DOM) (https://tailwindcss.com/docs/dark-mode#supporting-system-preference-and-manual-selection). can it be done in the main layout? *@
-<div id="main-layout" class="min-h-screen flex flex-col items-center justify-start !bg-[#090b34]">
+
+@* todo: implement a global style with tailwind *@
+
+<div id="main-layout" class="min-h-screen flex flex-col items-center justify-start !bg-[#090b34] touch-manipulation">
     <!-- Navigation Menu at the Top -->
     <header class="w-full">
         <NavMenu/>

@@ -584,13 +584,13 @@
           }
         }
       },
-      "Microsoft.NET.ILLink.Tasks/9.0.0-preview.6.24327.7": {
+      "Microsoft.NET.ILLink.Tasks/9.0.0-preview.7.24405.7": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Microsoft.NET.Sdk.WebAssembly.Pack/9.0.0-preview.6.24327.7": {
+      "Microsoft.NET.Sdk.WebAssembly.Pack/9.0.0-preview.7.24405.7": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.Sdk.WebAssembly.Pack.props": {},
@@ -1271,13 +1271,13 @@
           }
         }
       },
-      "Microsoft.NET.ILLink.Tasks/9.0.0-preview.6.24327.7": {
+      "Microsoft.NET.ILLink.Tasks/9.0.0-preview.7.24405.7": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Microsoft.NET.Sdk.WebAssembly.Pack/9.0.0-preview.6.24327.7": {
+      "Microsoft.NET.Sdk.WebAssembly.Pack/9.0.0-preview.7.24405.7": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.Sdk.WebAssembly.Pack.props": {},
@@ -2221,10 +2221,10 @@
         "microsoft.jsinterop.webassembly.nuspec"
       ]
     },
-    "Microsoft.NET.ILLink.Tasks/9.0.0-preview.6.24327.7": {
-      "sha512": "+inP8MW8jVY3ubDOhcJrEv6czzCRxzXe+etFM4sgxOfZ63QbmrEIoVnixOpTsyZ3Q8ud8rKTiP4ZdrKC+Hk//A==",
+    "Microsoft.NET.ILLink.Tasks/9.0.0-preview.7.24405.7": {
+      "sha512": "N8whKNvlP3nz9k7C59ggvawQMyBq539AxAAjawym72tSft8gw+Jq4LC0RQtCBPgvCEjwf6zC1hCtkp1iMb5Ygg==",
       "type": "package",
-      "path": "microsoft.net.illink.tasks/9.0.0-preview.6.24327.7",
+      "path": "microsoft.net.illink.tasks/9.0.0-preview.7.24405.7",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -2238,7 +2238,7 @@
         "build/Microsoft.NET.ILLink.Analyzers.props",
         "build/Microsoft.NET.ILLink.Tasks.props",
         "build/Microsoft.NET.ILLink.targets",
-        "microsoft.net.illink.tasks.9.0.0-preview.6.24327.7.nupkg.sha512",
+        "microsoft.net.illink.tasks.9.0.0-preview.7.24405.7.nupkg.sha512",
         "microsoft.net.illink.tasks.nuspec",
         "tools/net472/ILLink.Tasks.dll",
         "tools/net472/ILLink.Tasks.dll.config",
@@ -2256,7 +2256,6 @@
         "tools/net472/build/Microsoft.NET.ILLink.Analyzers.props",
         "tools/net472/build/Microsoft.NET.ILLink.Tasks.props",
         "tools/net472/build/Microsoft.NET.ILLink.targets",
-        "tools/net9.0/ILCompiler.DependencyAnalysisFramework.dll",
         "tools/net9.0/ILLink.Tasks.deps.json",
         "tools/net9.0/ILLink.Tasks.dll",
         "tools/net9.0/Mono.Cecil.Mdb.dll",
@@ -2273,10 +2272,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.NET.Sdk.WebAssembly.Pack/9.0.0-preview.6.24327.7": {
-      "sha512": "qJ8cmfk5QFcwXaHkXxgZMEwNjMhp6AIQ8mu5CW+16VSASW/Ee+rvTT8rCzZA9ta2dGcuaRWHJgX7VtOuOfr6rg==",
+    "Microsoft.NET.Sdk.WebAssembly.Pack/9.0.0-preview.7.24405.7": {
+      "sha512": "eD8s3PNRQ4PawobRwvbs1AEU18/vFxjD2UMSyQVNC0MEIrGf25X8zvlXzaGPumbNFHjN6vXbHno77OjfT+VuZg==",
       "type": "package",
-      "path": "microsoft.net.sdk.webassembly.pack/9.0.0-preview.6.24327.7",
+      "path": "microsoft.net.sdk.webassembly.pack/9.0.0-preview.7.24405.7",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -2307,7 +2306,7 @@
         "build/Microsoft.NET.Sdk.WebAssembly.Pack.targets",
         "build/Wasm.web.config",
         "build/browser.runtimeconfig.template.json",
-        "microsoft.net.sdk.webassembly.pack.9.0.0-preview.6.24327.7.nupkg.sha512",
+        "microsoft.net.sdk.webassembly.pack.9.0.0-preview.7.24405.7.nupkg.sha512",
         "microsoft.net.sdk.webassembly.pack.nuspec",
         "tools/net472/Microsoft.Bcl.AsyncInterfaces.dll",
         "tools/net472/Microsoft.Build.dll",
@@ -2515,8 +2514,8 @@
   "projectFileDependencyGroups": {
     "net9.0": [
       "Microsoft.AspNetCore.Components.WebAssembly >= 9.0.0-preview.6.24328.4",
-      "Microsoft.NET.ILLink.Tasks >= 9.0.0-preview.6.24327.7",
-      "Microsoft.NET.Sdk.WebAssembly.Pack >= 9.0.0-preview.6.24327.7",
+      "Microsoft.NET.ILLink.Tasks >= 9.0.0-preview.7.24405.7",
+      "Microsoft.NET.Sdk.WebAssembly.Pack >= 9.0.0-preview.7.24405.7",
       "ResurgenceBioWebsite.Shared >= 1.0.0"
     ]
   },
@@ -2541,7 +2540,9 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
-      "originalTargetFrameworks": ["net9.0"],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
@@ -2558,13 +2559,16 @@
         }
       },
       "warningProperties": {
-        "warnAsError": ["NU1605"]
+        "warnAsError": [
+          "NU1605"
+        ]
       },
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "all"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net9.0": {
@@ -2577,13 +2581,13 @@
           "Microsoft.NET.ILLink.Tasks": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[9.0.0-preview.6.24327.7, )",
+            "version": "[9.0.0-preview.7.24405.7, )",
             "autoReferenced": true
           },
           "Microsoft.NET.Sdk.WebAssembly.Pack": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[9.0.0-preview.6.24327.7, )",
+            "version": "[9.0.0-preview.7.24405.7, )",
             "autoReferenced": true
           }
         },
@@ -2603,7 +2607,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.6.24328.19/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.7.24407.12/PortableRuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

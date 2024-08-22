@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9bkyDX6eTD8=",
+  "dgSpecHash": "ZdeLiJgBMaU=",
   "success": true,
   "projectFilePath": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\ResurgenceBioWebsite.Client.csproj",
   "expectedPackageFiles": [
@@ -35,8 +35,8 @@
     "C:\\Users\\machine\\.nuget\\packages\\microsoft.fluentui.aspnetcore.components.icons\\4.9.3\\microsoft.fluentui.aspnetcore.components.icons.4.9.3.nupkg.sha512",
     "C:\\Users\\machine\\.nuget\\packages\\microsoft.jsinterop\\9.0.0-preview.6.24328.4\\microsoft.jsinterop.9.0.0-preview.6.24328.4.nupkg.sha512",
     "C:\\Users\\machine\\.nuget\\packages\\microsoft.jsinterop.webassembly\\9.0.0-preview.6.24328.4\\microsoft.jsinterop.webassembly.9.0.0-preview.6.24328.4.nupkg.sha512",
-    "C:\\Users\\machine\\.nuget\\packages\\microsoft.net.illink.tasks\\9.0.0-preview.6.24327.7\\microsoft.net.illink.tasks.9.0.0-preview.6.24327.7.nupkg.sha512",
-    "C:\\Users\\machine\\.nuget\\packages\\microsoft.net.sdk.webassembly.pack\\9.0.0-preview.6.24327.7\\microsoft.net.sdk.webassembly.pack.9.0.0-preview.6.24327.7.nupkg.sha512",
+    "C:\\Users\\machine\\.nuget\\packages\\microsoft.net.illink.tasks\\9.0.0-preview.7.24405.7\\microsoft.net.illink.tasks.9.0.0-preview.7.24405.7.nupkg.sha512",
+    "C:\\Users\\machine\\.nuget\\packages\\microsoft.net.sdk.webassembly.pack\\9.0.0-preview.7.24405.7\\microsoft.net.sdk.webassembly.pack.9.0.0-preview.7.24405.7.nupkg.sha512",
     "C:\\Users\\machine\\.nuget\\packages\\system.diagnostics.diagnosticsource\\8.0.0\\system.diagnostics.diagnosticsource.8.0.0.nupkg.sha512",
     "C:\\Users\\machine\\.nuget\\packages\\system.io.pipelines\\9.0.0-preview.6.24327.7\\system.io.pipelines.9.0.0-preview.6.24327.7.nupkg.sha512",
     "C:\\Users\\machine\\.nuget\\packages\\system.text.encodings.web\\9.0.0-preview.6.24327.7\\system.text.encodings.web.9.0.0-preview.6.24327.7.nupkg.sha512",

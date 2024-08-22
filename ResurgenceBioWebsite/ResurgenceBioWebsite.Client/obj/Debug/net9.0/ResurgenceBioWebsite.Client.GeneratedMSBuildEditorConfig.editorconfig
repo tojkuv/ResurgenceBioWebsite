@@ -71,20 +71,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/machine/OneDrive/source/repos/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/Legal Disclosures/Accessibility.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGVnYWwgRGlzY2xvc3VyZXNcQWNjZXNzaWJpbGl0eS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/machine/OneDrive/source/repos/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/Legal Disclosures/PrivacyPolicy.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGVnYWwgRGlzY2xvc3VyZXNcUHJpdmFjeVBvbGljeS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/machine/OneDrive/source/repos/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/Legal Disclosures/TermsAndConditions.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGVnYWwgRGlzY2xvc3VyZXNcVGVybXNBbmRDb25kaXRpb25zLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/machine/OneDrive/source/repos/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/Legal Disclosures/TrademarkPolicy.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGVnYWwgRGlzY2xvc3VyZXNcVHJhZGVtYXJrUG9saWN5LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/machine/OneDrive/source/repos/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/PageNotFound.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZU5vdEZvdW5kLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/machine/OneDrive/source/repos/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/Policies and Disclosures/Accessibility.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9saWNpZXMgYW5kIERpc2Nsb3N1cmVzXEFjY2Vzc2liaWxpdHkucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/machine/OneDrive/source/repos/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/Policies and Disclosures/PrivacyPolicy.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9saWNpZXMgYW5kIERpc2Nsb3N1cmVzXFByaXZhY3lQb2xpY3kucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/machine/OneDrive/source/repos/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/Policies and Disclosures/TermsAndDisclosures.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9saWNpZXMgYW5kIERpc2Nsb3N1cmVzXFRlcm1zQW5kRGlzY2xvc3VyZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/machine/OneDrive/source/repos/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/Projects/AldehydeStabilizedPreservationProtocol.razor]

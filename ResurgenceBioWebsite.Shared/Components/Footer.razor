@@ -11,56 +11,45 @@
 <footer class="px-4 text-white">
     <div class="py-4"></div>
 
-    <hr class="border-none h-px bg-[#2f375a]"/>
+    <hr class="h-px border-none bg-[#2f375a]" />
 
     @* Submit address section *@
-    <div class="flex flex-col md:flex-row mx-2 md:mx-4 items-center justify-center md:justify-between">
-        <p class="text-xl m-0 text-center md:text-start w-full md:w-3/5 lg:w-2/5">
-            Want to receive news and updates?
-        </p>
+    <div class="mx-2 flex flex-col items-center justify-center md:mx-4 md:flex-row md:justify-between">
+        <p class="m-0 w-full text-center text-xl md:w-3/5 md:text-start lg:w-2/5">Want to receive news and updates?</p>
 
-        <form class="flex flex-col lg:flex-row lg:justify-end gap-2 w-4/5 sm:w-3/5 md:w-2/5 lg:w-3/5">
-            <input required
-                   id="email"
-                   type="email"
-                   placeholder="Email"
-                   value="@_email.EmailAddress"
-                   @oninput="e => _email.EmailAddress = e.Value.ToString()"
-                   class="border-none shadow-none no-underline focus:outline-none active:transform-none h-10 rounded bg-[#2f375a] font-serif text-gray-400 px-2.5 lg:w-64"/>
+        <form class="flex w-4/5 flex-col gap-2 sm:w-3/5 md:w-2/5 lg:w-3/5 lg:flex-row lg:justify-end">
+            <input required id="email" type="email" placeholder="Email" value="@_email.EmailAddress" @oninput="e => _email.EmailAddress = e.Value.ToString()" class="h-10 rounded border-none bg-[#2f375a] px-2.5 font-serif text-gray-400 no-underline shadow-none focus:outline-none active:transform-none lg:w-64" />
 
-            <button type="submit" class="border-none shadow-none no-underline focus:outline-none active:transform-none cursor-pointer font-serif text-white bg-[#167070] hover:bg-[#219899] h-10 px-6 rounded">Get Notified</button>
+            <button type="submit" class="h-10 cursor-pointer rounded border-none bg-[#167070] px-6 font-serif text-white no-underline shadow-none hover:bg-[#219899] focus:outline-none active:transform-none">Get Notified</button>
         </form>
     </div>
 
-    <hr class="border-none h-px bg-[#2f375a]"/>
+    <hr class="h-px border-none bg-[#2f375a]" />
 
     @* company logo, tag line, and social media *@
-    <div class="flex flex-row w-full my-4 gap-5 place-content-evenly">
-        <div class="w-full md:max-lg:w-2/6 lg:w-2/5 place-self-center flex flex-col items-center justify-center gap-4">
-            <img src="./images/resurgence-bio.png" alt="" class="h-11"/>
+    <div class="my-4 flex w-full flex-row place-content-evenly gap-5">
+        <div class="flex w-full flex-col items-center justify-center gap-4 place-self-center md:max-lg:w-2/6 lg:w-2/5">
+            <img src="./images/resurgence-bio.png" alt="" class="h-11" />
 
-            <div class="flex flex-row w-full items-center justify-center gap-5">
-                <a href="Fundraising" class="text-gray-400 text-xs md:text-base no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">Fundraising</a>
-                <a href="Volunteering" class="text-gray-400 text-xs md:text-base no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">Volunteering</a>
+            <div class="flex w-full flex-row items-center justify-center gap-5">
+                <a href="Fundraising" class="text-xs text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7] md:text-base">Fundraising</a>
+                <a href="Volunteering" class="text-xs text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7] md:text-base">Volunteering</a>
             </div>
 
-            <div class="flex place-content-evenly gap-2">
-                @foreach (var item in _socialMedia)
-                {
-                    <button class="border-none shadow-none no-underline focus:outline-none active:transform-none cursor-pointer text-white bg-[#202641] hover:bg-[#2f375a] rounded flex items-center justify-center w-11 h-11 md:max-lg:h-9 md:max-lg:w-9 p-3 md:max-lg:p-1">
-                        <svg class="fill-[#219899] h-6 w-6 md:max-lg:h-4 md:max-lg:w-4">
-                            <use href="@item"></use>
-                        </svg>
-                    </button>
+            <div class="grid grid-cols-5 place-content-evenly gap-2">
+                @foreach (var item in _socialMedia) {
+                <button class="flex h-11 w-11 cursor-pointer items-center justify-center rounded border-none bg-[#202641] text-white no-underline shadow-none hover:bg-[#2f375a] focus:outline-none active:transform-none">
+                    <svg class="max-md:p-0.5 md:p-1 max-lg:h-8 max-lg:w-8 fill-[#219899] lg:h-9 lg:w-9">
+                        <use href="@item"></use>
+                    </svg>
+                </button>
                 }
             </div>
         </div>
 
-        <div class="max-md:hidden md:max-lg:w-4/6 lg:w-3/5 grid grid-cols-3 gap-5">
-            <div class="w-36 flex flex-col gap-3">
-                <p class="text-lg m-0 font-semibold">
-                    About US
-                </p>
+        <div class="grid grid-cols-3 gap-5 max-md:hidden md:max-lg:w-4/6 lg:w-3/5">
+            <div class="flex w-36 flex-col gap-3">
+                <p class="m-0 text-lg font-semibold">About US</p>
 
                 <nav class="flex flex-col gap-3">
                     <a href="BoardOfDirectors" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">Board of Directors</a>
@@ -71,13 +60,11 @@
                 </nav>
             </div>
 
-            <div class="w-36 flex flex-col gap-3">
-                <p class="text-lg m-0 font-semibold">
-                    Publications
-                </p>
+            <div class="flex w-36 flex-col gap-3">
+                <p class="m-0 text-lg font-semibold">Publications</p>
 
                 <nav class="flex flex-col gap-3">
-                    <a href="GuidelinesAndPolicies" class="text-gray-400 no-underline flex flex-col hover:text-white hover:underline hover:decoration-[#3cf5f7]">
+                    <a href="GuidelinesAndPolicies" class="flex flex-col text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">
                         <p class="m-0">Guidelines</p>
                         <p class="m-0">and Policies</p>
                     </a>
@@ -86,10 +73,8 @@
                 </nav>
             </div>
 
-            <div class="w-36 flex flex-col gap-3">
-                <p class="text-lg m-0 font-semibold">
-                    Projects
-                </p>
+            <div class="flex w-36 flex-col gap-3">
+                <p class="m-0 text-lg font-semibold">Projects</p>
 
                 <nav class="flex flex-col gap-3">
                     <a href="LearningPlatform" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">Learning Platform</a>
@@ -101,27 +86,25 @@
         </div>
     </div>
 
-    <hr class="border-none h-px bg-[#2f375a]"/>
+    <hr class="h-px border-none bg-[#2f375a]" />
 
     @* Relevant company logos section *@
-    <div class="flex place-content-evenly gap-2 py-2 overflow-x-clip md:whitespace-nowrap">
-        @foreach (var imageUrl in _logoUrls)
-        {
-            <img src="@imageUrl" class="h-4 sm:h-7 md:h-10 lg:h-12 xl:h-14 w-auto" alt=""/>
+    <div class="flex place-content-evenly gap-2 overflow-x-clip py-2 md:whitespace-nowrap">
+        @foreach (var imageUrl in _logoUrls) {
+        <img src="@imageUrl" class="h-4 w-auto sm:h-7 md:h-10 lg:h-12 xl:h-14" alt="" />
         }
     </div>
 
-
-    <hr class="border-none h-px bg-[#2f375a]"/>
+    <hr class="h-px border-none bg-[#2f375a]" />
 
     @* legal disclosures section *@
-    <div class="flex flex-col sm:flex-row items-center justify-between pb-2">
-        <p class="text-gray-400 text-xs md:text-base">Copyright &copy ResurgenceBio, 20XX-@DateTime.Today.Year.</p>
+    <div class="flex flex-col items-center justify-between pb-2 sm:flex-row">
+        <p class="text-xs text-gray-400 md:text-base">Copyright &copy ResurgenceBio, 20XX-@DateTime.Today.Year.</p>
 
         <div class="flex items-center justify-between gap-4">
-            <a href="TermsAndConditions" class="text-gray-400 text-xs md:text-base no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]"> Terms & Conditions </a>
-            <a href="TrademarkPolicy" class="text-gray-400 text-xs md:text-base no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]"> Trademark Policy</a>
-            <a href="PrivacyPolicy" class="text-gray-400 text-xs md:text-base no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]"> Privacy Policy</a>
+            <a href="TermsAndConditions" class="text-xs text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7] md:text-base"> Terms & Conditions </a>
+            <a href="TrademarkPolicy" class="text-xs text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7] md:text-base"> Trademark Policy</a>
+            <a href="PrivacyPolicy" class="text-xs text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7] md:text-base"> Privacy Policy</a>
         </div>
     </div>
 </footer>
