@@ -1,0 +1,227 @@
+@inject IJSRuntime JsRuntime
+
+@inject NavigationManager Navigation
+@inject MainLayoutService MainLayoutService
+@inject NavBarService NavBarService
+
+@inject MobileNavMenuService MobileNavMenuService
+
+<!-- drawer menu component -->
+@* todo: preserve the scroll position of the menu in website sessions *@
+<!-- todo: this div exists because tabindex on an element with the container utility is not working --->
+<nav id="@_drawerMenuId" tabindex="-1" class="@DrawerMenuVisibility w-screen bg-neutral-800 lg:hidden">
+    <button @onclick='(() => { Navigation.NavigateTo("/CaresReporting"); MobileNavMenuService.HideDrawerNavigationMenu(); })' class="bg-transparent text-start font-serif border-0 border-b border-[#2f375a] w-full ps-4 py-3 text-gray-400 no-underline text-base hover:text-white hover:underline hover:decoration-[#3cf5f7] shadow-none focus:outline-none active:transform-none">
+        CARES Reporting
+    </button>
+
+    <div class="">
+        <button @onclick="() => ToggleDropdownMenu(_aboutUs)" class="border-0 border-b border-[#2f375a] w-full p-0 px-4 py-3 bg-transparent shadow-none focus:outline-none focus:bg-transparent active:bg-transparent active:outline-none active:transform-none">
+            <div class="w-full flex flex-row items-center justify-between">
+                <p class="text-start text-base font-serif text-white m-0 p-0">
+                    About Us
+                </p>
+                <svg class="h-6 w-6 fill-white" style="@_aboutUsDropdownIconTransition">
+                    <use href="icons/dropdown.svg#dropdown-icon"></use>
+                </svg>
+            </div>
+        </button>
+
+        <div class="@_aboutUsVisibility flex flex-col items-start justify-center ">
+            <button @onclick='(() => { Navigation.NavigateTo("/BoardOfDirectors"); MobileNavMenuService.HideDrawerNavigationMenu(); })'
+                    class="bg-transparent text-start font-serif border-0 border-b border-[#2f375a] w-full ps-8 py-3 text-gray-400 no-underline text-base hover:text-white hover:underline hover:decoration-[#3cf5f7] shadow-none focus:outline-none active:transform-none">
+                Board of Directors
+            </button>
+            <button @onclick='(() => { Navigation.NavigateTo("/Advisors"); MobileNavMenuService.HideDrawerNavigationMenu(); })' class="bg-transparent text-start font-serif border-0 border-b border-[#2f375a] w-full ps-8 py-3 text-gray-400 no-underline text-base hover:text-white hover:underline hover:decoration-[#3cf5f7] shadow-none focus:outline-none active:transform-none">
+                Advisors
+            </button>
+            <button @onclick='(() => { Navigation.NavigateTo("/SafetyReviewCommittee"); MobileNavMenuService.HideDrawerNavigationMenu(); })' class="bg-transparent text-start font-serif border-0 border-b border-[#2f375a] w-full ps-8 py-3 text-gray-400 no-underline text-base hover:text-white hover:underline hover:decoration-[#3cf5f7] shadow-none focus:outline-none active:transform-none">
+                Safety Review Committee (SRC)
+            </button>
+            <button @onclick='(() => { Navigation.NavigateTo("/AttbAccreditation"); MobileNavMenuService.HideDrawerNavigationMenu(); })' class="bg-transparent text-start font-serif border-0 border-b border-[#2f375a] w-full ps-8 py-3 text-gray-400 no-underline text-base hover:text-white hover:underline hover:decoration-[#3cf5f7] shadow-none focus:outline-none active:transform-none">
+                AATB Accreditation
+            </button>
+            <button @onclick='(() => { Navigation.NavigateTo("/OversightAgreements"); MobileNavMenuService.HideDrawerNavigationMenu(); })' class="bg-transparent text-start font-serif border-0 border-b border-[#2f375a] w-full ps-8 py-3 text-gray-400 no-underline text-base hover:text-white hover:underline hover:decoration-[#3cf5f7] shadow-none focus:outline-none active:transform-none">
+                Oversight Agreements
+            </button>
+        </div>
+    </div>
+
+    <div class="">
+        <button @onclick="() => ToggleDropdownMenu(_publications)" class="border-0 border-b border-[#2f375a] w-full p-0 px-4 py-3 bg-transparent shadow-none focus:outline-none focus:bg-transparent active:bg-transparent active:outline-none active:transform-none">
+            <div class="w-full flex flex-row items-center justify-between">
+                <p class="text-start text-base font-serif text-white m-0 p-0">
+                    Publications
+                </p>
+                <svg class="h-6 w-6 fill-white" style="@_publicationsDropdownIconTransition">
+                    <use href="icons/dropdown.svg#dropdown-icon"></use>
+                </svg>
+            </div>
+        </button>
+
+        <div class="@_publicationsVisibility flex flex-col items-start justify-center ">
+            <button @onclick='(() => { Navigation.NavigateTo("/GuidelinesAndPolicies"); MobileNavMenuService.HideDrawerNavigationMenu(); })' class="bg-transparent text-start font-serif border-0 border-b border-[#2f375a] w-full ps-8 py-3 text-gray-400 no-underline text-base hover:text-white hover:underline hover:decoration-[#3cf5f7] shadow-none focus:outline-none active:transform-none">
+                Guidelines and Policies
+            </button>
+            <button @onclick='(() => { Navigation.NavigateTo("/Reports"); MobileNavMenuService.HideDrawerNavigationMenu(); })' class="bg-transparent text-start font-serif border-0 border-b border-[#2f375a] w-full ps-8 py-3 text-gray-400 no-underline text-base hover:text-white hover:underline hover:decoration-[#3cf5f7] shadow-none focus:outline-none active:transform-none">
+                Reports
+            </button>
+            <button @onclick='(() => { Navigation.NavigateTo("/Articles"); MobileNavMenuService.HideDrawerNavigationMenu(); })' class="bg-transparent text-start font-serif border-0 border-b border-[#2f375a] w-full ps-8 py-3 text-gray-400 no-underline text-base hover:text-white hover:underline hover:decoration-[#3cf5f7] shadow-none focus:outline-none active:transform-none">
+                Articles
+            </button>
+        </div>
+    </div>
+
+    <div class="">
+        <button @onclick="() => ToggleDropdownMenu(_projects)" class="border-0 border-b border-[#2f375a] w-full p-0 px-4 py-3 bg-transparent shadow-none focus:outline-none focus:bg-transparent active:bg-transparent active:outline-none active:transform-none">
+            <div class="w-full flex flex-row items-center justify-between">
+                <p class="text-start text-base font-serif text-white m-0 p-0">
+                    Projects
+                </p>
+                <svg class="h-6 w-6 fill-white" style="@_projectsDropdownIconTransition">
+                    <use href="icons/dropdown.svg#dropdown-icon"></use>
+                </svg>
+            </div>
+        </button>
+
+        <div class="@_projectsVisibility flex flex-col items-start justify-center ">
+            <button @onclick='(() => { Navigation.NavigateTo("/LearningPlatform"); MobileNavMenuService.HideDrawerNavigationMenu(); })' class="bg-transparent text-start font-serif border-0 border-b border-[#2f375a] w-full ps-8 py-3 text-gray-400 no-underline text-base hover:text-white hover:underline hover:decoration-[#3cf5f7] shadow-none focus:outline-none active:transform-none">
+                Learning Platform
+            </button>
+            <button @onclick='(() => { Navigation.NavigateTo("/InventoryOperationsManagement"); MobileNavMenuService.HideDrawerNavigationMenu(); })' class="bg-transparent text-start font-serif border-0 border-b border-[#2f375a] w-full ps-8 py-3 text-gray-400 no-underline text-base hover:text-white hover:underline hover:decoration-[#3cf5f7] shadow-none focus:outline-none active:transform-none">
+                Inventory Operations Management
+            </button>
+            <button @onclick='(() => { Navigation.NavigateTo("/DocumentationDevelopment"); MobileNavMenuService.HideDrawerNavigationMenu(); })' class="bg-transparent text-start font-serif border-0 border-b border-[#2f375a] w-full ps-8 py-3 text-gray-400 no-underline text-base hover:text-white hover:underline hover:decoration-[#3cf5f7] shadow-none focus:outline-none active:transform-none">
+                Documentation Development
+            </button>
+            <button @onclick='(() => { Navigation.NavigateTo("/AldehydeStabilizedPreservationProtocol"); MobileNavMenuService.HideDrawerNavigationMenu(); })' class="bg-transparent text-start font-serif border-0 border-b border-[#2f375a] w-full ps-8 py-3 text-gray-400 no-underline text-base hover:text-white hover:underline hover:decoration-[#3cf5f7] shadow-none focus:outline-none active:transform-none">
+                Aldehyde Stabilized Preservation Protocol
+            </button>
+        </div>
+    </div>
+
+    <div class="">
+        <button @onclick="() => ToggleDropdownMenu(_legalDisclosures)" class="border-0 border-b border-[#2f375a] w-full p-0 px-4 py-3 bg-transparent shadow-none focus:outline-none focus:bg-transparent active:bg-transparent active:outline-none active:transform-none">
+            <div class="w-full flex flex-row items-center justify-between">
+                <p class="text-start text-base font-serif text-white m-0 p-0">
+                    Legal Disclosures
+                </p>
+                <svg class="h-6 w-6 fill-white" style="@_legalDisclosuresDropdownIconTransition">
+                    <use href="icons/dropdown.svg#dropdown-icon"></use>
+                </svg>
+            </div>
+        </button>
+
+        <div class="@_legalDisclosuresVisibility flex flex-col items-start justify-center ">
+            <button @onclick='(() => { Navigation.NavigateTo("/TermsAndConditions"); MobileNavMenuService.HideDrawerNavigationMenu(); })' class="bg-transparent text-start font-serif border-0 border-b border-[#2f375a] w-full ps-8 py-3 text-gray-400 no-underline text-base hover:text-white hover:underline hover:decoration-[#3cf5f7] shadow-none focus:outline-none active:transform-none">
+                Terms & Conditions
+            </button>
+            <button @onclick='(() => { Navigation.NavigateTo("/TrademarkPolicy"); MobileNavMenuService.HideDrawerNavigationMenu(); })' class="bg-transparent text-start font-serif border-0 border-b border-[#2f375a] w-full ps-8 py-3 text-gray-400 no-underline text-base hover:text-white hover:underline hover:decoration-[#3cf5f7] shadow-none focus:outline-none active:transform-none">
+                Trademark Policy
+            </button>
+            <button @onclick='(() => { Navigation.NavigateTo("/PrivacyPolicy"); MobileNavMenuService.HideDrawerNavigationMenu(); })' class="bg-transparent text-start font-serif border-0 border-b border-[#2f375a] w-full ps-8 py-3 text-gray-400 no-underline text-base hover:text-white hover:underline hover:decoration-[#3cf5f7] shadow-none focus:outline-none active:transform-none">
+                Privacy Policy
+            </button>
+        </div>
+    </div>
+
+    <button @onclick='(() => { Navigation.NavigateTo("/Fundraising"); MobileNavMenuService.HideDrawerNavigationMenu(); })' class="bg-transparent text-start font-serif border-0 border-b border-[#2f375a] w-full ps-4 py-3 text-gray-400 no-underline text-base hover:text-white hover:underline hover:decoration-[#3cf5f7] shadow-none focus:outline-none active:transform-none">
+        Fundraising
+    </button>
+
+    <button @onclick='(() => { Navigation.NavigateTo("/Volunteering"); MobileNavMenuService.HideDrawerNavigationMenu(); })' class="bg-transparent text-start font-serif border-0 border-b border-[#2f375a] w-full ps-4 py-3 text-gray-400 no-underline text-base hover:text-white hover:underline hover:decoration-[#3cf5f7] shadow-none focus:outline-none active:transform-none">
+        Volunteering
+    </button>
+</nav>
+
+@code {
+
+    // note: drawer navigation menu component
+    private DotNetObjectReference<MobileNavMenu>? _objRef;
+    private string _drawerMenuId = Guid.NewGuid().ToString();
+    private string DrawerMenuVisibility => MobileNavMenuService.IsMobileNavigationMenuVisible ? "" : "hidden";
+
+    public async void ShowDrawerNavigationMenu()
+    {
+        await JsRuntime.InvokeVoidAsync("setupFocusListener", _objRef, _drawerMenuId, "HideDrawerNavigationMenu", "click");
+
+        MobileNavMenuService.IsMobileNavigationMenuVisible = true;
+
+        MainLayoutService.DisableInteractivity(true);
+        NavBarService.UpdateNavBarBackground("bg-neutral-800");
+
+        StateHasChanged();
+    }
+
+    [JSInvokable]
+    public void HideDrawerNavigationMenu()
+    {
+        MobileNavMenuService.IsMobileNavigationMenuVisible = false;
+
+        MainLayoutService.DisableInteractivity(false);
+        NavBarService.UpdateNavBarBackground();
+
+        StateHasChanged();
+    }
+
+
+    // note: drawer navigation menu dropdown components
+    private string _aboutUs = "aboutUs";
+    private string _publications = "publications";
+    private string _projects = "projects";
+    private string _legalDisclosures = "legalDisclosures";
+
+    private string _aboutUsVisibility = "hidden";
+    private string _publicationsVisibility = "hidden";
+    private string _projectsVisibility = "hidden";
+    private string _legalDisclosuresVisibility = "hidden";
+
+    private string _aboutUsDropdownIconTransition = "";
+    private string _publicationsDropdownIconTransition = "";
+    private string _projectsDropdownIconTransition = "";
+    private string _legalDisclosuresDropdownIconTransition = "";
+
+    private void ToggleDropdownMenu(string value)
+    {
+        if (value == _aboutUs)
+        {
+            _aboutUsVisibility = _aboutUsVisibility == "" ? "hidden" : "";
+            _aboutUsDropdownIconTransition = _aboutUsDropdownIconTransition == "" ? "transform: rotate(180deg);" : "";
+        }
+        else if (value == _publications)
+        {
+            _publicationsVisibility = _publicationsVisibility == "" ? "hidden" : "";
+            _publicationsDropdownIconTransition = _publicationsDropdownIconTransition == "" ? "transform: rotate(180deg);" : "";
+        }
+        else if (value == _projects)
+        {
+            _projectsVisibility = _projectsVisibility == "" ? "hidden" : "";
+            _projectsDropdownIconTransition = _projectsDropdownIconTransition == "" ? "transform: rotate(180deg);" : "";
+        }
+        else if (value == _legalDisclosures)
+        {
+            _legalDisclosuresVisibility = _legalDisclosuresVisibility == "" ? "hidden" : "";
+            _legalDisclosuresDropdownIconTransition = _legalDisclosuresDropdownIconTransition == "" ? "transform: rotate(180deg);" : "";
+        }
+
+        StateHasChanged();
+    }
+
+    // note: overridden methods
+    protected override Task OnInitializedAsync()
+    {
+        _objRef = DotNetObjectReference.Create(this);
+
+        return base.OnInitializedAsync();
+    }
+
+    private MobileNavMenu? _mobileNavMenu;
+
+    protected override void OnAfterRender(bool firstRender)
+    {
+        if (!firstRender) return;
+
+        _mobileNavMenu = this;
+        MobileNavMenuService.SetMobileNavMenu(_mobileNavMenu);
+    }
+
+}

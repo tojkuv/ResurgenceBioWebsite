@@ -3,27 +3,49 @@
 @using Microsoft.FluentUI.AspNetCore.Components
 
 @inject NavigationManager Navigation
+@inject IJSRuntime JsRuntime
+
+@inject MainLayoutService MainLayoutService
 
 @* todo: implement `prefers-color-scheme` setting and theme selector. use javascript (blazor cannot access the DOM) (https://tailwindcss.com/docs/dark-mode#supporting-system-preference-and-manual-selection). can it be done in the main layout? *@
 
-@* todo: implement a global style with tailwind *@
+@* todo: implement a global style with tailwind (pass container, for example) *@
 
-<div id="main-layout" class="min-h-screen flex flex-col items-center justify-start !bg-[#090b34] touch-manipulation">
-    <!-- Navigation Menu at the Top -->
-    <header class="w-full">
-        <NavMenu/>
+<div class="@_interactivityScreenHeight min-h-screen w-full relative flex flex-col items-center justify-start !bg-[#090b34] touch-manipulation">
+
+    @* todo: explore using the division and opacity mask to limit scrolling on the main content without adjusting the main content *@
+    <div class="@_interactivityDivisionAndOpacityVisibility z-20 h-full w-full absolute inset-0 bg-black bg-opacity-70"></div>
+
+    @* todo: allow classes to be passed to components and applied to their top-level element *@
+    <header class="@_headerHeight fixed z-40 w-full flex flex-col">
+        <div class="top-0 z-50">
+            <NavBar/>
+        </div>
+        <div class="@_mobileNavigationMenuContainerVisibility flex-1 overflow-y-auto overflow-x-hidden overscroll-none custom-scrollbar-hide">
+            <MobileNavMenu/>
+        </div>
     </header>
 
-    <!-- Main Content Section -->
-    <main class="md:prose-base container sm:prose-sm lg:prose-lg xl:prose-xl 2xl:prose-2xl mt-16">
-        @Body
-    </main>
+    <div class="flex-1 mt-[65px] w-full flex flex-col items-center">
+        <div class="@_interactivityScrollRestriction container flex-1 flex flex-col items-center justify-between">
+            <main @ref="_pageBodyElement" class="flex-1 w-full flex flex-col items-center justify-center text-white">
+                @Body
+            </main>
 
-    <!-- Footer or additional content could go here -->
-    <div class="container">
-        <Footer></Footer>
+            <Footer></Footer>
+        </div>
     </div>
 </div>
+
+<style>
+    .custom-scrollbar-hide::-webkit-scrollbar {
+        display: none;
+    }
+    .custom-scrollbar-hide {
+        -ms-overflow-style: none;  /* Internet Explorer 10+ */
+        scrollbar-width: none;  /* Firefox */
+    }
+</style>
 
 @* <FluentToastProvider/> *@
 @* <FluentDialogProvider/> *@
@@ -39,5 +61,55 @@
 
 @code
 {
+    // todo: implement regular and full footer
     private bool IsHomePage => Navigation.Uri == Navigation.BaseUri;
+
+    // todo: implement tailwind prose styling
+    private string _tailwindProse = "md:prose-base sm:prose-sm lg:prose-lg xl:prose-xl 2xl:prose-2xl";
+
+    // note: interactivity toggle
+    private ElementReference _pageBodyElement = new();
+
+    private string _interactivityScreenHeight = "";
+    private string _interactivityScrollRestriction = "";
+    private string _interactivityDivisionAndOpacityVisibility = "hidden";
+    private string _mobileNavigationMenuContainerVisibility = "hidden";
+    private string _headerHeight = "";
+
+    public async void TogglePageInteractivity(bool value)
+    {
+        if (value)
+        {
+            _interactivityScreenHeight = "max-h-screen";
+            _interactivityScrollRestriction = "overflow-y-hidden";
+            _interactivityDivisionAndOpacityVisibility = "";
+            _mobileNavigationMenuContainerVisibility = "";
+            _headerHeight = "h-[80%]";
+
+            StateHasChanged();
+        }
+        else
+        {
+            _interactivityScreenHeight = "";
+            _interactivityScrollRestriction = "";
+            _interactivityDivisionAndOpacityVisibility = "hidden";
+            _mobileNavigationMenuContainerVisibility = "hidden";
+            _headerHeight = "";
+
+            await JsRuntime.InvokeVoidAsync("focusElement", _pageBodyElement);
+
+            StateHasChanged();
+        }
+    }
+
+    // note: overridden methods
+    private MainLayout? _mainLayout;
+
+    protected override void OnAfterRender(bool firstRender)
+    {
+        if (!firstRender) return;
+
+        _mainLayout = this;
+        MainLayoutService.SetMainLayout(_mainLayout);
+    }
 }

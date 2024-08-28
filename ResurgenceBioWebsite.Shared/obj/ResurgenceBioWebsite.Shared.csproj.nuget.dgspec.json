@@ -53,7 +53,7 @@
           "dependencies": {
             "Microsoft.AspNetCore.Components.Web": {
               "target": "Package",
-              "version": "[8.0.7, )"
+              "version": "[8.0.8, )"
             },
             "Microsoft.FluentUI.AspNetCore.Components": {
               "target": "Package",

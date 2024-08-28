@@ -51,8 +51,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMb2dvc1NlY3Rpb24ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/machine/OneDrive/source/repos/ResurgenceBioWebsite/ResurgenceBioWebsite.Shared/Components/PeopleSection.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQZW9wbGVTZWN0aW9uLnJhem9y
+[C:/Users/machine/OneDrive/source/repos/ResurgenceBioWebsite/ResurgenceBioWebsite.Shared/Components/PeopleFullWidthCardsSection.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQZW9wbGVGdWxsV2lkdGhDYXJkc1NlY3Rpb24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/machine/OneDrive/source/repos/ResurgenceBioWebsite/ResurgenceBioWebsite.Shared/Components/PeopleSquareCardsSection.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQZW9wbGVTcXVhcmVDYXJkc1NlY3Rpb24ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/machine/OneDrive/source/repos/ResurgenceBioWebsite/ResurgenceBioWebsite.Shared/UiLibrary.razor]

@@ -1,13 +1,24 @@
 using Microsoft.FluentUI.AspNetCore.Components;
+using ResurgenceBioWebsite.Client.Layout;
 using ResurgenceBioWebsite.Client.Pages;
 using ResurgenceBioWebsite.Components;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// note: enable detailed errors
+builder.Services.AddServerSideBlazor().AddCircuitOptions(options =>
+{
+	options.DetailedErrors = true;
+});
+
 // Add services to the container.
 builder.Services.AddRazorComponents()
 	.AddInteractiveServerComponents()
 	.AddInteractiveWebAssemblyComponents();
+
+builder.Services.AddScoped<MainLayoutService>();
+builder.Services.AddScoped<MobileNavMenuService>();
+builder.Services.AddScoped<NavBarService>();
 
 builder.Services.AddHttpClient();
 
@@ -33,9 +44,9 @@ else
 
 app.UseHttpsRedirection();
 
+app.UseStaticFiles();
 app.UseAntiforgery();
 
-app.MapStaticAssets();
 app.MapRazorComponents<App>()
 	.AddInteractiveServerRenderMode()
 	.AddInteractiveWebAssemblyRenderMode()

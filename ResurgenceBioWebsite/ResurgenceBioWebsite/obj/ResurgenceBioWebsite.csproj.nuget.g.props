@@ -17,6 +17,7 @@
     <Import Project="$(NuGetPackageRoot)microsoft.fluentui.aspnetcore.components\4.9.3\buildTransitive\Microsoft.FluentUI.AspNetCore.Components.props" Condition="Exists('$(NuGetPackageRoot)microsoft.fluentui.aspnetcore.components\4.9.3\buildTransitive\Microsoft.FluentUI.AspNetCore.Components.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgMicrosoft_AspNetCore_Components_WebAssembly_Server Condition=" '$(PkgMicrosoft_AspNetCore_Components_WebAssembly_Server)' == '' ">C:\Users\machine\.nuget\packages\microsoft.aspnetcore.components.webassembly.server\9.0.0-preview.6.24328.4</PkgMicrosoft_AspNetCore_Components_WebAssembly_Server>
+    <PkgMicrosoft_NET_ILLink_Tasks Condition=" '$(PkgMicrosoft_NET_ILLink_Tasks)' == '' ">C:\Users\machine\.nuget\packages\microsoft.net.illink.tasks\8.0.8</PkgMicrosoft_NET_ILLink_Tasks>
+    <PkgMicrosoft_AspNetCore_Components_WebAssembly_Server Condition=" '$(PkgMicrosoft_AspNetCore_Components_WebAssembly_Server)' == '' ">C:\Users\machine\.nuget\packages\microsoft.aspnetcore.components.webassembly.server\8.0.8</PkgMicrosoft_AspNetCore_Components_WebAssembly_Server>
   </PropertyGroup>
 </Project>
