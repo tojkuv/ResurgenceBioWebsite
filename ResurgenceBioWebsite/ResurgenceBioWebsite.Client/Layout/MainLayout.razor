@@ -11,10 +11,7 @@
 
 @* todo: implement a global style with tailwind (pass container, for example) *@
 
-<div class="@_interactivityScreenHeight min-h-screen w-full relative flex flex-col items-center justify-start !bg-[#090b34] touch-manipulation">
-
-    @* todo: explore using the division and opacity mask to limit scrolling on the main content without adjusting the main content *@
-    <div class="@_interactivityDivisionAndOpacityVisibility z-20 h-full w-full absolute inset-0 bg-black bg-opacity-70"></div>
+<div class="@_interactivityScreenHeight min-h-screen w-full relative flex flex-col items-center justify-start touch-manipulation">
 
     @* todo: allow classes to be passed to components and applied to their top-level element *@
     <header class="@_headerHeight fixed z-40 w-full flex flex-col">
@@ -26,9 +23,12 @@
         </div>
     </header>
 
+    @* todo: explore using the division and opacity mask to limit scrolling on the main content without adjusting the main content *@
+    <div class="@_interactivityDivisionAndOpacityVisibility fixed z-20 h-full w-full overflow-hidden bg-black bg-opacity-70"></div>
+
     <div class="flex-1 mt-[65px] w-full flex flex-col items-center">
-        <div class="@_interactivityScrollRestriction container flex-1 flex flex-col items-center justify-between">
-            <main @ref="_pageBodyElement" class="flex-1 w-full flex flex-col items-center justify-center text-white">
+        <div class="container box-border p-4 flex-1 flex flex-col items-center justify-between">
+            <main @ref="_pageBodyElement" class="flex-1 w-full h-full flex flex-col items-center justify-center text-white">
                 @Body
             </main>
 
@@ -65,13 +65,11 @@
     private bool IsHomePage => Navigation.Uri == Navigation.BaseUri;
 
     // todo: implement tailwind prose styling
-    private string _tailwindProse = "md:prose-base sm:prose-sm lg:prose-lg xl:prose-xl 2xl:prose-2xl";
 
     // note: interactivity toggle
     private ElementReference _pageBodyElement = new();
 
     private string _interactivityScreenHeight = "";
-    private string _interactivityScrollRestriction = "";
     private string _interactivityDivisionAndOpacityVisibility = "hidden";
     private string _mobileNavigationMenuContainerVisibility = "hidden";
     private string _headerHeight = "";
@@ -81,20 +79,22 @@
         if (value)
         {
             _interactivityScreenHeight = "max-h-screen";
-            _interactivityScrollRestriction = "overflow-y-hidden";
             _interactivityDivisionAndOpacityVisibility = "";
             _mobileNavigationMenuContainerVisibility = "";
             _headerHeight = "h-[80%]";
+
+            await JsRuntime.InvokeVoidAsync("document.body.classList.add", "overflow-hidden");
 
             StateHasChanged();
         }
         else
         {
             _interactivityScreenHeight = "";
-            _interactivityScrollRestriction = "";
             _interactivityDivisionAndOpacityVisibility = "hidden";
             _mobileNavigationMenuContainerVisibility = "hidden";
             _headerHeight = "";
+
+            await JsRuntime.InvokeVoidAsync("document.body.classList.remove", "overflow-hidden");
 
             await JsRuntime.InvokeVoidAsync("focusElement", _pageBodyElement);
 

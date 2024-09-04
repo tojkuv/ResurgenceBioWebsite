@@ -16,7 +16,7 @@
         <p class="m-0 w-full text-center text-xl md:w-3/5 md:text-start lg:w-2/5">Want to receive news and updates?</p>
 
         <form class="flex w-4/5 flex-col gap-2 sm:w-3/5 md:w-2/5 lg:w-3/5 lg:flex-row lg:justify-end">
-            <input required id="email" type="email" placeholder="Email" value="@_email.EmailAddress" @oninput="e => _email.EmailAddress = e.Value.ToString()" class="h-10 rounded border-none bg-[#2f375a] px-2.5 font-serif text-gray-400 no-underline shadow-none focus:outline-none active:transform-none lg:w-64" />
+            <input required id="email" type="email" placeholder="Email" value="@_email.EmailAddress" @oninput="e => _email.EmailAddress = e.Value?.ToString()" class="h-10 rounded border-none bg-[#2f375a] px-2.5 font-serif text-gray-400 no-underline shadow-none focus:outline-none active:transform-none lg:w-64" />
 
             <button type="submit" class="h-10 cursor-pointer rounded border-none bg-[#167070] px-6 font-serif text-white no-underline shadow-none hover:bg-[#219899] focus:outline-none active:transform-none">
                 Get Notified
@@ -28,59 +28,116 @@
 
     @* company logo, tag line, and social media *@
     <div class="m-4 flex flex-row items-center justify-between">
-        <div class="flex-1 flex flex-col items-center justify-center gap-4 place-self-center md:max-lg:w-2/6 lg:w-2/5">
-            <img src="./images/resurgence-bio.png" alt="" class="h-11" />
+        <div class="flex-1 flex flex-col items-center justify-center place-self-center gap-4 md:max-lg:w-2/6 lg:w-2/5">
+            @* todo: make the footer logo an anchor to the main page *@
+            <img src="./images/resurgence-bio.png" alt="" class="h-11"/>
 
-            <div class="flex w-full flex-row items-center justify-center gap-5">
-                <a href="Fundraising" class="text-xs text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7] md:text-base">Fundraising</a>
-                <a href="Volunteering" class="text-xs text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7] md:text-base">Volunteering</a>
-            </div>
+            @* <div class="flex w-full flex-row items-center justify-center gap-5"> *@
+            @*     <a href="Fundraising" class="text-xs text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7] md:text-base"> *@
+            @*         FAQ *@
+            @*     </a> *@
+            @* </div> *@
 
             <div class="grid grid-cols-5 place-content-evenly gap-2">
-                @foreach (var item in _socialMedia) {
-                <button class="flex h-11 w-11 cursor-pointer items-center justify-center rounded border-none bg-[#202641] text-white no-underline shadow-none hover:bg-[#2f375a] focus:outline-none active:transform-none">
-                    <svg class="max-md:p-0.5 md:p-1 max-lg:h-8 max-lg:w-8 fill-[#219899] lg:h-9 lg:w-9">
-                        <use href="@item"></use>
-                    </svg>
-                </button>
+                @foreach (var item in _socialMedia)
+                {
+                    <button class="flex h-11 w-11 cursor-pointer items-center justify-center rounded border-none bg-[#202641] text-white no-underline shadow-none hover:bg-[#2f375a] focus:outline-none active:transform-none">
+                        <svg class="max-md:p-0.5 md:p-1 max-lg:h-8 max-lg:w-8 fill-[#219899] lg:h-9 lg:w-9">
+                            <use href="@item"></use>
+                        </svg>
+                    </button>
                 }
             </div>
         </div>
 
-        <div class="grid grid-cols-3 gap-5 max-md:hidden md:w-[62%]">
-            <div class="flex w-36 flex-col gap-3">
-                <p class="m-0 text-lg font-semibold">About US</p>
+        <div class="grid grid-cols-4 gap-5 place-content-stretch max-lg:hidden max-lg:w-full lg:w-[70%] text-sm">
+            <div class="flex flex-col gap-3">
+                <p class="m-0 font-semibold">
+                    About US
+                </p>
 
                 <nav class="flex flex-col gap-3">
-                    <a href="BoardOfDirectors" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">Board of Directors</a>
-                    <a href="Advisors" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">Advisors</a>
-                    <a href="SafetyReviewCommittee" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">Safety Review Committee (SRC)</a>
-                    <a href="AttbAccreditation" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">AATB Accreditation</a>
-                    <a href="OversightAgreements" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">Oversight Agreements</a>
-                </nav>
-            </div>
-
-            <div class="flex w-36 flex-col gap-3">
-                <p class="m-0 text-lg font-semibold">Publications</p>
-
-                <nav class="flex flex-col gap-3">
-                    <a href="GuidelinesAndPolicies" class="flex flex-col text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">
-                        <p class="m-0">Guidelines</p>
-                        <p class="m-0">and Policies</p>
+                    <a href="BoardOfDirectors" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">
+                        Board of Directors
                     </a>
-                    <a href="Reports" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">Reports</a>
-                    <a href="Articles" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">Articles</a>
+                    <a href="Advisors" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">
+                        Advisors
+                    </a>
                 </nav>
             </div>
 
-            <div class="flex w-36 flex-col gap-3">
-                <p class="m-0 text-lg font-semibold">Projects</p>
+            <div class="flex flex-col gap-3">
+                <p class="m-0 font-semibold">
+                    Elevate
+                </p>
 
                 <nav class="flex flex-col gap-3">
-                    <a href="LearningPlatform" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">Learning Platform</a>
-                    <a href="InventoryOperationsManagement" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">Inventory Operations Management</a>
-                    <a href="DocumentationDevelopment" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">Documentation Development</a>
-                    <a href="AldehydeStabilizedPreservationProtocol" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">Aldehyde Stabilized Preservation Protocol</a>
+                    <a href="BiostasisCommission" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">
+                        The Biostasis Commission
+                    </a>
+                    <a href="AttbAccreditation" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">
+                        AATB Accreditation
+                    </a>
+                    <a href="CaresReporting" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">
+                        CARES Reporting
+                    </a>
+                    <a href="SpearInitiative" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">
+                        SPEAR Initiative
+                    </a>
+                    <a href="Beacon" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">
+                        BEACON
+                    </a>
+                    <a href="SafetyReviewCommittee" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">
+                        Safety Review Committee (SRC)
+                    </a>
+                </nav>
+            </div>
+
+            <div class="flex flex-col gap-3">
+                <p class="m-0 font-semibold">
+                    Educate
+                </p>
+
+                <nav class="flex flex-col gap-3">
+                    <a href="StasisKnowledgeHub" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">
+                        The Stasis Knowledge Hub
+                    </a>
+                    <a href="Volunteering" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">
+                        Volunteering
+                    </a>
+                </nav>
+            </div>
+
+            <div class="flex flex-col gap-3">
+                <p class="m-0 font-semibold">
+                    Innovate
+                </p>
+
+                <nav class="flex flex-col gap-3">
+                    <a href="TheBiostasisConsortium" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">
+                        The Biostasis Consortium
+                    </a>
+                    <a href="AldehydeStabilizedPreservationProtocol" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">
+                        Aldehyde Stabilized Preservation Protocol
+                    </a>
+                    <a href="WholeBodyFieldCryoprotection" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">
+                        Whole Body Field Cryoprotection
+                    </a>
+                    <a href="SstOptimization" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">
+                        Standby, Stabilization, and Transport (SST) Optimization
+                    </a>
+                    <a href="RegionalReadinessDevelopment" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">
+                        Regional Readiness Development
+                    </a>
+                    <a href="RegionalInventoryManagement" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">
+                        Regional Readiness Development
+                    </a>
+                    <a href="DocumentationDevelopment" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">
+                        Documentation Development
+                    </a>
+                    <a href="LifebridgeProgram" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">
+                        Lifebridge Program
+                    </a>
                 </nav>
             </div>
         </div>

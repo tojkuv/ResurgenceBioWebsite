@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FFA989F1-1716-40F8-85F5-84B0A315D8D3}|ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\ResurgenceBioWebsite.Client.csproj|c:\\users\\machine\\onedrive\\source\\repos\\resurgencebiowebsite\\resurgencebiowebsite\\resurgencebiowebsite.client\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FFA989F1-1716-40F8-85F5-84B0A315D8D3}|ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\ResurgenceBioWebsite.Client.csproj|solutionrelative:resurgencebiowebsite\\resurgencebiowebsite.client\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFA989F1-1716-40F8-85F5-84B0A315D8D3}|ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\ResurgenceBioWebsite.Client.csproj|c:\\users\\machine\\onedrive\\source\\repos\\resurgencebiowebsite\\resurgencebiowebsite\\resurgencebiowebsite.client\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FFA989F1-1716-40F8-85F5-84B0A315D8D3}|ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\ResurgenceBioWebsite.Client.csproj|solutionrelative:resurgencebiowebsite\\resurgencebiowebsite.client\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAUwBYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-11T17:51:17.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-11T17:45:57.743Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
