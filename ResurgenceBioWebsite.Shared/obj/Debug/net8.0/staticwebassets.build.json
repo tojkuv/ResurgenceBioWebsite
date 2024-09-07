@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "7NCtQBmEh2MYbzEnIJUcVIeRSt6V+CTTaczYYf5fMPg=",
+  "Hash": "be1PTPjP4s7vVAIMpp/VqmUP8AroBvQpOtihkKEvzqE=",
   "Source": "ResurgenceBioWebsite.Shared",
   "BasePath": "_content/ResurgenceBioWebsite.Shared",
   "Mode": "Default",
@@ -2265,7 +2265,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Sep 2024 19:22:54 GMT"
+          "Value": "Sat, 07 Sep 2024 20:19:15 GMT"
         },
         {
           "Name": "Link",
@@ -2310,7 +2310,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Sep 2024 19:22:54 GMT"
+          "Value": "Sat, 07 Sep 2024 20:19:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2351,7 +2351,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Sep 2024 19:22:54 GMT"
+          "Value": "Sat, 07 Sep 2024 20:19:15 GMT"
         },
         {
           "Name": "Link",

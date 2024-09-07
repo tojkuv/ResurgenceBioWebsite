@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "ResurgenceBioWebsite.Client",
   "resources": {
-    "hash": "sha256-s6TBlY+B0RgMJmrXpwqN/FqD9No1an//tgcfwYoDlg0=",
+    "hash": "sha256-YKLSfSL3c/Ll8BCE90RwXlJGfjLqGvj3wh+X+xq0FKA=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-juC5sA7gHTLXFEhAKgdM2/RavswpwCtDfjYGsAz2FXg="
     },
@@ -217,12 +217,12 @@
       "mscorlib.wasm": "sha256-Gz8PyW2/fwihe5ul81OwmRUrU71r+KtbyRw6xlOGD+Q=",
       "netstandard.wasm": "sha256-jMTqIQzoDS810lyhZpMO5eEC36EzntXqSVn+2qwkOMQ=",
       "System.Private.CoreLib.wasm": "sha256-NFj5WE5VLP2LptZIRJCUIc1AMk06FmxpsSILfPISwAw=",
-      "ResurgenceBioWebsite.Shared.wasm": "sha256-T4NF/t3IrHNGWoeZ5CbBahzrlX7Zy76q0VZ/3AI0QXg=",
-      "ResurgenceBioWebsite.Client.wasm": "sha256-iPE5rKy7XxslGqM6H5Lk07EgNtIzNXIYU9Tpz4qeMiI="
+      "ResurgenceBioWebsite.Shared.wasm": "sha256-fpSJUyleNu/GPjmlhFV9f+pqxQuXFzL5Bta98U4ywgA=",
+      "ResurgenceBioWebsite.Client.wasm": "sha256-VIqTBy70iqobPz1suAXHri4en0ewZ3s+iieRM6YhFqY="
     },
     "pdb": {
-      "ResurgenceBioWebsite.Shared.pdb": "sha256-gXSTX2kPQWVHRM1ta9cVEi1X4bimiZLwYf3biggYq+w=",
-      "ResurgenceBioWebsite.Client.pdb": "sha256-JlItmfs/V18hseDOx/tN8vhM5o88l+7hnyP3kwqTlo8="
+      "ResurgenceBioWebsite.Shared.pdb": "sha256-yLeFIkzWl2rmuFCt+6i8N57A7v+4IwN01OZFJuhtmnk=",
+      "ResurgenceBioWebsite.Client.pdb": "sha256-G9AtCuT8KBnDY+4l8WjD+emfFseAWIMIYLrxdvyE8lg="
     },
     "libraryInitializers": {
       "_content/Microsoft.FluentUI.AspNetCore.Components/Microsoft.FluentUI.AspNetCore.Components.lib.module.js": "sha256-CJSrqExCwsiltOwG2tCAKuAjlrX6Q1YCkl3ABK4Cptc="

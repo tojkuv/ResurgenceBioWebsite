@@ -2547,6 +2547,10 @@
     margin-top: 52px;
   }
 
+  .max-md\:hidden {
+    display: none;
+  }
+
   .max-md\:h-60 {
     height: 15rem;
   }
@@ -2747,6 +2751,10 @@
 
   .md\:flex {
     display: flex;
+  }
+
+  .md\:hidden {
+    display: none;
   }
 
   .md\:h-10 {

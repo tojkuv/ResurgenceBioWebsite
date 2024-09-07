@@ -1067,11 +1067,11 @@ C:\Users\machine\OneDrive\source\repos\ResurgenceBioWebsite\ResurgenceBioWebsite
 C:\Users\machine\OneDrive\source\repos\ResurgenceBioWebsite\ResurgenceBioWebsite\ResurgenceBioWebsite.Client\obj\Debug\net8.0\compressed\ktokfrpxi7-tptq2av103.gz
 C:\Users\machine\OneDrive\source\repos\ResurgenceBioWebsite\ResurgenceBioWebsite\ResurgenceBioWebsite.Client\obj\Debug\net8.0\compressed\768zqjiczw-lfu7j35m59.gz
 C:\Users\machine\OneDrive\source\repos\ResurgenceBioWebsite\ResurgenceBioWebsite\ResurgenceBioWebsite.Client\obj\Debug\net8.0\compressed\1exh9owlcj-oyz0vx2fzb.gz
-C:\Users\machine\OneDrive\source\repos\ResurgenceBioWebsite\ResurgenceBioWebsite\ResurgenceBioWebsite.Client\obj\Debug\net8.0\compressed\nafpsqsqar-3vbpjelda2.gz
-C:\Users\machine\OneDrive\source\repos\ResurgenceBioWebsite\ResurgenceBioWebsite\ResurgenceBioWebsite.Client\obj\Debug\net8.0\compressed\korevnsg9h-ddmd6r79n8.gz
-C:\Users\machine\OneDrive\source\repos\ResurgenceBioWebsite\ResurgenceBioWebsite\ResurgenceBioWebsite.Client\obj\Debug\net8.0\compressed\jiitc4a3pa-8s1mvcpi3x.gz
-C:\Users\machine\OneDrive\source\repos\ResurgenceBioWebsite\ResurgenceBioWebsite\ResurgenceBioWebsite.Client\obj\Debug\net8.0\compressed\4jgg1gml2t-yhiehr8e0w.gz
-C:\Users\machine\OneDrive\source\repos\ResurgenceBioWebsite\ResurgenceBioWebsite\ResurgenceBioWebsite.Client\obj\Debug\net8.0\compressed\i8ye95rp5d-zoy9te65ed.gz
+C:\Users\machine\OneDrive\source\repos\ResurgenceBioWebsite\ResurgenceBioWebsite\ResurgenceBioWebsite.Client\obj\Debug\net8.0\compressed\nafpsqsqar-igzoet40l2.gz
+C:\Users\machine\OneDrive\source\repos\ResurgenceBioWebsite\ResurgenceBioWebsite\ResurgenceBioWebsite.Client\obj\Debug\net8.0\compressed\korevnsg9h-cjwyrtq13c.gz
+C:\Users\machine\OneDrive\source\repos\ResurgenceBioWebsite\ResurgenceBioWebsite\ResurgenceBioWebsite.Client\obj\Debug\net8.0\compressed\jiitc4a3pa-8juzdyhc8o.gz
+C:\Users\machine\OneDrive\source\repos\ResurgenceBioWebsite\ResurgenceBioWebsite\ResurgenceBioWebsite.Client\obj\Debug\net8.0\compressed\4jgg1gml2t-9bl0cib4gw.gz
+C:\Users\machine\OneDrive\source\repos\ResurgenceBioWebsite\ResurgenceBioWebsite\ResurgenceBioWebsite.Client\obj\Debug\net8.0\compressed\i8ye95rp5d-fm4in0uw06.gz
 C:\Users\machine\OneDrive\source\repos\ResurgenceBioWebsite\ResurgenceBioWebsite\ResurgenceBioWebsite.Client\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\machine\OneDrive\source\repos\ResurgenceBioWebsite\ResurgenceBioWebsite\ResurgenceBioWebsite.Client\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\machine\OneDrive\source\repos\ResurgenceBioWebsite\ResurgenceBioWebsite\ResurgenceBioWebsite.Client\obj\Debug\net8.0\staticwebassets.build.endpoints.json
