@@ -1,25 +1,27 @@
 ﻿@inject MobileNavMenuService MobileNavMenuService
 @inject NavBarService NavBarService
 
+@inject NavigationManager Navigation
+
 @* <div class="flex flex-col items-center justify-center pb-4"> *@
 <div @onmouseover="MenuPersistence" @onmouseleave="HideAndResetMenuPersistence" class="@_navBarBackground relative overscroll-none w-full flex flex-row items-center justify-center overflow-x-clip !border-[#2f375a]" style="border-bottom: 1px solid;">
     @* todo: make the navigation bar a grid instead of a flex box for the tabs get horizontally centered *@
     <nav class="container mx-auto flex flex-row items-center justify-center py-2 px-4 lg:py-3 lg:px-5 max-lg:justify-between">
         <div class="group flex flex-row items-center max-lg:flex-none lg:hidden">
-            <button @onclick="(() => { ToggleMobileNavigationMenu(); HideMenu(); })" class="flex cursor-pointer items-center justify-center rounded border-none bg-[#202641] p-1 no-underline shadow-none hover:bg-[#2f375a] focus:outline-none active:transform-none">
+            <a @onclick="(() => { ToggleMobileNavigationMenu(); HideMenu(); })" class="flex items-center justify-center lg:hidden relative cursor-pointer rounded bg-[#202641] lg:px-3 lg:py-2 max-lg:p-1 text-white text-lg font-semibold no-underline hover:bg-[#2f375a] max-md:h-7 max-md:w-9 md:max-lg:h-9 md:max-lg:w-11">
                 <svg class="stroke-[#219899] max-md:h-7 max-md:w-9 md:max-lg:h-9 md:max-lg:w-11">
                     <use href="icons/nav.svg#nav-icon"></use>
                 </svg>
-            </button>
+            </a>
         </div>
 
-        <div class="lg:shrink-0">
+        <div class="lg:w-60">
             <a href="" class="cursor-pointer flex flex-row items-center">
                 <img src="./images/resurgence-bio.png" alt="" class="object-contain max-md:h-9 md:max-lg:h-11 lg:h-14 w-full"/>
             </a>
         </div>
 
-        <div class="h-full max-lg:hidden lg:flex lg:flex-1 lg:items-center lg:justify-center lg:space-x-6">
+        <div class="max-lg:hidden flex-1 h-full flex flex-row items-center justify-center space-x-6">
             <div @onclick="() => ToggleMenuVisibility(_aboutUs)" @onmouseover="() => ShowMenu(_aboutUs)" @onmouseleave="() => HideMenu(_aboutUs)" class="flex h-full flex-col justify-center">
                 <p class="@(_menuToggleService.IsMenuVisible(_aboutUs) ? "text-[#3cf5f7]" : "text-white") m-0 inline-block cursor-default no-underline text-lg">
                     About Us
@@ -41,9 +43,6 @@
                 </p>
 
                 <nav @onmouseover="() => ShowMenu(_elevate)" @onmouseleave="() => HideMenu(_elevate)" class="absolute top-full -ms-4 !border-[#2f375a] bg-[#090b34] p-4 shadow flex-col gap-5 min-w-max @(_menuToggleService.IsMenuVisible(_elevate) ? "flex" : "hidden")" style="border: 1px solid;">
-                    <a @onclick="() => HideMenu(_elevate)" href="BiostasisCommission" class="relative inline-flex cursor-pointer text-white text-lg no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">
-                        The Biostasis Commission
-                    </a>
                     <a @onclick="() => HideMenu(_elevate)" href="AttbAccreditation" class="relative inline-flex cursor-pointer text-white text-lg no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">
                         AATB Accreditation
                     </a>
@@ -55,10 +54,6 @@
                     </a>
                     <a @onclick="() => HideMenu(_elevate)" href="Beacon" class="relative inline-flex cursor-pointer text-white text-lg no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">
                         BEACON
-                    </a>
-                    <a @onclick="() => HideMenu(_elevate)" href="SafetyReviewCommittee" class="relative cursor-pointer text-white text-lg no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">
-                        Safety Review <br/>
-                        Committee (SRC)
                     </a>
                 </nav>
             </div>
@@ -84,9 +79,6 @@
                 </p>
 
                 <nav @onmouseover="() => ShowMenu(_innovate)" @onmouseleave="() => HideMenu(_innovate)" class="absolute top-full -ms-4 !border-[#2f375a] bg-[#090b34] p-4 shadow flex-col gap-5 min-w-max @(_menuToggleService.IsMenuVisible(_innovate) ? "flex" : "hidden")" style="border: 1px solid;">
-                    <a @onclick="() => HideMenu(_innovate)" href="TheBiostasisConsortium" class="relative inline-flex cursor-pointer text-white text-lg no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">
-                        The Biostasis Consortium
-                    </a>
                     <a @onclick="() => HideMenu(_innovate)" href="AldehydeStabilizedPreservationProtocol" class="relative inline-flex cursor-pointer text-white text-lg no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">
                         Aldehyde Stabilized <br/>
                         Preservation Protocol
@@ -118,8 +110,8 @@
             @* </a> *@
         </div>
 
-        @* todo: make this a component *@
-        <div class="flex items-center justify-end lg:space-x-3">
+        @* todo refactor: make this anchor button a component *@
+        <div class="lg:w-60 flex items-center justify-end lg:space-x-3">
             <a @onclick="HideMenu" href="Emergency" class="max-lg:hidden relative inline-block cursor-pointer rounded bg-rose-600 px-3 py-2 text-white text-lg no-underline hover:bg-rose-400">
                 Emergency
             </a>

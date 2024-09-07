@@ -45,9 +45,6 @@
         </button>
 
         <div class="@_elevateVisibility flex flex-col items-start justify-center ">
-            <button @onclick='(() => { Navigation.NavigateTo("/BiostasisCommission"); MobileNavMenuService.HideDrawerNavigationMenu(); })' class="bg-transparent text-start font-serif border-0 border-b border-[#2f375a] w-full ps-8 py-3 text-gray-400 no-underline text-base hover:text-white hover:underline hover:decoration-[#3cf5f7] shadow-none focus:outline-none active:transform-none">
-                The Biostasis Commission
-            </button>
             <button @onclick='(() => { Navigation.NavigateTo("/AttbAccreditation"); MobileNavMenuService.HideDrawerNavigationMenu(); })' class="bg-transparent text-start font-serif border-0 border-b border-[#2f375a] w-full ps-8 py-3 text-gray-400 no-underline text-base hover:text-white hover:underline hover:decoration-[#3cf5f7] shadow-none focus:outline-none active:transform-none">
                 AATB Accreditation
             </button>
@@ -59,9 +56,6 @@
             </button>
             <button @onclick='(() => { Navigation.NavigateTo("/Beacon"); MobileNavMenuService.HideDrawerNavigationMenu(); })' class="bg-transparent text-start font-serif border-0 border-b border-[#2f375a] w-full ps-8 py-3 text-gray-400 no-underline text-base hover:text-white hover:underline hover:decoration-[#3cf5f7] shadow-none focus:outline-none active:transform-none">
                 BEACON
-            </button>
-            <button @onclick='(() => { Navigation.NavigateTo("/SafetyReviewCommittee"); MobileNavMenuService.HideDrawerNavigationMenu(); })' class="bg-transparent text-start font-serif border-0 border-b border-[#2f375a] w-full ps-8 py-3 text-gray-400 no-underline text-base hover:text-white hover:underline hover:decoration-[#3cf5f7] shadow-none focus:outline-none active:transform-none">
-                Safety Review Committee (SRC)
             </button>
         </div>
     </div>
@@ -101,9 +95,6 @@
         </button>
 
         <div class="@_innovateVisibility flex flex-col items-start justify-center ">
-            <button @onclick='(() => { Navigation.NavigateTo("/TheBiostasisConsortium"); MobileNavMenuService.HideDrawerNavigationMenu(); })' class="bg-transparent text-start font-serif border-0 border-b border-[#2f375a] w-full ps-8 py-3 text-gray-400 no-underline text-base hover:text-white hover:underline hover:decoration-[#3cf5f7] shadow-none focus:outline-none active:transform-none">
-                The Biostasis Consortium
-            </button>
             <button @onclick='(() => { Navigation.NavigateTo("/AldehydeStabilizedPreservationProtocol"); MobileNavMenuService.HideDrawerNavigationMenu(); })' class="bg-transparent text-start font-serif border-0 border-b border-[#2f375a] w-full ps-8 py-3 text-gray-400 no-underline text-base hover:text-white hover:underline hover:decoration-[#3cf5f7] shadow-none focus:outline-none active:transform-none">
                 Aldehyde Stabilized Preservation Protocol
             </button>
@@ -183,7 +174,6 @@
 
         StateHasChanged();
     }
-
 
     // note: drawer navigation menu dropdown components
     private string _aboutUs = "aboutUs";

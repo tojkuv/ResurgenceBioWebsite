@@ -59,16 +59,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWxldmF0ZVxCZWFjb24ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/machine/OneDrive/source/repos/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/Elevate/BiostasisCommission.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWxldmF0ZVxCaW9zdGFzaXNDb21taXNzaW9uLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/machine/OneDrive/source/repos/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/Elevate/CaresReporting.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWxldmF0ZVxDYXJlc1JlcG9ydGluZy5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/machine/OneDrive/source/repos/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/Elevate/SafetyReviewCommittee.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWxldmF0ZVxTYWZldHlSZXZpZXdDb21taXR0ZWUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/machine/OneDrive/source/repos/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/Elevate/SpearInitiative.razor]
@@ -77,6 +69,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/machine/OneDrive/source/repos/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/Emergency.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1lcmdlbmN5LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/machine/OneDrive/source/repos/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/Events/VolunteeringEvent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXZlbnRzXFZvbHVudGVlcmluZ0V2ZW50LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/machine/OneDrive/source/repos/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/Home.razor]
@@ -105,10 +101,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/machine/OneDrive/source/repos/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/Innovate/SstOptimization.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5ub3ZhdGVcU3N0T3B0aW1pemF0aW9uLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/machine/OneDrive/source/repos/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/Innovate/TheBiostasisConsortium.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5ub3ZhdGVcVGhlQmlvc3Rhc2lzQ29uc29ydGl1bS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/machine/OneDrive/source/repos/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/Innovate/WholeBodyFieldCryoprotection.razor]

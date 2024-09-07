@@ -1,0 +1,75 @@
+@page "/VolunteeringEvent"
+
+@using ResurgenceBioWebsite.Shared.Models
+@using Microsoft.AspNetCore.Components.Forms
+
+<PageTitle>SST Training Volunteering Event</PageTitle>
+
+<article class="flex w-full flex-col items-center justify-center font-serif max-lg:gap-10 lg:gap-16">
+
+    <div class="flex flex-col items-center justify-center gap-2">
+        <h1 class="m-0 max-md:text-3xl md:max-lg:text-4xl lg:text-5xl text-center">SST Training Volunteering Event</h1>
+
+        <p class="m-0 prose prose-sm sm:prose-base lg:prose-lg dark:prose-invert text-center">Description of the event eu ad lacus torquent hendrerit malesuada cras aliquam leo phasellus. In nullam pharetra arcu euismod mattis maecenas.</p>
+    </div>
+
+    <div class="flex flex-col items-center justify-center">
+        <a href="https://www.eventbrite.com/" target="_blank" class="inline-block cursor-pointer rounded bg-[#167070] hover:bg-[#219899] px-6 py-3 text-white text-lg no-underline">Get Tickets</a>
+    </div>
+
+    <div class="flex max-md:flex-col md:flex-row items-start justify-center gap-4 text-center">
+        <div class="flex max-md:w-full max-md:h-60 md:w-56 md:h-56 flex-col items-center justify-center gap-2 bg-[#030530] rounded max-md:p-10 md:p-7 box-border">
+            <div class="flex h-16 w-16 items-center justify-center rounded-full border-none bg-[#202641] text-white no-underline">
+                <svg class="text-[#219899] max-lg:h-8 max-lg:w-8 max-md:p-0.5 md:p-1 lg:h-9 lg:w-9" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="calendar-icon" fill="none">
+                    <use href="icons/calendar.svg#calendar-icon"></use>
+                </svg>
+            </div>
+            <h3 class="m-0">Date and Time</h3>
+            <time class="m-0">Day, Month XX, 2024<br/>XX:XX AM - XX:XX PM</time>
+        </div>
+
+        <div class="flex max-md:w-full max-md:h-60 md:w-56 md:h-56 flex-col items-center justify-center gap-2 bg-[#030530] rounded max-md:p-10 md:p-7 box-border">
+            <div class="flex h-16 w-16 items-center justify-center rounded-full border-none bg-[#202641] text-white no-underline">
+                <svg class="text-[#219899] max-lg:h-8 max-lg:w-8 max-md:p-0.5 md:p-1 lg:h-9 lg:w-9">
+                    <use href="icons/location.svg#location-icon"></use>
+                </svg>
+            </div>
+            <h3 class="m-0">Location</h3>
+            <p class="m-0">Street Address, <br/>Apt/Suite/Unit, <br/>City, State ZIP</p>
+        </div>
+
+        <div class="flex max-md:w-full max-md:h-60 md:w-56 md:h-56 flex-col items-center justify-center gap-2 bg-[#030530] rounded max-md:p-10 md:p-7 box-border">
+            <div class="flex h-16 w-16 items-center justify-center rounded-full border-none bg-[#202641] text-white no-underline">
+                <svg class="fill-[#219899] max-lg:h-8 max-lg:w-8 max-md:p-0.5 md:p-1 lg:h-9 lg:w-9">
+                    <use href="icons/parking.svg#parking-icon"></use>
+                </svg>
+            </div>
+            <h3 class="m-0">Parking</h3>
+            <p class="m-0">Parking is available, given the following directions</p>
+        </div>
+    </div>
+
+    <!-- carousel -->
+
+    <div class="w-full flex flex-col items-center justify-center gap-2">
+        <h2 class="m-0 text-center max-md:text-2xl md:max-lg:text-3xl lg:text-4xl">Schedule</h2>
+        <p class="m-0 text-center text-xl">The schedule will be updated soon</p>
+
+        @* <form class="flex flex-col items-center justify-center lg:flex-row gap-2 max-sm:w-4/5 sm:max-lg:w-3/5 lg:w-full"> *@
+        @*     <input required id="email" type="email" placeholder="Email" value="@_email.EmailAddress" @oninput="e => _email.EmailAddress = e.Value?.ToString()" class="h-10 rounded border-none bg-[#2f375a] px-2.5 font-serif text-gray-400 no-underline shadow-none focus:outline-none active:transform-none max-lg:w-full lg:w-64 box-border"/> *@
+        @* *@
+        @*     <button class="h-10 cursor-pointer rounded border-none bg-[#167070] px-6 font-serif text-white no-underline shadow-none hover:bg-[#219899] focus:outline-none active:transform-none max-lg:w-full box-border">Get Notified</button> *@
+        @* </form> *@
+    </div>
+</article>
+
+
+@code {
+    private readonly Email _email = new();
+
+    private void HandleValidSubmit()
+    {
+        // TODO: Handle email submission
+    }
+
+}

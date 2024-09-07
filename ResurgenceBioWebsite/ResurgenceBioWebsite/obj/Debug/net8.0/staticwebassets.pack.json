@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\icons\\calendar.svg",
+      "PackagePath": "staticwebassets\\icons\\calendar.svg"
+    },
+    {
       "Id": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\icons\\discord.svg",
       "PackagePath": "staticwebassets\\icons\\discord.svg"
     },
@@ -25,8 +29,16 @@
       "PackagePath": "staticwebassets\\icons\\linkedin.svg"
     },
     {
+      "Id": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\icons\\location.svg",
+      "PackagePath": "staticwebassets\\icons\\location.svg"
+    },
+    {
       "Id": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\icons\\nav.svg",
       "PackagePath": "staticwebassets\\icons\\nav.svg"
+    },
+    {
+      "Id": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\icons\\parking.svg",
+      "PackagePath": "staticwebassets\\icons\\parking.svg"
     },
     {
       "Id": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\icons\\sos-button-svgrepo-com.svg",
