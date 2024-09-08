@@ -1,28 +1,30 @@
 console.log("interop.js loaded");
 
 window.setupFocusListener = (dotNetObjectRef, elementId, methodToCall, eventType) => {
-  // Define the function to handle click events
   const handleClickOutside = (event) => {
     let element = document.getElementById(elementId);
-    if (element && !element.contains(event.target)) {
 
+    if (element && !element.contains(event.target)) {
       element.focus();
-      // console.log("element focused");
 
       dotNetObjectRef.invokeMethodAsync(methodToCall)
         .then(result => {
           // console.log('The Blazor method was called successfully');
         })
         .catch(error => {
-          // console.error('Error calling Blazor method', error);
+          console.error('Error calling Blazor method', error);
         });
 
-      // Remove the event listener after handling
       document.removeEventListener(eventType, handleClickOutside);
-      // console.log("event listener remove");
     }
   };
 
-  // Add the event listener
   document.addEventListener(eventType, handleClickOutside);
+};
+
+window.scrollToSlide = (elementId, itemIndex, gapPixels) => {
+  const carousel = document.getElementById(elementId);
+  const itemWidth = carousel.children[0].offsetWidth + gapPixels;
+
+  carousel.scrollTo({left: itemWidth * itemIndex, behavior: 'smooth' });
 };

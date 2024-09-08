@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ResurgenceBioWebsite")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e46bf13796a12c05e66f8e5bc5b8f8800e6f040b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f055341e269d640d2fc7d9bab0954ed2ece2555b")]
 [assembly: System.Reflection.AssemblyProductAttribute("ResurgenceBioWebsite")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ResurgenceBioWebsite")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

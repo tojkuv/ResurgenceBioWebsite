@@ -5,16 +5,16 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\icons\\arrow.svg",
+      "PackagePath": "staticwebassets\\icons\\arrow.svg"
+    },
+    {
       "Id": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\icons\\calendar.svg",
       "PackagePath": "staticwebassets\\icons\\calendar.svg"
     },
     {
       "Id": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\icons\\discord.svg",
       "PackagePath": "staticwebassets\\icons\\discord.svg"
-    },
-    {
-      "Id": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\icons\\dropdown.svg",
-      "PackagePath": "staticwebassets\\icons\\dropdown.svg"
     },
     {
       "Id": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\icons\\facebook.svg",
@@ -47,6 +47,10 @@
     {
       "Id": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\icons\\sos.svg",
       "PackagePath": "staticwebassets\\icons\\sos.svg"
+    },
+    {
+      "Id": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\icons\\x.svg",
+      "PackagePath": "staticwebassets\\icons\\x.svg"
     },
     {
       "Id": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\icons\\youtube.svg",
