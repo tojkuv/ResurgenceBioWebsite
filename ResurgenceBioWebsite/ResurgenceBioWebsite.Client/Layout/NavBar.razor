@@ -4,12 +4,12 @@
 @inject NavigationManager Navigation
 
 @* <div class="flex flex-col items-center justify-center pb-4"> *@
-<div @onmouseover="MenuPersistence" @onmouseleave="HideAndResetMenuPersistence" class="@_navBarBackground relative overscroll-none w-full flex flex-row items-center justify-center overflow-x-clip !border-[#2f375a]" style="border-bottom: 1px solid;">
+<div @onmouseover="MenuPersistence" @onmouseleave="HideAndResetMenuPersistence" class="@_navBarBackground relative overscroll-none w-full flex flex-row items-center justify-center overflow-x-clip !border-primary-300" style="border-bottom: 1px solid;">
     @* todo: make the navigation bar a grid instead of a flex box for the tabs get horizontally centered *@
     <nav class="container mx-auto flex flex-row items-center justify-center py-2 px-4 lg:py-3 lg:px-5 max-lg:justify-between">
         <div class="group flex flex-row items-center max-lg:flex-none lg:hidden">
-            <a @onclick="(() => { ToggleMobileNavigationMenu(); HideMenu(); })" class="flex items-center justify-center lg:hidden relative cursor-pointer rounded bg-[#202641] lg:px-3 lg:py-2 max-lg:p-1 text-white text-lg font-semibold no-underline hover:bg-[#2f375a] max-md:h-7 max-md:w-9 md:max-lg:h-9 md:max-lg:w-11">
-                <svg class="stroke-[#219899] max-md:h-7 max-md:w-9 md:max-lg:h-9 md:max-lg:w-11">
+            <a @onclick="(() => { ToggleMobileNavigationMenu(); HideMenu(); })" class="flex items-center justify-center lg:hidden relative cursor-pointer rounded bg-primary-400 lg:px-3 lg:py-2 max-lg:p-1 text-white text-lg font-semibold no-underline hover:bg-primary-300 max-md:h-7 max-md:w-9 md:max-lg:h-9 md:max-lg:w-11">
+                <svg class="stroke-secondary-500 max-md:h-7 max-md:w-9 md:max-lg:h-9 md:max-lg:w-11">
                     <use href="icons/nav.svg#nav-icon"></use>
                 </svg>
             </a>
@@ -23,89 +23,89 @@
 
         <div class="max-lg:hidden flex-1 h-full flex flex-row items-center justify-center space-x-6">
             <div @onclick="() => ToggleMenuVisibility(_aboutUs)" @onmouseover="() => ShowMenu(_aboutUs)" @onmouseleave="() => HideMenu(_aboutUs)" class="flex h-full flex-col justify-center">
-                <p class="@(_menuToggleService.IsMenuVisible(_aboutUs) ? "text-[#3cf5f7]" : "text-white") m-0 inline-block cursor-default no-underline text-lg">
+                <p class="@(_menuToggleService.IsMenuVisible(_aboutUs) ? "text-secondary-300" : "text-white") m-0 inline-block cursor-default no-underline text-lg">
                     About Us
                 </p>
 
-                <nav @onmouseover="() => ShowMenu(_aboutUs)" @onmouseleave="() => HideMenu(_aboutUs)" class="@(_menuToggleService.IsMenuVisible(_aboutUs) ? "" : "hidden") absolute top-full -ms-4 !border-[#2f375a] bg-[#090b34] p-4 shadow flex flex-col gap-5 min-w-max" style="border: 1px solid;">
-                    <a @onclick="() => HideMenu(_aboutUs)" href="BoardOfDirectors" class="relative cursor-pointer text-white text-lg no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">
+                <nav @onmouseover="() => ShowMenu(_aboutUs)" @onmouseleave="() => HideMenu(_aboutUs)" class="@(_menuToggleService.IsMenuVisible(_aboutUs) ? "" : "hidden") absolute top-full -ms-4 !border-primary-300 bg-primary-500 p-4 shadow flex flex-col gap-5 min-w-max" style="border: 1px solid;">
+                    <a @onclick="() => HideMenu(_aboutUs)" href="BoardOfDirectors" class="relative cursor-pointer text-white text-lg no-underline hover:text-white hover:underline hover:decoration-secondary-300">
                         Board of Directors
                     </a>
-                    <a @onclick="() => HideMenu(_aboutUs)" href="Advisors" class="relative cursor-pointer text-white text-lg no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">
+                    <a @onclick="() => HideMenu(_aboutUs)" href="Advisors" class="relative cursor-pointer text-white text-lg no-underline hover:text-white hover:underline hover:decoration-secondary-300">
                         Advisors
                     </a>
                 </nav>
             </div>
 
             <div @onmouseover="() => ShowMenu(_elevate)" @onmouseleave="() => HideMenu(_elevate)" class="flex h-full flex-col justify-center">
-                <p class="@(_menuToggleService.IsMenuVisible(_elevate) ? "text-[#3cf5f7]" : "text-white") m-0 inline-block cursor-default no-underline text-lg">
+                <p class="@(_menuToggleService.IsMenuVisible(_elevate) ? "text-secondary-300" : "text-white") m-0 inline-block cursor-default no-underline text-lg">
                     Elevate
                 </p>
 
-                <nav @onmouseover="() => ShowMenu(_elevate)" @onmouseleave="() => HideMenu(_elevate)" class="absolute top-full -ms-4 !border-[#2f375a] bg-[#090b34] p-4 shadow flex-col gap-5 min-w-max @(_menuToggleService.IsMenuVisible(_elevate) ? "flex" : "hidden")" style="border: 1px solid;">
-                    <a @onclick="() => HideMenu(_elevate)" href="AttbAccreditation" class="relative inline-flex cursor-pointer text-white text-lg no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">
+                <nav @onmouseover="() => ShowMenu(_elevate)" @onmouseleave="() => HideMenu(_elevate)" class="absolute top-full -ms-4 !border-primary-300 bg-primary-500 p-4 shadow flex-col gap-5 min-w-max @(_menuToggleService.IsMenuVisible(_elevate) ? "flex" : "hidden")" style="border: 1px solid;">
+                    <a @onclick="() => HideMenu(_elevate)" href="AatbAccreditation" class="relative inline-flex cursor-pointer text-white text-lg no-underline hover:text-white hover:underline hover:decoration-secondary-300">
                         AATB Accreditation
                     </a>
-                    <a @onclick="() => HideMenu(_elevate)" href="CaresReporting" class="relative inline-flex cursor-pointer text-white text-lg no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">
+                    <a @onclick="() => HideMenu(_elevate)" href="CaresReporting" class="relative inline-flex cursor-pointer text-white text-lg no-underline hover:text-white hover:underline hover:decoration-secondary-300">
                         CARES Reporting
                     </a>
-                    <a @onclick="() => HideMenu(_elevate)" href="SpearInitiative" class="relative inline-flex cursor-pointer text-white text-lg no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">
+                    <a @onclick="() => HideMenu(_elevate)" href="SpearInitiative" class="relative inline-flex cursor-pointer text-white text-lg no-underline hover:text-white hover:underline hover:decoration-secondary-300">
                         SPEAR Initiative
                     </a>
-                    <a @onclick="() => HideMenu(_elevate)" href="Beacon" class="relative inline-flex cursor-pointer text-white text-lg no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">
+                    <a @onclick="() => HideMenu(_elevate)" href="Beacon" class="relative inline-flex cursor-pointer text-white text-lg no-underline hover:text-white hover:underline hover:decoration-secondary-300">
                         BEACON
                     </a>
                 </nav>
             </div>
 
             <div @onmouseover="() => ShowMenu(_educate)" @onmouseleave="() => HideMenu(_educate)" class="flex h-full flex-col justify-center">
-                <p class="@(_menuToggleService.IsMenuVisible(_educate) ? "text-[#3cf5f7]" : "text-white") m-0 inline-block cursor-default no-underline text-lg">
+                <p class="@(_menuToggleService.IsMenuVisible(_educate) ? "text-secondary-300" : "text-white") m-0 inline-block cursor-default no-underline text-lg">
                     Educate
                 </p>
 
-                <nav @onmouseover="() => ShowMenu(_educate)" @onmouseleave="() => HideMenu(_educate)" class="absolute top-full -ms-4 !border-[#2f375a] bg-[#090b34] p-4 shadow flex-col gap-5 min-w-max @(_menuToggleService.IsMenuVisible(_educate) ? "flex" : "hidden")" style="border: 1px solid;">
-                    <a @onclick="() => HideMenu(_educate)" href="TheStasisKnowledgeHub" class="relative inline-flex cursor-pointer text-white text-lg no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">
+                <nav @onmouseover="() => ShowMenu(_educate)" @onmouseleave="() => HideMenu(_educate)" class="absolute top-full -ms-4 !border-primary-300 bg-primary-500 p-4 shadow flex-col gap-5 min-w-max @(_menuToggleService.IsMenuVisible(_educate) ? "flex" : "hidden")" style="border: 1px solid;">
+                    <a @onclick="() => HideMenu(_educate)" href="TheStasisKnowledgeHub" class="relative inline-flex cursor-pointer text-white text-lg no-underline hover:text-white hover:underline hover:decoration-secondary-300">
                         The Stasis Knowledge Hub
                     </a>
-                    <a @onclick="() => HideMenu(_educate)" href="Volunteering" class="relative inline-block cursor-pointer text-white text-lg no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">
+                    <a @onclick="() => HideMenu(_educate)" href="Volunteering" class="relative inline-block cursor-pointer text-white text-lg no-underline hover:text-white hover:underline hover:decoration-secondary-300">
                         Volunteering
                     </a>
                 </nav>
             </div>
 
             <div @onmouseover="() => ShowMenu(_innovate)" @onmouseleave="() => HideMenu(_innovate)" class="flex h-full flex-col justify-center">
-                <p class="@(_menuToggleService.IsMenuVisible(_innovate) ? "text-[#3cf5f7]" : "text-white") m-0 inline-block cursor-default no-underline text-lg">
+                <p class="@(_menuToggleService.IsMenuVisible(_innovate) ? "text-secondary-300" : "text-white") m-0 inline-block cursor-default no-underline text-lg">
                     Innovate
                 </p>
 
-                <nav @onmouseover="() => ShowMenu(_innovate)" @onmouseleave="() => HideMenu(_innovate)" class="absolute top-full -ms-4 !border-[#2f375a] bg-[#090b34] p-4 shadow flex-col gap-5 min-w-max @(_menuToggleService.IsMenuVisible(_innovate) ? "flex" : "hidden")" style="border: 1px solid;">
-                    <a @onclick="() => HideMenu(_innovate)" href="AldehydeStabilizedPreservationProtocol" class="relative inline-flex cursor-pointer text-white text-lg no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">
+                <nav @onmouseover="() => ShowMenu(_innovate)" @onmouseleave="() => HideMenu(_innovate)" class="absolute top-full -ms-4 !border-primary-300 bg-primary-500 p-4 shadow flex-col gap-5 min-w-max @(_menuToggleService.IsMenuVisible(_innovate) ? "flex" : "hidden")" style="border: 1px solid;">
+                    <a @onclick="() => HideMenu(_innovate)" href="AldehydeStabilizedPreservationProtocol" class="relative inline-flex cursor-pointer text-white text-lg no-underline hover:text-white hover:underline hover:decoration-secondary-300">
                         Aldehyde Stabilized <br/>
                         Preservation Protocol
                     </a>
-                    <a @onclick="() => HideMenu(_innovate)" href="WholeBodyFieldCryoprotection" class="relative inline-flex cursor-pointer text-white text-lg no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">
+                    <a @onclick="() => HideMenu(_innovate)" href="WholeBodyFieldCryoprotection" class="relative inline-flex cursor-pointer text-white text-lg no-underline hover:text-white hover:underline hover:decoration-secondary-300">
                         Whole Body Field Cryoprotection
                     </a>
-                    <a @onclick="() => HideMenu(_innovate)" href="SstOptimization" class="relative inline-flex cursor-pointer text-white text-lg no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">
+                    <a @onclick="() => HideMenu(_innovate)" href="SstOptimization" class="relative inline-flex cursor-pointer text-white text-lg no-underline hover:text-white hover:underline hover:decoration-secondary-300">
                         Standby, Stabilization, and <br/>
                         Transport (SST) Optimization
                     </a>
-                    <a @onclick="() => HideMenu(_innovate)" href="RegionalReadinessDevelopment" class="relative inline-flex cursor-pointer text-white text-lg no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">
+                    <a @onclick="() => HideMenu(_innovate)" href="RegionalReadinessDevelopment" class="relative inline-flex cursor-pointer text-white text-lg no-underline hover:text-white hover:underline hover:decoration-secondary-300">
                         Regional Readiness Development
                     </a>
-                    <a @onclick="() => HideMenu(_innovate)" href="RegionalInventoryManagement" class="relative inline-flex cursor-pointer text-white text-lg no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">
+                    <a @onclick="() => HideMenu(_innovate)" href="RegionalInventoryManagement" class="relative inline-flex cursor-pointer text-white text-lg no-underline hover:text-white hover:underline hover:decoration-secondary-300">
                         Regional Inventory Management
                     </a>
-                    <a @onclick="() => HideMenu(_innovate)" href="DocumentationDevelopment" class="relative inline-flex cursor-pointer text-white text-lg no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">
+                    <a @onclick="() => HideMenu(_innovate)" href="DocumentationDevelopment" class="relative inline-flex cursor-pointer text-white text-lg no-underline hover:text-white hover:underline hover:decoration-secondary-300">
                         Documentation Development
                     </a>
-                    <a @onclick="() => HideMenu(_innovate)" href="LifebridgeProgram" class="relative inline-flex cursor-pointer text-white text-lg no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">
+                    <a @onclick="() => HideMenu(_innovate)" href="LifebridgeProgram" class="relative inline-flex cursor-pointer text-white text-lg no-underline hover:text-white hover:underline hover:decoration-secondary-300">
                         Lifebridge Program
                     </a>
                 </nav>
             </div>
 
-            @* <a @onclick="HideMenu" href="Faq" class="relative inline-block cursor-pointer text-white text-lg no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]"> *@
+            @* <a @onclick="HideMenu" href="Faq" class="relative inline-block cursor-pointer text-white text-lg no-underline hover:text-white hover:underline hover:decoration-secondary-300"> *@
             @*     FAQ *@
             @* </a> *@
         </div>
@@ -254,11 +254,11 @@
         }
     }
 
-    private string _navBarBackground = "bg-[#090b34]";
+    private string _navBarBackground = "bg-primary-500";
 
     public void UpdateNavBarBackground(string? value)
     {
-        _navBarBackground = value ?? "bg-[#090b34]";
+        _navBarBackground = value ?? "bg-primary-500";
         StateHasChanged();
     }
 

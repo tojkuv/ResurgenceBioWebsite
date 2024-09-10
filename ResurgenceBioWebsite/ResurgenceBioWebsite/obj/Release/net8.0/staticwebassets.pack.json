@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets\\icons\\facebook.svg"
     },
     {
+      "Id": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\icons\\icon.svg",
+      "PackagePath": "staticwebassets\\icons\\icon.svg"
+    },
+    {
       "Id": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\icons\\instagram.svg",
       "PackagePath": "staticwebassets\\icons\\instagram.svg"
     },
@@ -51,6 +55,10 @@
     {
       "Id": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\icons\\sos.svg",
       "PackagePath": "staticwebassets\\icons\\sos.svg"
+    },
+    {
+      "Id": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\icons\\whatsapp.svg",
+      "PackagePath": "staticwebassets\\icons\\whatsapp.svg"
     },
     {
       "Id": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\icons\\x.svg",

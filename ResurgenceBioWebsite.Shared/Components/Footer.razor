@@ -9,30 +9,30 @@
 @* </EditForm> *@
 
 <footer class="w-full text-white max-lg:pt-6 lg:pt-10 box-border">
-    <hr class="h-px border-none bg-[#2f375a]" />
+    <hr class="h-px border-none bg-primary-300" />
 
     @* Submit address section *@
     <div class="my-4 md:m-4 flex flex-col items-center justify-center md:flex-row md:justify-between gap-2">
         <p class="m-0 w-full text-center text-xl md:w-3/5 md:text-start lg:w-2/5">Want to receive news and updates?</p>
 
         <form class="flex w-4/5 flex-col gap-2 sm:w-3/5 md:w-2/5 lg:w-3/5 lg:flex-row lg:justify-end">
-            <input required id="email" type="email" placeholder="Email" value="@_email.EmailAddress" @oninput="e => _email.EmailAddress = e.Value?.ToString()" class="h-10 rounded border-none bg-[#2f375a] px-2.5 font-serif text-gray-400 no-underline shadow-none focus:outline-none active:transform-none lg:w-64" />
+            <input required id="email" type="email" placeholder="Email" value="@_email.EmailAddress" @oninput="e => _email.EmailAddress = e.Value?.ToString()" class="h-10 rounded border-none bg-primary-300 px-2.5 font-serif text-gray-400 no-underline shadow-none focus:outline-none active:transform-none lg:w-64" />
 
-            <button type="submit" class="h-10 cursor-pointer rounded border-none bg-[#167070] px-6 font-serif text-white no-underline shadow-none hover:bg-[#219899] focus:outline-none active:transform-none">
+            <button type="submit" class="h-10 cursor-pointer rounded border-none bg-secondary-600 px-6 font-serif text-white no-underline shadow-none hover:bg-secondary-500 focus:outline-none active:transform-none">
                 Get Notified
             </button>
         </form>
     </div>
 
-    <hr class="h-px border-none bg-[#2f375a]" />
+    <hr class="h-px border-none bg-primary-300" />
 
     @* note: social media *@
-    <div class="w-full flex-1 flex flex-col items-center justify-center place-self-center max-lg:gap-2 lg:gap-4 rounded bg-[#030530] py-10 px-5 box-border">
+    <div class="w-full flex-1 flex flex-col items-center justify-center place-self-center max-lg:gap-2 lg:gap-4 rounded bg-primary-600 py-10 px-5 box-border">
 
         @* <img src="./images/resurgence-bio.png" alt="" class="h-11"/> *@
 
         @* <div class="flex w-full flex-row items-center justify-center gap-5"> *@
-        @*     <a href="Fundraising" class="text-xs text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7] md:text-base"> *@
+        @*     <a href="Fundraising" class="text-xs text-gray-400 no-underline hover:text-white hover:underline hover:decoration-secondary-300 md:text-base"> *@
         @*         FAQ *@
         @*     </a> *@
         @* </div> *@
@@ -44,8 +44,8 @@
         <div class="grid grid-cols-5 place-content-evenly gap-2">
             @foreach (var item in _socialMedia)
             {
-                <button class="flex h-11 w-11 cursor-pointer items-center justify-center rounded border-none bg-[#202641] text-white no-underline shadow-none hover:bg-[#2f375a] focus:outline-none active:transform-none">
-                    <svg class="max-md:p-0.5 md:p-1 max-lg:h-8 max-lg:w-8 fill-[#219899] lg:h-9 lg:w-9">
+                <button class="flex h-11 w-11 cursor-pointer items-center justify-center rounded border-none bg-primary-400 text-white no-underline shadow-none hover:bg-primary-300 focus:outline-none active:transform-none">
+                    <svg class="max-md:p-0.5 md:p-1 max-lg:h-8 max-lg:w-8 fill-secondary-500 lg:h-9 lg:w-9">
                         <use href="@item"></use>
                     </svg>
                 </button>
@@ -53,7 +53,7 @@
         </div>
     </div>
 
-    <hr class="max-lg:hidden h-px border-none bg-[#2f375a]" />
+    <hr class="max-lg:hidden h-px border-none bg-primary-300" />
 
     @* note: navigation links *@
     <div class="m-4 flex flex-row items-center justify-between max-lg:hidden">
@@ -64,10 +64,10 @@
                 </p>
 
                 <nav class="flex flex-col gap-3">
-                    <a href="BoardOfDirectors" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">
+                    <a href="BoardOfDirectors" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-secondary-300">
                         Board of Directors
                     </a>
-                    <a href="Advisors" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">
+                    <a href="Advisors" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-secondary-300">
                         Advisors
                     </a>
                 </nav>
@@ -79,19 +79,19 @@
                 </p>
 
                 <nav class="flex flex-col gap-3">
-                    <a href="AttbAccreditation" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">
+                    <a href="AttbAccreditation" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-secondary-300">
                         AATB Accreditation
                     </a>
-                    <a href="CaresReporting" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">
+                    <a href="CaresReporting" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-secondary-300">
                         CARES Reporting
                     </a>
-                    <a href="SpearInitiative" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">
+                    <a href="SpearInitiative" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-secondary-300">
                         SPEAR Initiative
                     </a>
-                    <a href="Beacon" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">
+                    <a href="Beacon" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-secondary-300">
                         BEACON
                     </a>
-                    <a href="SafetyReviewCommittee" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">
+                    <a href="SafetyReviewCommittee" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-secondary-300">
                         Safety Review Committee (SRC)
                     </a>
                 </nav>
@@ -103,10 +103,10 @@
                 </p>
 
                 <nav class="flex flex-col gap-3">
-                    <a href="StasisKnowledgeHub" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">
+                    <a href="StasisKnowledgeHub" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-secondary-300">
                         The Stasis Knowledge Hub
                     </a>
-                    <a href="Volunteering" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">
+                    <a href="Volunteering" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-secondary-300">
                         Volunteering
                     </a>
                 </nav>
@@ -118,25 +118,25 @@
                 </p>
 
                 <nav class="flex flex-col gap-3">
-                    <a href="AldehydeStabilizedPreservationProtocol" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">
+                    <a href="AldehydeStabilizedPreservationProtocol" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-secondary-300">
                         Aldehyde Stabilized Preservation Protocol
                     </a>
-                    <a href="WholeBodyFieldCryoprotection" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">
+                    <a href="WholeBodyFieldCryoprotection" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-secondary-300">
                         Whole Body Field Cryoprotection
                     </a>
-                    <a href="SstOptimization" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">
+                    <a href="SstOptimization" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-secondary-300">
                         Standby, Stabilization, and Transport (SST) Optimization
                     </a>
-                    <a href="RegionalReadinessDevelopment" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">
+                    <a href="RegionalReadinessDevelopment" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-secondary-300">
                         Regional Readiness Development
                     </a>
-                    <a href="RegionalInventoryManagement" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">
+                    <a href="RegionalInventoryManagement" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-secondary-300">
                         Regional Readiness Development
                     </a>
-                    <a href="DocumentationDevelopment" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">
+                    <a href="DocumentationDevelopment" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-secondary-300">
                         Documentation Development
                     </a>
-                    <a href="LifebridgeProgram" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7]">
+                    <a href="LifebridgeProgram" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-secondary-300">
                         Lifebridge Program
                     </a>
                 </nav>
@@ -144,7 +144,7 @@
         </div>
     </div>
 
-    <hr class="h-px border-none bg-[#2f375a]" />
+    <hr class="h-px border-none bg-primary-300" />
 
     @* Relevant company logos section *@
     <div class="flex place-content-evenly gap-2 overflow-x-clip py-4 md:whitespace-nowrap">
@@ -153,20 +153,20 @@
         }
     </div>
 
-    <hr class="h-px border-none bg-[#2f375a]" />
+    <hr class="h-px border-none bg-primary-300" />
 
     @* legal disclosures section *@
     <div class="m-4 flex flex-col items-center justify-between sm:flex-row">
         <p class="text-xs text-gray-400 md:text-base">Copyright &copy ResurgenceBio, 20XX-@DateTime.Today.Year.</p>
 
         <div class="flex items-center justify-between gap-4">
-            <a href="TermsAndConditions" class="text-xs text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7] md:text-base">
+            <a href="TermsAndConditions" class="text-xs text-gray-400 no-underline hover:text-white hover:underline hover:decoration-secondary-300 md:text-base">
                 Terms & Conditions
             </a>
-            <a href="TrademarkPolicy" class="text-xs text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7] md:text-base">
+            <a href="TrademarkPolicy" class="text-xs text-gray-400 no-underline hover:text-white hover:underline hover:decoration-secondary-300 md:text-base">
                 Trademark Policy
             </a>
-            <a href="PrivacyPolicy" class="text-xs text-gray-400 no-underline hover:text-white hover:underline hover:decoration-[#3cf5f7] md:text-base">
+            <a href="PrivacyPolicy" class="text-xs text-gray-400 no-underline hover:text-white hover:underline hover:decoration-secondary-300 md:text-base">
                 Privacy Policy
             </a>
         </div>
@@ -184,7 +184,7 @@
 
     private string[] _logoUrls = ["./logos/pdc.png", "./logos/biomedical-research.png", "./logos/tomorrow-bio.png", "./logos/european-biostasis-foundation.png", "./logos/suspended-animation.png", "./logos/biostasis-technologies.png"];
 
-    private string[] _socialMedia = ["icons/linkedin.svg#linkedin-icon", "icons/instagram.svg#instagram-icon", "icons/facebook.svg#facebook-icon", "icons/youtube.svg#youtube-icon", "icons/discord.svg#discord-icon",];
+    private string[] _socialMedia = ["icons/linkedin.svg#linkedin-icon", "icons/youtube.svg#youtube-icon", "icons/facebook.svg#facebook-icon", "icons/instagram.svg#instagram-icon", "icons/discord.svg#discord-icon",];
 
     private Email _email = new();
 

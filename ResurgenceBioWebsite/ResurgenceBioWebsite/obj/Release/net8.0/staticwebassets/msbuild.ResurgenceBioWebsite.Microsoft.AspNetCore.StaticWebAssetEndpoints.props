@@ -15,14 +15,14 @@
     <StaticWebAssetEndpoint Include="_content/ResurgenceBioWebsite/css/site.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-PnRl37QdoIOMXbGf4kZhwNY97s/sUy1eCIK06jgkFvg="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"60991"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022PnRl37QdoIOMXbGf4kZhwNY97s/sUy1eCIK06jgkFvg=\u0022"},{"Name":"Last-Modified","Value":"Tue, 10 Sep 2024 04:26:28 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-fxf2J2ffeODFwCSp0R6lpesinyKPIJpExTZF6qdDdE4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"63027"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022fxf2J2ffeODFwCSp0R6lpesinyKPIJpExTZF6qdDdE4=\u0022"},{"Name":"Last-Modified","Value":"Tue, 10 Sep 2024 23:13:32 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ResurgenceBioWebsite/css/site.qqoa0gfj02.css">
+    <StaticWebAssetEndpoint Include="_content/ResurgenceBioWebsite/css/site.piyrxkjtwy.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"qqoa0gfj02"},{"Name":"integrity","Value":"sha256-PnRl37QdoIOMXbGf4kZhwNY97s/sUy1eCIK06jgkFvg="},{"Name":"label","Value":"_content/ResurgenceBioWebsite/css/site.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"60991"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022PnRl37QdoIOMXbGf4kZhwNY97s/sUy1eCIK06jgkFvg=\u0022"},{"Name":"Last-Modified","Value":"Tue, 10 Sep 2024 04:26:28 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"piyrxkjtwy"},{"Name":"integrity","Value":"sha256-fxf2J2ffeODFwCSp0R6lpesinyKPIJpExTZF6qdDdE4="},{"Name":"label","Value":"_content/ResurgenceBioWebsite/css/site.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"63027"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022fxf2J2ffeODFwCSp0R6lpesinyKPIJpExTZF6qdDdE4=\u0022"},{"Name":"Last-Modified","Value":"Tue, 10 Sep 2024 23:13:32 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ResurgenceBioWebsite/icons/arrow.svg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\icons\arrow.svg'))</AssetFile>
@@ -71,6 +71,18 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-rgoCgDSKh1vIQ2a8mZdUbWDBrPH6DyWF5u8RzssQvbY="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"506"},{"Name":"Content-Type","Value":"image/svg\u002Bxml"},{"Name":"ETag","Value":"\u0022rgoCgDSKh1vIQ2a8mZdUbWDBrPH6DyWF5u8RzssQvbY=\u0022"},{"Name":"Last-Modified","Value":"Fri, 16 Aug 2024 23:31:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ResurgenceBioWebsite/icons/icon.aasv45ox5b.svg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\icons\icon.svg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"aasv45ox5b"},{"Name":"integrity","Value":"sha256-8hjT67XWtNRQLqc9vpUbONBY5p0\u002BZ8WXkSmRxfe11eo="},{"Name":"label","Value":"_content/ResurgenceBioWebsite/icons/icon.svg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"311"},{"Name":"Content-Type","Value":"image/svg\u002Bxml"},{"Name":"ETag","Value":"\u00228hjT67XWtNRQLqc9vpUbONBY5p0\u002BZ8WXkSmRxfe11eo=\u0022"},{"Name":"Last-Modified","Value":"Tue, 10 Sep 2024 22:02:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ResurgenceBioWebsite/icons/icon.svg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\icons\icon.svg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-8hjT67XWtNRQLqc9vpUbONBY5p0\u002BZ8WXkSmRxfe11eo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"311"},{"Name":"Content-Type","Value":"image/svg\u002Bxml"},{"Name":"ETag","Value":"\u00228hjT67XWtNRQLqc9vpUbONBY5p0\u002BZ8WXkSmRxfe11eo=\u0022"},{"Name":"Last-Modified","Value":"Tue, 10 Sep 2024 22:02:26 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ResurgenceBioWebsite/icons/instagram.0h2lcl3j1n.svg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\icons\instagram.svg'))</AssetFile>
@@ -155,6 +167,18 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-hZuQ2kBfY/qs9GmP1K2bA6O6C79SwBodn0LDbFvrpZU="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1966"},{"Name":"Content-Type","Value":"image/svg\u002Bxml"},{"Name":"ETag","Value":"\u0022hZuQ2kBfY/qs9GmP1K2bA6O6C79SwBodn0LDbFvrpZU=\u0022"},{"Name":"Last-Modified","Value":"Tue, 27 Aug 2024 20:03:42 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ResurgenceBioWebsite/icons/whatsapp.eeu8it5i3o.svg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\icons\whatsapp.svg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"eeu8it5i3o"},{"Name":"integrity","Value":"sha256-5gEXnNpa5yxZHlfOfgvJX1kEkOBXSTIUHOy9/xaDM3k="},{"Name":"label","Value":"_content/ResurgenceBioWebsite/icons/whatsapp.svg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"840"},{"Name":"Content-Type","Value":"image/svg\u002Bxml"},{"Name":"ETag","Value":"\u00225gEXnNpa5yxZHlfOfgvJX1kEkOBXSTIUHOy9/xaDM3k=\u0022"},{"Name":"Last-Modified","Value":"Tue, 10 Sep 2024 20:05:02 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ResurgenceBioWebsite/icons/whatsapp.svg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\icons\whatsapp.svg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-5gEXnNpa5yxZHlfOfgvJX1kEkOBXSTIUHOy9/xaDM3k="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"840"},{"Name":"Content-Type","Value":"image/svg\u002Bxml"},{"Name":"ETag","Value":"\u00225gEXnNpa5yxZHlfOfgvJX1kEkOBXSTIUHOy9/xaDM3k=\u0022"},{"Name":"Last-Modified","Value":"Tue, 10 Sep 2024 20:05:02 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ResurgenceBioWebsite/icons/x.nu0tie6gv2.svg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\icons\x.svg'))</AssetFile>

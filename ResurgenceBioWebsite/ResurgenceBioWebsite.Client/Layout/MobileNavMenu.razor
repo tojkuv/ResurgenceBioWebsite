@@ -9,9 +9,9 @@
 <!-- drawer menu component -->
 @* todo: preserve the scroll position of the menu in website sessions *@
 <!-- todo: this div exists because tabindex on an element with the container utility is not working --->
-<nav id="@_drawerMenuId" tabindex="-1" class="@DrawerMenuVisibility w-screen bg-[#030530] lg:hidden">
+<nav id="@_drawerMenuId" tabindex="-1" class="@DrawerMenuVisibility w-screen bg-primary-600 lg:hidden">
     <div class="">
-        <button @onclick="() => ToggleDropdownMenu(_aboutUs)" class="border-0 border-b border-[#2f375a] w-full p-0 px-4 py-3 bg-transparent shadow-none focus:outline-none focus:bg-transparent active:bg-transparent active:outline-none active:transform-none">
+        <button @onclick="() => ToggleDropdownMenu(_aboutUs)" class="border-0 border-b border-primary-300 w-full p-0 px-4 py-3 bg-transparent shadow-none focus:outline-none focus:bg-transparent active:bg-transparent active:outline-none active:transform-none">
             <div class="w-full flex flex-row items-center justify-between">
                 <p class="text-start text-base font-serif text-white m-0 p-0">
                     About Us
@@ -23,17 +23,17 @@
         </button>
 
         <div class="@_aboutUsVisibility flex flex-col items-start justify-center ">
-            <button @onclick='(() => { Navigation.NavigateTo("/BoardOfDirectors"); MobileNavMenuService.HideDrawerNavigationMenu(); })' class="bg-transparent text-start font-serif border-0 border-b border-[#2f375a] w-full ps-8 py-3 text-gray-400 no-underline text-base hover:text-white hover:underline hover:decoration-[#3cf5f7] shadow-none focus:outline-none active:transform-none">
+            <button @onclick='(() => { Navigation.NavigateTo("/BoardOfDirectors"); MobileNavMenuService.HideDrawerNavigationMenu(); })' class="bg-transparent text-start font-serif border-0 border-b border-primary-300 w-full ps-8 py-3 text-gray-400 no-underline text-base hover:text-white hover:underline hover:decoration-secondary-300 shadow-none focus:outline-none active:transform-none">
                 Board of Directors
             </button>
-            <button @onclick='(() => { Navigation.NavigateTo("/Advisors"); MobileNavMenuService.HideDrawerNavigationMenu(); })' class="bg-transparent text-start font-serif border-0 border-b border-[#2f375a] w-full ps-8 py-3 text-gray-400 no-underline text-base hover:text-white hover:underline hover:decoration-[#3cf5f7] shadow-none focus:outline-none active:transform-none">
+            <button @onclick='(() => { Navigation.NavigateTo("/Advisors"); MobileNavMenuService.HideDrawerNavigationMenu(); })' class="bg-transparent text-start font-serif border-0 border-b border-primary-300 w-full ps-8 py-3 text-gray-400 no-underline text-base hover:text-white hover:underline hover:decoration-secondary-300 shadow-none focus:outline-none active:transform-none">
                 Advisors
             </button>
         </div>
     </div>
 
     <div class="">
-        <button @onclick="() => ToggleDropdownMenu(_elevate)" class="border-0 border-b border-[#2f375a] w-full p-0 px-4 py-3 bg-transparent shadow-none focus:outline-none focus:bg-transparent active:bg-transparent active:outline-none active:transform-none">
+        <button @onclick="() => ToggleDropdownMenu(_elevate)" class="border-0 border-b border-primary-300 w-full p-0 px-4 py-3 bg-transparent shadow-none focus:outline-none focus:bg-transparent active:bg-transparent active:outline-none active:transform-none">
             <div class="w-full flex flex-row items-center justify-between">
                 <p class="text-start text-base font-serif text-white m-0 p-0">
                     Elevate
@@ -45,23 +45,23 @@
         </button>
 
         <div class="@_elevateVisibility flex flex-col items-start justify-center ">
-            <button @onclick='(() => { Navigation.NavigateTo("/AttbAccreditation"); MobileNavMenuService.HideDrawerNavigationMenu(); })' class="bg-transparent text-start font-serif border-0 border-b border-[#2f375a] w-full ps-8 py-3 text-gray-400 no-underline text-base hover:text-white hover:underline hover:decoration-[#3cf5f7] shadow-none focus:outline-none active:transform-none">
+            <button @onclick='(() => { Navigation.NavigateTo("/AatbAccreditation"); MobileNavMenuService.HideDrawerNavigationMenu(); })' class="bg-transparent text-start font-serif border-0 border-b border-primary-300 w-full ps-8 py-3 text-gray-400 no-underline text-base hover:text-white hover:underline hover:decoration-secondary-300 shadow-none focus:outline-none active:transform-none">
                 AATB Accreditation
             </button>
-            <button @onclick='(() => { Navigation.NavigateTo("/CaresReporting"); MobileNavMenuService.HideDrawerNavigationMenu(); })' class="bg-transparent text-start font-serif border-0 border-b border-[#2f375a] w-full ps-8 py-3 text-gray-400 no-underline text-base hover:text-white hover:underline hover:decoration-[#3cf5f7] shadow-none focus:outline-none active:transform-none">
+            <button @onclick='(() => { Navigation.NavigateTo("/CaresReporting"); MobileNavMenuService.HideDrawerNavigationMenu(); })' class="bg-transparent text-start font-serif border-0 border-b border-primary-300 w-full ps-8 py-3 text-gray-400 no-underline text-base hover:text-white hover:underline hover:decoration-secondary-300 shadow-none focus:outline-none active:transform-none">
                 CARES Reporting
             </button>
-            <button @onclick='(() => { Navigation.NavigateTo("/SpearInitiative"); MobileNavMenuService.HideDrawerNavigationMenu(); })' class="bg-transparent text-start font-serif border-0 border-b border-[#2f375a] w-full ps-8 py-3 text-gray-400 no-underline text-base hover:text-white hover:underline hover:decoration-[#3cf5f7] shadow-none focus:outline-none active:transform-none">
+            <button @onclick='(() => { Navigation.NavigateTo("/SpearInitiative"); MobileNavMenuService.HideDrawerNavigationMenu(); })' class="bg-transparent text-start font-serif border-0 border-b border-primary-300 w-full ps-8 py-3 text-gray-400 no-underline text-base hover:text-white hover:underline hover:decoration-secondary-300 shadow-none focus:outline-none active:transform-none">
                 SPEAR Initiative
             </button>
-            <button @onclick='(() => { Navigation.NavigateTo("/Beacon"); MobileNavMenuService.HideDrawerNavigationMenu(); })' class="bg-transparent text-start font-serif border-0 border-b border-[#2f375a] w-full ps-8 py-3 text-gray-400 no-underline text-base hover:text-white hover:underline hover:decoration-[#3cf5f7] shadow-none focus:outline-none active:transform-none">
+            <button @onclick='(() => { Navigation.NavigateTo("/Beacon"); MobileNavMenuService.HideDrawerNavigationMenu(); })' class="bg-transparent text-start font-serif border-0 border-b border-primary-300 w-full ps-8 py-3 text-gray-400 no-underline text-base hover:text-white hover:underline hover:decoration-secondary-300 shadow-none focus:outline-none active:transform-none">
                 BEACON
             </button>
         </div>
     </div>
 
     <div class="">
-        <button @onclick="() => ToggleDropdownMenu(_educate)" class="border-0 border-b border-[#2f375a] w-full p-0 px-4 py-3 bg-transparent shadow-none focus:outline-none focus:bg-transparent active:bg-transparent active:outline-none active:transform-none">
+        <button @onclick="() => ToggleDropdownMenu(_educate)" class="border-0 border-b border-primary-300 w-full p-0 px-4 py-3 bg-transparent shadow-none focus:outline-none focus:bg-transparent active:bg-transparent active:outline-none active:transform-none">
             <div class="w-full flex flex-row items-center justify-between">
                 <p class="text-start text-base font-serif text-white m-0 p-0">
                     Educate
@@ -73,17 +73,17 @@
         </button>
 
         <div class="@_educateVisibility flex flex-col items-start justify-center ">
-            <button @onclick='(() => { Navigation.NavigateTo("/TheStasisKnowledgeHub"); MobileNavMenuService.HideDrawerNavigationMenu(); })' class="bg-transparent text-start font-serif border-0 border-b border-[#2f375a] w-full ps-8 py-3 text-gray-400 no-underline text-base hover:text-white hover:underline hover:decoration-[#3cf5f7] shadow-none focus:outline-none active:transform-none">
+            <button @onclick='(() => { Navigation.NavigateTo("/TheStasisKnowledgeHub"); MobileNavMenuService.HideDrawerNavigationMenu(); })' class="bg-transparent text-start font-serif border-0 border-b border-primary-300 w-full ps-8 py-3 text-gray-400 no-underline text-base hover:text-white hover:underline hover:decoration-secondary-300 shadow-none focus:outline-none active:transform-none">
                 The Stasis Knowledge Hub
             </button>
-            <button @onclick='(() => { Navigation.NavigateTo("/Volunteering"); MobileNavMenuService.HideDrawerNavigationMenu(); })' class="bg-transparent text-start font-serif border-0 border-b border-[#2f375a] w-full ps-8 py-3 text-gray-400 no-underline text-base hover:text-white hover:underline hover:decoration-[#3cf5f7] shadow-none focus:outline-none active:transform-none">
+            <button @onclick='(() => { Navigation.NavigateTo("/Volunteering"); MobileNavMenuService.HideDrawerNavigationMenu(); })' class="bg-transparent text-start font-serif border-0 border-b border-primary-300 w-full ps-8 py-3 text-gray-400 no-underline text-base hover:text-white hover:underline hover:decoration-secondary-300 shadow-none focus:outline-none active:transform-none">
                 Volunteering
             </button>
         </div>
     </div>
 
     <div class="">
-        <button @onclick="() => ToggleDropdownMenu(_innovate)" class="border-0 border-b border-[#2f375a] w-full p-0 px-4 py-3 bg-transparent shadow-none focus:outline-none focus:bg-transparent active:bg-transparent active:outline-none active:transform-none">
+        <button @onclick="() => ToggleDropdownMenu(_innovate)" class="border-0 border-b border-primary-300 w-full p-0 px-4 py-3 bg-transparent shadow-none focus:outline-none focus:bg-transparent active:bg-transparent active:outline-none active:transform-none">
             <div class="w-full flex flex-row items-center justify-between">
                 <p class="text-start text-base font-serif text-white m-0 p-0">
                     Innovate
@@ -95,32 +95,32 @@
         </button>
 
         <div class="@_innovateVisibility flex flex-col items-start justify-center ">
-            <button @onclick='(() => { Navigation.NavigateTo("/AldehydeStabilizedPreservationProtocol"); MobileNavMenuService.HideDrawerNavigationMenu(); })' class="bg-transparent text-start font-serif border-0 border-b border-[#2f375a] w-full ps-8 py-3 text-gray-400 no-underline text-base hover:text-white hover:underline hover:decoration-[#3cf5f7] shadow-none focus:outline-none active:transform-none">
+            <button @onclick='(() => { Navigation.NavigateTo("/AldehydeStabilizedPreservationProtocol"); MobileNavMenuService.HideDrawerNavigationMenu(); })' class="bg-transparent text-start font-serif border-0 border-b border-primary-300 w-full ps-8 py-3 text-gray-400 no-underline text-base hover:text-white hover:underline hover:decoration-secondary-300 shadow-none focus:outline-none active:transform-none">
                 Aldehyde Stabilized Preservation Protocol
             </button>
-            <button @onclick='(() => { Navigation.NavigateTo("/WholeBodyFieldCryoprotection"); MobileNavMenuService.HideDrawerNavigationMenu(); })' class="bg-transparent text-start font-serif border-0 border-b border-[#2f375a] w-full ps-8 py-3 text-gray-400 no-underline text-base hover:text-white hover:underline hover:decoration-[#3cf5f7] shadow-none focus:outline-none active:transform-none">
+            <button @onclick='(() => { Navigation.NavigateTo("/WholeBodyFieldCryoprotection"); MobileNavMenuService.HideDrawerNavigationMenu(); })' class="bg-transparent text-start font-serif border-0 border-b border-primary-300 w-full ps-8 py-3 text-gray-400 no-underline text-base hover:text-white hover:underline hover:decoration-secondary-300 shadow-none focus:outline-none active:transform-none">
                 Whole Body Field Cryoprotection
             </button>
-            <button @onclick='(() => { Navigation.NavigateTo("/SstOptimization"); MobileNavMenuService.HideDrawerNavigationMenu(); })' class="bg-transparent text-start font-serif border-0 border-b border-[#2f375a] w-full ps-8 py-3 text-gray-400 no-underline text-base hover:text-white hover:underline hover:decoration-[#3cf5f7] shadow-none focus:outline-none active:transform-none">
+            <button @onclick='(() => { Navigation.NavigateTo("/SstOptimization"); MobileNavMenuService.HideDrawerNavigationMenu(); })' class="bg-transparent text-start font-serif border-0 border-b border-primary-300 w-full ps-8 py-3 text-gray-400 no-underline text-base hover:text-white hover:underline hover:decoration-secondary-300 shadow-none focus:outline-none active:transform-none">
                 Standby, Stabilization, and Transport (SST) Optimization
             </button>
-            <button @onclick='(() => { Navigation.NavigateTo("/RegionalReadinessDevelopment"); MobileNavMenuService.HideDrawerNavigationMenu(); })' class="bg-transparent text-start font-serif border-0 border-b border-[#2f375a] w-full ps-8 py-3 text-gray-400 no-underline text-base hover:text-white hover:underline hover:decoration-[#3cf5f7] shadow-none focus:outline-none active:transform-none">
+            <button @onclick='(() => { Navigation.NavigateTo("/RegionalReadinessDevelopment"); MobileNavMenuService.HideDrawerNavigationMenu(); })' class="bg-transparent text-start font-serif border-0 border-b border-primary-300 w-full ps-8 py-3 text-gray-400 no-underline text-base hover:text-white hover:underline hover:decoration-secondary-300 shadow-none focus:outline-none active:transform-none">
                 Regional Readiness Development
             </button>
-            <button @onclick='(() => { Navigation.NavigateTo("/RegionalInventoryManagement"); MobileNavMenuService.HideDrawerNavigationMenu(); })' class="bg-transparent text-start font-serif border-0 border-b border-[#2f375a] w-full ps-8 py-3 text-gray-400 no-underline text-base hover:text-white hover:underline hover:decoration-[#3cf5f7] shadow-none focus:outline-none active:transform-none">
+            <button @onclick='(() => { Navigation.NavigateTo("/RegionalInventoryManagement"); MobileNavMenuService.HideDrawerNavigationMenu(); })' class="bg-transparent text-start font-serif border-0 border-b border-primary-300 w-full ps-8 py-3 text-gray-400 no-underline text-base hover:text-white hover:underline hover:decoration-secondary-300 shadow-none focus:outline-none active:transform-none">
                 Regional Inventory Management
             </button>
-            <button @onclick='(() => { Navigation.NavigateTo("/DocumentationDevelopment"); MobileNavMenuService.HideDrawerNavigationMenu(); })' class="bg-transparent text-start font-serif border-0 border-b border-[#2f375a] w-full ps-8 py-3 text-gray-400 no-underline text-base hover:text-white hover:underline hover:decoration-[#3cf5f7] shadow-none focus:outline-none active:transform-none">
+            <button @onclick='(() => { Navigation.NavigateTo("/DocumentationDevelopment"); MobileNavMenuService.HideDrawerNavigationMenu(); })' class="bg-transparent text-start font-serif border-0 border-b border-primary-300 w-full ps-8 py-3 text-gray-400 no-underline text-base hover:text-white hover:underline hover:decoration-secondary-300 shadow-none focus:outline-none active:transform-none">
                 Documentation Development
             </button>
-            <button @onclick='(() => { Navigation.NavigateTo("/LifebridgeProgram"); MobileNavMenuService.HideDrawerNavigationMenu(); })' class="bg-transparent text-start font-serif border-0 border-b border-[#2f375a] w-full ps-8 py-3 text-gray-400 no-underline text-base hover:text-white hover:underline hover:decoration-[#3cf5f7] shadow-none focus:outline-none active:transform-none">
+            <button @onclick='(() => { Navigation.NavigateTo("/LifebridgeProgram"); MobileNavMenuService.HideDrawerNavigationMenu(); })' class="bg-transparent text-start font-serif border-0 border-b border-primary-300 w-full ps-8 py-3 text-gray-400 no-underline text-base hover:text-white hover:underline hover:decoration-secondary-300 shadow-none focus:outline-none active:transform-none">
                 Lifebridge Program
             </button>
         </div>
     </div>
 
     <div class="">
-        <button @onclick="() => ToggleDropdownMenu(_legalDisclosures)" class="border-0 border-b border-[#2f375a] w-full p-0 px-4 py-3 bg-transparent shadow-none focus:outline-none focus:bg-transparent active:bg-transparent active:outline-none active:transform-none">
+        <button @onclick="() => ToggleDropdownMenu(_legalDisclosures)" class="border-0 border-b border-primary-300 w-full p-0 px-4 py-3 bg-transparent shadow-none focus:outline-none focus:bg-transparent active:bg-transparent active:outline-none active:transform-none">
             <div class="w-full flex flex-row items-center justify-between">
                 <p class="text-start text-base font-serif text-white m-0 p-0">
                     Legal Disclosures
@@ -132,13 +132,13 @@
         </button>
 
         <div class="@_legalDisclosuresVisibility flex flex-col items-start justify-center ">
-            <button @onclick='(() => { Navigation.NavigateTo("/TermsAndConditions"); MobileNavMenuService.HideDrawerNavigationMenu(); })' class="bg-transparent text-start font-serif border-0 border-b border-[#2f375a] w-full ps-8 py-3 text-gray-400 no-underline text-base hover:text-white hover:underline hover:decoration-[#3cf5f7] shadow-none focus:outline-none active:transform-none">
+            <button @onclick='(() => { Navigation.NavigateTo("/TermsAndConditions"); MobileNavMenuService.HideDrawerNavigationMenu(); })' class="bg-transparent text-start font-serif border-0 border-b border-primary-300 w-full ps-8 py-3 text-gray-400 no-underline text-base hover:text-white hover:underline hover:decoration-secondary-300 shadow-none focus:outline-none active:transform-none">
                 Terms & Conditions
             </button>
-            <button @onclick='(() => { Navigation.NavigateTo("/TrademarkPolicy"); MobileNavMenuService.HideDrawerNavigationMenu(); })' class="bg-transparent text-start font-serif border-0 border-b border-[#2f375a] w-full ps-8 py-3 text-gray-400 no-underline text-base hover:text-white hover:underline hover:decoration-[#3cf5f7] shadow-none focus:outline-none active:transform-none">
+            <button @onclick='(() => { Navigation.NavigateTo("/TrademarkPolicy"); MobileNavMenuService.HideDrawerNavigationMenu(); })' class="bg-transparent text-start font-serif border-0 border-b border-primary-300 w-full ps-8 py-3 text-gray-400 no-underline text-base hover:text-white hover:underline hover:decoration-secondary-300 shadow-none focus:outline-none active:transform-none">
                 Trademark Policy
             </button>
-            <button @onclick='(() => { Navigation.NavigateTo("/PrivacyPolicy"); MobileNavMenuService.HideDrawerNavigationMenu(); })' class="bg-transparent text-start font-serif border-0 border-b border-[#2f375a] w-full ps-8 py-3 text-gray-400 no-underline text-base hover:text-white hover:underline hover:decoration-[#3cf5f7] shadow-none focus:outline-none active:transform-none">
+            <button @onclick='(() => { Navigation.NavigateTo("/PrivacyPolicy"); MobileNavMenuService.HideDrawerNavigationMenu(); })' class="bg-transparent text-start font-serif border-0 border-b border-primary-300 w-full ps-8 py-3 text-gray-400 no-underline text-base hover:text-white hover:underline hover:decoration-secondary-300 shadow-none focus:outline-none active:transform-none">
                 Privacy Policy
             </button>
         </div>
@@ -159,7 +159,7 @@
         MobileNavMenuService.IsMobileNavigationMenuVisible = true;
 
         MainLayoutService.DisableInteractivity(true);
-        NavBarService.UpdateNavBarBackground("bg-[#030530]");
+        NavBarService.UpdateNavBarBackground("bg-primary-600");
 
         StateHasChanged();
     }

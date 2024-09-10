@@ -5,32 +5,28 @@ module.exports = {
     extend: {
       colors: {
         primary: {
-          DEFAULT: colors.indigo[500],
-          50: colors.indigo[50],
-          100: colors.indigo[100],
-          200: colors.indigo[200],
-          300: colors.indigo[300],
-          400: colors.indigo[400],
-          500: colors.indigo[500],
-          600: colors.indigo[600],
-          700: colors.indigo[700],
-          800: colors.indigo[800],
-          900: colors.indigo[900],
-          950: colors.indigo[950],
+          50: "#e6e7eb",
+          100: "#ceced6",
+          200: "#9d9dae",
+          300: "#2f375a", // used as button hover background and section divisor color
+          400: "#202641", // used as button background
+          500: "#090b34", // used as website background
+          600: "#030530", // used as darker background
+          700: "#05071f",
+          800: "#040415",
+          900: "#02020a",
         },
         secondary: {
-          DEFAULT: colors.amber[500],
-          50: colors.amber[50],
-          100: colors.amber[100],
-          200: colors.amber[200],
-          300: colors.amber[300],
-          400: colors.amber[400],
-          500: colors.amber[500],
-          600: colors.amber[600],
-          700: colors.amber[700],
-          800: colors.amber[800],
-          900: colors.amber[900],
-          950: colors.amber[950],
+          50: "#e9f5f5",
+          100: "#d3eaeb",
+          200: "#a6d6d6",
+          300: "#3cf5f7", // used as button hover background
+          400: "#4dadad",
+          500: "#219899", // used as link underline hover color and svg content color
+          600: "#167070", // used as button background
+          700: "#020426",
+          800: "#020322",
+          900: "#071e1f",
         },
         warning: {
           DEFAULT: colors.yellow[500],
