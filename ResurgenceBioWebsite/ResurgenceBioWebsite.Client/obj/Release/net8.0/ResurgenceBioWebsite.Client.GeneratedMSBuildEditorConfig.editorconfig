@@ -43,8 +43,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXQgVXNcQm9hcmRPZkRpcmVjdG9ycy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/machine/OneDrive/source/repos/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/Educate/StasisKnowledgeHub.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWR1Y2F0ZVxTdGFzaXNLbm93bGVkZ2VIdWIucmF6b3I=
+[C:/Users/machine/OneDrive/source/repos/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/Educate/TheStasisKnowledgeHub.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWR1Y2F0ZVxUaGVTdGFzaXNLbm93bGVkZ2VIdWIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/machine/OneDrive/source/repos/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/Educate/UpcomingVolunteeringEvent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWR1Y2F0ZVxVcGNvbWluZ1ZvbHVudGVlcmluZ0V2ZW50LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/machine/OneDrive/source/repos/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/Educate/Volunteering.razor]
@@ -69,10 +73,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/machine/OneDrive/source/repos/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/Emergency.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1lcmdlbmN5LnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/machine/OneDrive/source/repos/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/Events/VolunteeringEvent.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXZlbnRzXFZvbHVudGVlcmluZ0V2ZW50LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/machine/OneDrive/source/repos/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/Home.razor]

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "qKTqblgEPyWX/jl2TFSfcAykcUq+MVNuDBm6oc4M/EM=",
+  "Hash": "LNIfjkAqLuUlbLIo5F6IOBw3OUw2cZgHdtJik2HdpPE=",
   "Source": "ResurgenceBioWebsite.Client",
   "BasePath": "/",
   "Mode": "Default",
@@ -806,8 +806,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "2exn1drj34",
-      "Integrity": "NpJSLmUe2uOa4QoeWvhT17aGRt3xT0omGKYdHd0PIHs=",
+      "Fingerprint": "9c5dxc4xcb",
+      "Integrity": "t7I+/rFL9QSPhs5CCzV2TQL4OxXLlRcdBqdsV8KRMHE=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Release\\net8.0\\blazor.boot.json"
@@ -1835,8 +1835,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "ugqs7sq6tj",
-      "Integrity": "AhQ41vupXeWhtMjbYdtCEIEJQ89lSHSN8BW0ZeR4dOo=",
+      "Fingerprint": "hqdhpdh94y",
+      "Integrity": "ybwzteVK11UsyhPT3CvefSLPAa5bvOQ0dbjMO8RJFXI=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Release\\net8.0\\ResurgenceBioWebsite.Client.pdb"
@@ -1856,8 +1856,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "mazsda0x15",
-      "Integrity": "rnYXeIRCgNIgn52DhxzRq/bCGuvpcZ/9/Taxq+7J4uM=",
+      "Fingerprint": "a2hm50002e",
+      "Integrity": "Httlb2PZYqSMVoAZ7amHc6H0yoRzh6YU80JS8U0gUGQ=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\obj\\Release\\net8.0\\webcil\\ResurgenceBioWebsite.Client.wasm"
@@ -1877,8 +1877,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "kagusooi2i",
-      "Integrity": "/KmmGzqy9V523OFN/Z1bF7iyN/RZSudteSg3OkZxzeg=",
+      "Fingerprint": "x0ukvpvzot",
+      "Integrity": "//eKorfiDd3OH0CmzIDfSwB9F2ZTu25iZAO6p7q/L18=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Shared\\bin\\Release\\net8.0\\ResurgenceBioWebsite.Shared.pdb"
@@ -1898,8 +1898,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "8usarb4tgx",
-      "Integrity": "gDfe2phYUgdecHm/Z/x0DXwK9KlySMf2nE1FBPYfjIw=",
+      "Fingerprint": "lvtag7xogq",
+      "Integrity": "P66E2fy45dPS8H0rhHz07zKu5K+bz4z3ywGoaEV84AU=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\obj\\Release\\net8.0\\webcil\\ResurgenceBioWebsite.Shared.wasm"
@@ -5916,7 +5916,7 @@
       "OriginalItemSpec": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\bin\\Release\\net8.0\\wwwroot\\_framework\\System.IO.FileSystem.wasm"
     },
     {
-      "Identity": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\obj\\Release\\net8.0\\compressed\\4jgg1gml2t-ugqs7sq6tj.gz",
+      "Identity": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\obj\\Release\\net8.0\\compressed\\4jgg1gml2t-hqdhpdh94y.gz",
       "SourceId": "ResurgenceBioWebsite.Client",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\obj\\Release\\net8.0\\compressed\\",
@@ -5930,8 +5930,8 @@
       "RelatedAsset": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\bin\\Release\\net8.0\\wwwroot\\_framework\\ResurgenceBioWebsite.Client.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "s0hsk9ot50",
-      "Integrity": "LF2gS5+EPc5qfNdyTQ5CYoTVi3o7SmmLUMFMadZkfqg=",
+      "Fingerprint": "z3jo2qm5vu",
+      "Integrity": "vwCj99Q+t3pq8LEy52BOJmhwG6xypXFnwCu8Mo0XYps=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\bin\\Release\\net8.0\\wwwroot\\_framework\\ResurgenceBioWebsite.Client.pdb"
@@ -7806,7 +7806,7 @@
       "OriginalItemSpec": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\bin\\Release\\net8.0\\wwwroot\\_framework\\System.Diagnostics.DiagnosticSource.wasm"
     },
     {
-      "Identity": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\obj\\Release\\net8.0\\compressed\\i8ye95rp5d-2exn1drj34.gz",
+      "Identity": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\obj\\Release\\net8.0\\compressed\\i8ye95rp5d-9c5dxc4xcb.gz",
       "SourceId": "ResurgenceBioWebsite.Client",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\obj\\Release\\net8.0\\compressed\\",
@@ -7820,8 +7820,8 @@
       "RelatedAsset": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\bin\\Release\\net8.0\\wwwroot\\_framework\\blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "b47g93xp2t",
-      "Integrity": "9ZIicCZVVbSXclQBFq67zlFAJNTGRpffCWeyVkfb8X8=",
+      "Fingerprint": "u2y4ot4bca",
+      "Integrity": "es5DSpIFGynbZcMEUyF4ID/UU8qcJOaUUeDhdRPjT7M=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\bin\\Release\\net8.0\\wwwroot\\_framework\\blazor.boot.json"
@@ -7953,7 +7953,7 @@
       "OriginalItemSpec": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\bin\\Release\\net8.0\\wwwroot\\_framework\\System.Net.Sockets.wasm"
     },
     {
-      "Identity": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\obj\\Release\\net8.0\\compressed\\jiitc4a3pa-mazsda0x15.gz",
+      "Identity": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\obj\\Release\\net8.0\\compressed\\jiitc4a3pa-a2hm50002e.gz",
       "SourceId": "ResurgenceBioWebsite.Client",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\obj\\Release\\net8.0\\compressed\\",
@@ -7967,8 +7967,8 @@
       "RelatedAsset": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\bin\\Release\\net8.0\\wwwroot\\_framework\\ResurgenceBioWebsite.Client.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "dwmjr57v6k",
-      "Integrity": "U6Y/hKtmjtPcY/YcDNNdadsfxXnTAZl9ByCqNV72HZA=",
+      "Fingerprint": "l6qb87ke4i",
+      "Integrity": "TZ2gXXsWzFVRyVTRqxsiDbmx9186AM/MXTdkEtEnStk=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\bin\\Release\\net8.0\\wwwroot\\_framework\\ResurgenceBioWebsite.Client.wasm"
@@ -8058,7 +8058,7 @@
       "OriginalItemSpec": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\bin\\Release\\net8.0\\wwwroot\\_framework\\System.Linq.Queryable.wasm"
     },
     {
-      "Identity": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\obj\\Release\\net8.0\\compressed\\korevnsg9h-kagusooi2i.gz",
+      "Identity": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\obj\\Release\\net8.0\\compressed\\korevnsg9h-x0ukvpvzot.gz",
       "SourceId": "ResurgenceBioWebsite.Client",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\obj\\Release\\net8.0\\compressed\\",
@@ -8072,8 +8072,8 @@
       "RelatedAsset": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\bin\\Release\\net8.0\\wwwroot\\_framework\\ResurgenceBioWebsite.Shared.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "10oqzr31ua",
-      "Integrity": "AbtEpLmkl28pciMIVqSmgT/PMCU7mKH/w0JimRTJLZ0=",
+      "Fingerprint": "er0cv8osaw",
+      "Integrity": "JlIll99EVmLXURglho7YGHhN7SpatxH4l4z+AiEADR8=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\bin\\Release\\net8.0\\wwwroot\\_framework\\ResurgenceBioWebsite.Shared.pdb"
@@ -8478,7 +8478,7 @@
       "OriginalItemSpec": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\bin\\Release\\net8.0\\wwwroot\\_framework\\System.Console.wasm"
     },
     {
-      "Identity": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\obj\\Release\\net8.0\\compressed\\nafpsqsqar-8usarb4tgx.gz",
+      "Identity": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\obj\\Release\\net8.0\\compressed\\nafpsqsqar-lvtag7xogq.gz",
       "SourceId": "ResurgenceBioWebsite.Client",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\obj\\Release\\net8.0\\compressed\\",
@@ -8492,8 +8492,8 @@
       "RelatedAsset": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\bin\\Release\\net8.0\\wwwroot\\_framework\\ResurgenceBioWebsite.Shared.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "xgvw2mv6kt",
-      "Integrity": "r87KN91/lQKamEHtrqV4KtcRvVSEhGqeEk1Df2rXPsw=",
+      "Fingerprint": "3qbkldy2xw",
+      "Integrity": "pV6Pf2ajo9rXiYCz3sCPkoYF3UE0T3g46OQZonnlPt0=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\bin\\Release\\net8.0\\wwwroot\\_framework\\ResurgenceBioWebsite.Shared.wasm"
@@ -11327,11 +11327,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"NpJSLmUe2uOa4QoeWvhT17aGRt3xT0omGKYdHd0PIHs=\""
+          "Value": "\"t7I+/rFL9QSPhs5CCzV2TQL4OxXLlRcdBqdsV8KRMHE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 08 Sep 2024 20:03:24 GMT"
+          "Value": "Tue, 10 Sep 2024 04:41:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11341,18 +11341,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-NpJSLmUe2uOa4QoeWvhT17aGRt3xT0omGKYdHd0PIHs="
+          "Value": "sha256-t7I+/rFL9QSPhs5CCzV2TQL4OxXLlRcdBqdsV8KRMHE="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\obj\\Release\\net8.0\\compressed\\i8ye95rp5d-2exn1drj34.gz",
+      "AssetFile": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\obj\\Release\\net8.0\\compressed\\i8ye95rp5d-9c5dxc4xcb.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000108026358"
+          "Quality": "0.000108014690"
         }
       ],
       "ResponseHeaders": [
@@ -11362,15 +11362,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9256"
+          "Value": "9257"
         },
         {
           "Name": "ETag",
-          "Value": "\"9ZIicCZVVbSXclQBFq67zlFAJNTGRpffCWeyVkfb8X8=\""
+          "Value": "\"es5DSpIFGynbZcMEUyF4ID/UU8qcJOaUUeDhdRPjT7M=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 08 Sep 2024 19:57:20 GMT"
+          "Value": "Tue, 10 Sep 2024 03:48:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11390,19 +11390,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"NpJSLmUe2uOa4QoeWvhT17aGRt3xT0omGKYdHd0PIHs=\""
+          "Value": "W/\"t7I+/rFL9QSPhs5CCzV2TQL4OxXLlRcdBqdsV8KRMHE=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-NpJSLmUe2uOa4QoeWvhT17aGRt3xT0omGKYdHd0PIHs="
+          "Value": "sha256-t7I+/rFL9QSPhs5CCzV2TQL4OxXLlRcdBqdsV8KRMHE="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\obj\\Release\\net8.0\\compressed\\i8ye95rp5d-2exn1drj34.gz",
+      "AssetFile": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\obj\\Release\\net8.0\\compressed\\i8ye95rp5d-9c5dxc4xcb.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11411,7 +11411,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9256"
+          "Value": "9257"
         },
         {
           "Name": "Content-Type",
@@ -11419,11 +11419,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"9ZIicCZVVbSXclQBFq67zlFAJNTGRpffCWeyVkfb8X8=\""
+          "Value": "\"es5DSpIFGynbZcMEUyF4ID/UU8qcJOaUUeDhdRPjT7M=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 08 Sep 2024 19:57:20 GMT"
+          "Value": "Tue, 10 Sep 2024 03:48:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11441,7 +11441,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-9ZIicCZVVbSXclQBFq67zlFAJNTGRpffCWeyVkfb8X8="
+          "Value": "sha256-es5DSpIFGynbZcMEUyF4ID/UU8qcJOaUUeDhdRPjT7M="
         }
       ]
     },
@@ -18032,7 +18032,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "71512"
+          "Value": "68544"
         },
         {
           "Name": "Content-Type",
@@ -18040,11 +18040,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"AhQ41vupXeWhtMjbYdtCEIEJQ89lSHSN8BW0ZeR4dOo=\""
+          "Value": "\"ybwzteVK11UsyhPT3CvefSLPAa5bvOQ0dbjMO8RJFXI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 08 Sep 2024 20:03:23 GMT"
+          "Value": "Tue, 10 Sep 2024 04:41:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -18054,18 +18054,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-AhQ41vupXeWhtMjbYdtCEIEJQ89lSHSN8BW0ZeR4dOo="
+          "Value": "sha256-ybwzteVK11UsyhPT3CvefSLPAa5bvOQ0dbjMO8RJFXI="
         }
       ]
     },
     {
       "Route": "_framework/ResurgenceBioWebsite.Client.pdb",
-      "AssetFile": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\obj\\Release\\net8.0\\compressed\\4jgg1gml2t-ugqs7sq6tj.gz",
+      "AssetFile": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\obj\\Release\\net8.0\\compressed\\4jgg1gml2t-hqdhpdh94y.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000017149423"
+          "Quality": "0.000017935289"
         }
       ],
       "ResponseHeaders": [
@@ -18075,15 +18075,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "58310"
+          "Value": "55755"
         },
         {
           "Name": "ETag",
-          "Value": "\"LF2gS5+EPc5qfNdyTQ5CYoTVi3o7SmmLUMFMadZkfqg=\""
+          "Value": "\"vwCj99Q+t3pq8LEy52BOJmhwG6xypXFnwCu8Mo0XYps=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 08 Sep 2024 19:57:19 GMT"
+          "Value": "Tue, 10 Sep 2024 03:48:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -18103,19 +18103,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"AhQ41vupXeWhtMjbYdtCEIEJQ89lSHSN8BW0ZeR4dOo=\""
+          "Value": "W/\"ybwzteVK11UsyhPT3CvefSLPAa5bvOQ0dbjMO8RJFXI=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-AhQ41vupXeWhtMjbYdtCEIEJQ89lSHSN8BW0ZeR4dOo="
+          "Value": "sha256-ybwzteVK11UsyhPT3CvefSLPAa5bvOQ0dbjMO8RJFXI="
         }
       ]
     },
     {
       "Route": "_framework/ResurgenceBioWebsite.Client.pdb.gz",
-      "AssetFile": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\obj\\Release\\net8.0\\compressed\\4jgg1gml2t-ugqs7sq6tj.gz",
+      "AssetFile": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\obj\\Release\\net8.0\\compressed\\4jgg1gml2t-hqdhpdh94y.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -18124,7 +18124,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "58310"
+          "Value": "55755"
         },
         {
           "Name": "Content-Type",
@@ -18132,11 +18132,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"LF2gS5+EPc5qfNdyTQ5CYoTVi3o7SmmLUMFMadZkfqg=\""
+          "Value": "\"vwCj99Q+t3pq8LEy52BOJmhwG6xypXFnwCu8Mo0XYps=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 08 Sep 2024 19:57:19 GMT"
+          "Value": "Tue, 10 Sep 2024 03:48:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -18154,7 +18154,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-LF2gS5+EPc5qfNdyTQ5CYoTVi3o7SmmLUMFMadZkfqg="
+          "Value": "sha256-vwCj99Q+t3pq8LEy52BOJmhwG6xypXFnwCu8Mo0XYps="
         }
       ]
     },
@@ -18169,7 +18169,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "115477"
+          "Value": "96533"
         },
         {
           "Name": "Content-Type",
@@ -18177,11 +18177,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"rnYXeIRCgNIgn52DhxzRq/bCGuvpcZ/9/Taxq+7J4uM=\""
+          "Value": "\"Httlb2PZYqSMVoAZ7amHc6H0yoRzh6YU80JS8U0gUGQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 08 Sep 2024 20:03:23 GMT"
+          "Value": "Tue, 10 Sep 2024 04:41:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -18191,18 +18191,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-rnYXeIRCgNIgn52DhxzRq/bCGuvpcZ/9/Taxq+7J4uM="
+          "Value": "sha256-Httlb2PZYqSMVoAZ7amHc6H0yoRzh6YU80JS8U0gUGQ="
         }
       ]
     },
     {
       "Route": "_framework/ResurgenceBioWebsite.Client.wasm",
-      "AssetFile": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\obj\\Release\\net8.0\\compressed\\jiitc4a3pa-mazsda0x15.gz",
+      "AssetFile": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\obj\\Release\\net8.0\\compressed\\jiitc4a3pa-a2hm50002e.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000034346557"
+          "Quality": "0.000042990413"
         }
       ],
       "ResponseHeaders": [
@@ -18212,15 +18212,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "29114"
+          "Value": "23260"
         },
         {
           "Name": "ETag",
-          "Value": "\"U6Y/hKtmjtPcY/YcDNNdadsfxXnTAZl9ByCqNV72HZA=\""
+          "Value": "\"TZ2gXXsWzFVRyVTRqxsiDbmx9186AM/MXTdkEtEnStk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 08 Sep 2024 19:57:19 GMT"
+          "Value": "Tue, 10 Sep 2024 03:48:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -18240,19 +18240,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"rnYXeIRCgNIgn52DhxzRq/bCGuvpcZ/9/Taxq+7J4uM=\""
+          "Value": "W/\"Httlb2PZYqSMVoAZ7amHc6H0yoRzh6YU80JS8U0gUGQ=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-rnYXeIRCgNIgn52DhxzRq/bCGuvpcZ/9/Taxq+7J4uM="
+          "Value": "sha256-Httlb2PZYqSMVoAZ7amHc6H0yoRzh6YU80JS8U0gUGQ="
         }
       ]
     },
     {
       "Route": "_framework/ResurgenceBioWebsite.Client.wasm.gz",
-      "AssetFile": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\obj\\Release\\net8.0\\compressed\\jiitc4a3pa-mazsda0x15.gz",
+      "AssetFile": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\obj\\Release\\net8.0\\compressed\\jiitc4a3pa-a2hm50002e.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -18261,7 +18261,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "29114"
+          "Value": "23260"
         },
         {
           "Name": "Content-Type",
@@ -18269,11 +18269,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"U6Y/hKtmjtPcY/YcDNNdadsfxXnTAZl9ByCqNV72HZA=\""
+          "Value": "\"TZ2gXXsWzFVRyVTRqxsiDbmx9186AM/MXTdkEtEnStk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 08 Sep 2024 19:57:19 GMT"
+          "Value": "Tue, 10 Sep 2024 03:48:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -18291,7 +18291,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-U6Y/hKtmjtPcY/YcDNNdadsfxXnTAZl9ByCqNV72HZA="
+          "Value": "sha256-TZ2gXXsWzFVRyVTRqxsiDbmx9186AM/MXTdkEtEnStk="
         }
       ]
     },
@@ -18306,7 +18306,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "38904"
+          "Value": "45308"
         },
         {
           "Name": "Content-Type",
@@ -18314,11 +18314,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"/KmmGzqy9V523OFN/Z1bF7iyN/RZSudteSg3OkZxzeg=\""
+          "Value": "\"//eKorfiDd3OH0CmzIDfSwB9F2ZTu25iZAO6p7q/L18=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 08 Sep 2024 19:57:18 GMT"
+          "Value": "Tue, 10 Sep 2024 04:41:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -18328,18 +18328,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-/KmmGzqy9V523OFN/Z1bF7iyN/RZSudteSg3OkZxzeg="
+          "Value": "sha256-//eKorfiDd3OH0CmzIDfSwB9F2ZTu25iZAO6p7q/L18="
         }
       ]
     },
     {
       "Route": "_framework/ResurgenceBioWebsite.Shared.pdb",
-      "AssetFile": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\obj\\Release\\net8.0\\compressed\\korevnsg9h-kagusooi2i.gz",
+      "AssetFile": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\obj\\Release\\net8.0\\compressed\\korevnsg9h-x0ukvpvzot.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000031254884"
+          "Quality": "0.000026081060"
         }
       ],
       "ResponseHeaders": [
@@ -18349,15 +18349,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "31994"
+          "Value": "38341"
         },
         {
           "Name": "ETag",
-          "Value": "\"AbtEpLmkl28pciMIVqSmgT/PMCU7mKH/w0JimRTJLZ0=\""
+          "Value": "\"JlIll99EVmLXURglho7YGHhN7SpatxH4l4z+AiEADR8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 08 Sep 2024 19:57:18 GMT"
+          "Value": "Mon, 09 Sep 2024 21:43:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -18377,19 +18377,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"/KmmGzqy9V523OFN/Z1bF7iyN/RZSudteSg3OkZxzeg=\""
+          "Value": "W/\"//eKorfiDd3OH0CmzIDfSwB9F2ZTu25iZAO6p7q/L18=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-/KmmGzqy9V523OFN/Z1bF7iyN/RZSudteSg3OkZxzeg="
+          "Value": "sha256-//eKorfiDd3OH0CmzIDfSwB9F2ZTu25iZAO6p7q/L18="
         }
       ]
     },
     {
       "Route": "_framework/ResurgenceBioWebsite.Shared.pdb.gz",
-      "AssetFile": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\obj\\Release\\net8.0\\compressed\\korevnsg9h-kagusooi2i.gz",
+      "AssetFile": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\obj\\Release\\net8.0\\compressed\\korevnsg9h-x0ukvpvzot.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -18398,7 +18398,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "31994"
+          "Value": "38341"
         },
         {
           "Name": "Content-Type",
@@ -18406,11 +18406,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"AbtEpLmkl28pciMIVqSmgT/PMCU7mKH/w0JimRTJLZ0=\""
+          "Value": "\"JlIll99EVmLXURglho7YGHhN7SpatxH4l4z+AiEADR8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 08 Sep 2024 19:57:18 GMT"
+          "Value": "Mon, 09 Sep 2024 21:43:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -18428,7 +18428,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-AbtEpLmkl28pciMIVqSmgT/PMCU7mKH/w0JimRTJLZ0="
+          "Value": "sha256-JlIll99EVmLXURglho7YGHhN7SpatxH4l4z+AiEADR8="
         }
       ]
     },
@@ -18443,7 +18443,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "108309"
+          "Value": "137493"
         },
         {
           "Name": "Content-Type",
@@ -18451,11 +18451,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"gDfe2phYUgdecHm/Z/x0DXwK9KlySMf2nE1FBPYfjIw=\""
+          "Value": "\"P66E2fy45dPS8H0rhHz07zKu5K+bz4z3ywGoaEV84AU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 08 Sep 2024 19:57:19 GMT"
+          "Value": "Tue, 10 Sep 2024 04:41:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -18465,18 +18465,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-gDfe2phYUgdecHm/Z/x0DXwK9KlySMf2nE1FBPYfjIw="
+          "Value": "sha256-P66E2fy45dPS8H0rhHz07zKu5K+bz4z3ywGoaEV84AU="
         }
       ]
     },
     {
       "Route": "_framework/ResurgenceBioWebsite.Shared.wasm",
-      "AssetFile": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\obj\\Release\\net8.0\\compressed\\nafpsqsqar-8usarb4tgx.gz",
+      "AssetFile": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\obj\\Release\\net8.0\\compressed\\nafpsqsqar-lvtag7xogq.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000047812575"
+          "Quality": "0.000036444477"
         }
       ],
       "ResponseHeaders": [
@@ -18486,15 +18486,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "20914"
+          "Value": "27438"
         },
         {
           "Name": "ETag",
-          "Value": "\"r87KN91/lQKamEHtrqV4KtcRvVSEhGqeEk1Df2rXPsw=\""
+          "Value": "\"pV6Pf2ajo9rXiYCz3sCPkoYF3UE0T3g46OQZonnlPt0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 08 Sep 2024 19:57:19 GMT"
+          "Value": "Mon, 09 Sep 2024 21:43:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -18514,19 +18514,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"gDfe2phYUgdecHm/Z/x0DXwK9KlySMf2nE1FBPYfjIw=\""
+          "Value": "W/\"P66E2fy45dPS8H0rhHz07zKu5K+bz4z3ywGoaEV84AU=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-gDfe2phYUgdecHm/Z/x0DXwK9KlySMf2nE1FBPYfjIw="
+          "Value": "sha256-P66E2fy45dPS8H0rhHz07zKu5K+bz4z3ywGoaEV84AU="
         }
       ]
     },
     {
       "Route": "_framework/ResurgenceBioWebsite.Shared.wasm.gz",
-      "AssetFile": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\obj\\Release\\net8.0\\compressed\\nafpsqsqar-8usarb4tgx.gz",
+      "AssetFile": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\obj\\Release\\net8.0\\compressed\\nafpsqsqar-lvtag7xogq.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -18535,7 +18535,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "20914"
+          "Value": "27438"
         },
         {
           "Name": "Content-Type",
@@ -18543,11 +18543,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"r87KN91/lQKamEHtrqV4KtcRvVSEhGqeEk1Df2rXPsw=\""
+          "Value": "\"pV6Pf2ajo9rXiYCz3sCPkoYF3UE0T3g46OQZonnlPt0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 08 Sep 2024 19:57:19 GMT"
+          "Value": "Mon, 09 Sep 2024 21:43:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -18565,7 +18565,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-r87KN91/lQKamEHtrqV4KtcRvVSEhGqeEk1Df2rXPsw="
+          "Value": "sha256-pV6Pf2ajo9rXiYCz3sCPkoYF3UE0T3g46OQZonnlPt0="
         }
       ]
     },

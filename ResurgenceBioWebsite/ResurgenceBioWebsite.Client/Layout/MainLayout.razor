@@ -117,6 +117,11 @@
         MainLayoutService.SetMainLayout(_mainLayout);
     }
 
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        await JsRuntime.InvokeVoidAsync("setFocusToElement");
+    }
+
     // public void Dispose()
     // {
     //     Navigation.LocationChanged -= OnLocationChanged;

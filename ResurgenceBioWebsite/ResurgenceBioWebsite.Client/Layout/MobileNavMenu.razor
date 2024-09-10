@@ -9,7 +9,7 @@
 <!-- drawer menu component -->
 @* todo: preserve the scroll position of the menu in website sessions *@
 <!-- todo: this div exists because tabindex on an element with the container utility is not working --->
-<nav id="@_drawerMenuId" tabindex="-1" class="@DrawerMenuVisibility w-screen bg-neutral-800 lg:hidden">
+<nav id="@_drawerMenuId" tabindex="-1" class="@DrawerMenuVisibility w-screen bg-[#030530] lg:hidden">
     <div class="">
         <button @onclick="() => ToggleDropdownMenu(_aboutUs)" class="border-0 border-b border-[#2f375a] w-full p-0 px-4 py-3 bg-transparent shadow-none focus:outline-none focus:bg-transparent active:bg-transparent active:outline-none active:transform-none">
             <div class="w-full flex flex-row items-center justify-between">
@@ -73,7 +73,7 @@
         </button>
 
         <div class="@_educateVisibility flex flex-col items-start justify-center ">
-            <button @onclick='(() => { Navigation.NavigateTo("/StasisKnowledgeHub"); MobileNavMenuService.HideDrawerNavigationMenu(); })' class="bg-transparent text-start font-serif border-0 border-b border-[#2f375a] w-full ps-8 py-3 text-gray-400 no-underline text-base hover:text-white hover:underline hover:decoration-[#3cf5f7] shadow-none focus:outline-none active:transform-none">
+            <button @onclick='(() => { Navigation.NavigateTo("/TheStasisKnowledgeHub"); MobileNavMenuService.HideDrawerNavigationMenu(); })' class="bg-transparent text-start font-serif border-0 border-b border-[#2f375a] w-full ps-8 py-3 text-gray-400 no-underline text-base hover:text-white hover:underline hover:decoration-[#3cf5f7] shadow-none focus:outline-none active:transform-none">
                 The Stasis Knowledge Hub
             </button>
             <button @onclick='(() => { Navigation.NavigateTo("/Volunteering"); MobileNavMenuService.HideDrawerNavigationMenu(); })' class="bg-transparent text-start font-serif border-0 border-b border-[#2f375a] w-full ps-8 py-3 text-gray-400 no-underline text-base hover:text-white hover:underline hover:decoration-[#3cf5f7] shadow-none focus:outline-none active:transform-none">
@@ -159,7 +159,7 @@
         MobileNavMenuService.IsMobileNavigationMenuVisible = true;
 
         MainLayoutService.DisableInteractivity(true);
-        NavBarService.UpdateNavBarBackground("bg-neutral-800");
+        NavBarService.UpdateNavBarBackground("bg-[#030530]");
 
         StateHasChanged();
     }

@@ -1,16 +1,28 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/ResurgenceBioWebsite/content-images/online-learning-hub.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\content-images\online-learning-hub.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-qG7Nj33zuWWk0mCMHBnzvzU3iK4H9E8em6qTMy092Y0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"252807"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022qG7Nj33zuWWk0mCMHBnzvzU3iK4H9E8em6qTMy092Y0=\u0022"},{"Name":"Last-Modified","Value":"Tue, 10 Sep 2024 04:03:23 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ResurgenceBioWebsite/content-images/online-learning-hub.ooyfo3fpyy.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\content-images\online-learning-hub.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ooyfo3fpyy"},{"Name":"integrity","Value":"sha256-qG7Nj33zuWWk0mCMHBnzvzU3iK4H9E8em6qTMy092Y0="},{"Name":"label","Value":"_content/ResurgenceBioWebsite/content-images/online-learning-hub.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"252807"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022qG7Nj33zuWWk0mCMHBnzvzU3iK4H9E8em6qTMy092Y0=\u0022"},{"Name":"Last-Modified","Value":"Tue, 10 Sep 2024 04:03:23 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ResurgenceBioWebsite/css/site.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-0HzyKM7sls6IpQV/A8DfjsrP/XO7w6ZR2PrmDS7HNHY="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"59984"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00220HzyKM7sls6IpQV/A8DfjsrP/XO7w6ZR2PrmDS7HNHY=\u0022"},{"Name":"Last-Modified","Value":"Sun, 08 Sep 2024 19:42:45 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-PnRl37QdoIOMXbGf4kZhwNY97s/sUy1eCIK06jgkFvg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"60991"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022PnRl37QdoIOMXbGf4kZhwNY97s/sUy1eCIK06jgkFvg=\u0022"},{"Name":"Last-Modified","Value":"Tue, 10 Sep 2024 04:26:28 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ResurgenceBioWebsite/css/site.s1b15kiai6.css">
+    <StaticWebAssetEndpoint Include="_content/ResurgenceBioWebsite/css/site.qqoa0gfj02.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"s1b15kiai6"},{"Name":"integrity","Value":"sha256-0HzyKM7sls6IpQV/A8DfjsrP/XO7w6ZR2PrmDS7HNHY="},{"Name":"label","Value":"_content/ResurgenceBioWebsite/css/site.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"59984"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00220HzyKM7sls6IpQV/A8DfjsrP/XO7w6ZR2PrmDS7HNHY=\u0022"},{"Name":"Last-Modified","Value":"Sun, 08 Sep 2024 19:42:45 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"qqoa0gfj02"},{"Name":"integrity","Value":"sha256-PnRl37QdoIOMXbGf4kZhwNY97s/sUy1eCIK06jgkFvg="},{"Name":"label","Value":"_content/ResurgenceBioWebsite/css/site.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"60991"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022PnRl37QdoIOMXbGf4kZhwNY97s/sUy1eCIK06jgkFvg=\u0022"},{"Name":"Last-Modified","Value":"Tue, 10 Sep 2024 04:26:28 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ResurgenceBioWebsite/icons/arrow.svg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\icons\arrow.svg'))</AssetFile>
@@ -168,137 +180,137 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-EWPBmz81t5ATqpRnUttA6tMYqWypF5F9VkW8rG0vFJ0="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"433"},{"Name":"Content-Type","Value":"image/svg\u002Bxml"},{"Name":"ETag","Value":"\u0022EWPBmz81t5ATqpRnUttA6tMYqWypF5F9VkW8rG0vFJ0=\u0022"},{"Name":"Last-Modified","Value":"Fri, 16 Aug 2024 23:31:45 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ResurgenceBioWebsite/images/biomedical-research.j7hk1j8xny.png">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\biomedical-research.png'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/ResurgenceBioWebsite/js/interop.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\interop.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"j7hk1j8xny"},{"Name":"integrity","Value":"sha256-HyGQT6vtHO5\u002BkJ6aPsJno90GT6wU/PWYRsFkgA3B9NA="},{"Name":"label","Value":"_content/ResurgenceBioWebsite/images/biomedical-research.png"}]]]></EndpointProperties>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-eh9aAPgX5jZqT/66RAC2Km4mvuxaRzTFwtkf6zPcT7Y="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1060"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022eh9aAPgX5jZqT/66RAC2Km4mvuxaRzTFwtkf6zPcT7Y=\u0022"},{"Name":"Last-Modified","Value":"Tue, 10 Sep 2024 03:45:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ResurgenceBioWebsite/js/interop.mhg82qj06a.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\interop.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"mhg82qj06a"},{"Name":"integrity","Value":"sha256-eh9aAPgX5jZqT/66RAC2Km4mvuxaRzTFwtkf6zPcT7Y="},{"Name":"label","Value":"_content/ResurgenceBioWebsite/js/interop.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1060"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022eh9aAPgX5jZqT/66RAC2Km4mvuxaRzTFwtkf6zPcT7Y=\u0022"},{"Name":"Last-Modified","Value":"Tue, 10 Sep 2024 03:45:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ResurgenceBioWebsite/logos/biomedical-research.j7hk1j8xny.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\logos\biomedical-research.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"j7hk1j8xny"},{"Name":"integrity","Value":"sha256-HyGQT6vtHO5\u002BkJ6aPsJno90GT6wU/PWYRsFkgA3B9NA="},{"Name":"label","Value":"_content/ResurgenceBioWebsite/logos/biomedical-research.png"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"18293"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022HyGQT6vtHO5\u002BkJ6aPsJno90GT6wU/PWYRsFkgA3B9NA=\u0022"},{"Name":"Last-Modified","Value":"Sat, 17 Aug 2024 06:48:59 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ResurgenceBioWebsite/images/biomedical-research.png">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\biomedical-research.png'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/ResurgenceBioWebsite/logos/biomedical-research.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\logos\biomedical-research.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-HyGQT6vtHO5\u002BkJ6aPsJno90GT6wU/PWYRsFkgA3B9NA="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"18293"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022HyGQT6vtHO5\u002BkJ6aPsJno90GT6wU/PWYRsFkgA3B9NA=\u0022"},{"Name":"Last-Modified","Value":"Sat, 17 Aug 2024 06:48:59 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ResurgenceBioWebsite/images/biostasis-consortium.nclhp1hsfs.png">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\biostasis-consortium.png'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/ResurgenceBioWebsite/logos/biostasis-consortium.nclhp1hsfs.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\logos\biostasis-consortium.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"nclhp1hsfs"},{"Name":"integrity","Value":"sha256-V/OF5QF2EQIk2vXkymh9cdGhFvuJhijATe5qso4dwA0="},{"Name":"label","Value":"_content/ResurgenceBioWebsite/images/biostasis-consortium.png"}]]]></EndpointProperties>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"nclhp1hsfs"},{"Name":"integrity","Value":"sha256-V/OF5QF2EQIk2vXkymh9cdGhFvuJhijATe5qso4dwA0="},{"Name":"label","Value":"_content/ResurgenceBioWebsite/logos/biostasis-consortium.png"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"120016"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022V/OF5QF2EQIk2vXkymh9cdGhFvuJhijATe5qso4dwA0=\u0022"},{"Name":"Last-Modified","Value":"Thu, 29 Aug 2024 18:52:41 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ResurgenceBioWebsite/images/biostasis-consortium.png">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\biostasis-consortium.png'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/ResurgenceBioWebsite/logos/biostasis-consortium.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\logos\biostasis-consortium.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-V/OF5QF2EQIk2vXkymh9cdGhFvuJhijATe5qso4dwA0="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"120016"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022V/OF5QF2EQIk2vXkymh9cdGhFvuJhijATe5qso4dwA0=\u0022"},{"Name":"Last-Modified","Value":"Thu, 29 Aug 2024 18:52:41 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ResurgenceBioWebsite/images/biostasis-technologies.1ont7aqrt3.png">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\biostasis-technologies.png'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/ResurgenceBioWebsite/logos/biostasis-technologies.1ont7aqrt3.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\logos\biostasis-technologies.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"1ont7aqrt3"},{"Name":"integrity","Value":"sha256-EUwU3qN1PA1dsQfRcb9B0\u002B7YVIyPmq02\u002BgSpYgJAzLE="},{"Name":"label","Value":"_content/ResurgenceBioWebsite/images/biostasis-technologies.png"}]]]></EndpointProperties>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"1ont7aqrt3"},{"Name":"integrity","Value":"sha256-EUwU3qN1PA1dsQfRcb9B0\u002B7YVIyPmq02\u002BgSpYgJAzLE="},{"Name":"label","Value":"_content/ResurgenceBioWebsite/logos/biostasis-technologies.png"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"76880"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022EUwU3qN1PA1dsQfRcb9B0\u002B7YVIyPmq02\u002BgSpYgJAzLE=\u0022"},{"Name":"Last-Modified","Value":"Sat, 17 Aug 2024 06:53:03 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ResurgenceBioWebsite/images/biostasis-technologies.png">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\biostasis-technologies.png'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/ResurgenceBioWebsite/logos/biostasis-technologies.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\logos\biostasis-technologies.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-EUwU3qN1PA1dsQfRcb9B0\u002B7YVIyPmq02\u002BgSpYgJAzLE="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"76880"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022EUwU3qN1PA1dsQfRcb9B0\u002B7YVIyPmq02\u002BgSpYgJAzLE=\u0022"},{"Name":"Last-Modified","Value":"Sat, 17 Aug 2024 06:53:03 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ResurgenceBioWebsite/images/european-biostasis-foundation.m7nx46kmxz.png">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\european-biostasis-foundation.png'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/ResurgenceBioWebsite/logos/european-biostasis-foundation.m7nx46kmxz.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\logos\european-biostasis-foundation.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"m7nx46kmxz"},{"Name":"integrity","Value":"sha256-wg\u002BSK\u002BeoXEJ\u002BOrfeiw9fxe9mIviyVObJ0nio\u002B51A/Dk="},{"Name":"label","Value":"_content/ResurgenceBioWebsite/images/european-biostasis-foundation.png"}]]]></EndpointProperties>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"m7nx46kmxz"},{"Name":"integrity","Value":"sha256-wg\u002BSK\u002BeoXEJ\u002BOrfeiw9fxe9mIviyVObJ0nio\u002B51A/Dk="},{"Name":"label","Value":"_content/ResurgenceBioWebsite/logos/european-biostasis-foundation.png"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"8910"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022wg\u002BSK\u002BeoXEJ\u002BOrfeiw9fxe9mIviyVObJ0nio\u002B51A/Dk=\u0022"},{"Name":"Last-Modified","Value":"Sat, 17 Aug 2024 06:39:04 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ResurgenceBioWebsite/images/european-biostasis-foundation.png">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\european-biostasis-foundation.png'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/ResurgenceBioWebsite/logos/european-biostasis-foundation.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\logos\european-biostasis-foundation.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-wg\u002BSK\u002BeoXEJ\u002BOrfeiw9fxe9mIviyVObJ0nio\u002B51A/Dk="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"8910"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022wg\u002BSK\u002BeoXEJ\u002BOrfeiw9fxe9mIviyVObJ0nio\u002B51A/Dk=\u0022"},{"Name":"Last-Modified","Value":"Sat, 17 Aug 2024 06:39:04 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ResurgenceBioWebsite/images/favicon.png">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\favicon.png'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/ResurgenceBioWebsite/logos/favicon.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\logos\favicon.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-PbmF1A5WMLk/urG4O/hqJdJMSFf2G\u002BT\u002BQmzp9R88yjU="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"18515"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022PbmF1A5WMLk/urG4O/hqJdJMSFf2G\u002BT\u002BQmzp9R88yjU=\u0022"},{"Name":"Last-Modified","Value":"Tue, 27 Aug 2024 00:29:54 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ResurgenceBioWebsite/images/favicon.x3ju1blcqc.png">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\favicon.png'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/ResurgenceBioWebsite/logos/favicon.x3ju1blcqc.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\logos\favicon.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"x3ju1blcqc"},{"Name":"integrity","Value":"sha256-PbmF1A5WMLk/urG4O/hqJdJMSFf2G\u002BT\u002BQmzp9R88yjU="},{"Name":"label","Value":"_content/ResurgenceBioWebsite/images/favicon.png"}]]]></EndpointProperties>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"x3ju1blcqc"},{"Name":"integrity","Value":"sha256-PbmF1A5WMLk/urG4O/hqJdJMSFf2G\u002BT\u002BQmzp9R88yjU="},{"Name":"label","Value":"_content/ResurgenceBioWebsite/logos/favicon.png"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"18515"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022PbmF1A5WMLk/urG4O/hqJdJMSFf2G\u002BT\u002BQmzp9R88yjU=\u0022"},{"Name":"Last-Modified","Value":"Tue, 27 Aug 2024 00:29:54 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ResurgenceBioWebsite/images/pdc.p2wga64iyd.png">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\pdc.png'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/ResurgenceBioWebsite/logos/pdc.p2wga64iyd.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\logos\pdc.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"p2wga64iyd"},{"Name":"integrity","Value":"sha256-nxdhlONho/zlbow7qaBhSu6/6S6CSa4cSVR1bcBqW\u002BQ="},{"Name":"label","Value":"_content/ResurgenceBioWebsite/images/pdc.png"}]]]></EndpointProperties>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"p2wga64iyd"},{"Name":"integrity","Value":"sha256-nxdhlONho/zlbow7qaBhSu6/6S6CSa4cSVR1bcBqW\u002BQ="},{"Name":"label","Value":"_content/ResurgenceBioWebsite/logos/pdc.png"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"38277"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022nxdhlONho/zlbow7qaBhSu6/6S6CSa4cSVR1bcBqW\u002BQ=\u0022"},{"Name":"Last-Modified","Value":"Sat, 17 Aug 2024 06:39:32 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ResurgenceBioWebsite/images/pdc.png">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\pdc.png'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/ResurgenceBioWebsite/logos/pdc.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\logos\pdc.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-nxdhlONho/zlbow7qaBhSu6/6S6CSa4cSVR1bcBqW\u002BQ="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"38277"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022nxdhlONho/zlbow7qaBhSu6/6S6CSa4cSVR1bcBqW\u002BQ=\u0022"},{"Name":"Last-Modified","Value":"Sat, 17 Aug 2024 06:39:32 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ResurgenceBioWebsite/images/resurgence-bio.png">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\resurgence-bio.png'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/ResurgenceBioWebsite/logos/resurgence-bio.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\logos\resurgence-bio.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-FHnipZ79HdUCJKYX\u002BWD3sl\u002B9cgiDSiwuPaONH6wLJbU="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"16797"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022FHnipZ79HdUCJKYX\u002BWD3sl\u002B9cgiDSiwuPaONH6wLJbU=\u0022"},{"Name":"Last-Modified","Value":"Sat, 17 Aug 2024 19:44:43 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ResurgenceBioWebsite/images/resurgence-bio.w9ndq6p4d0.png">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\resurgence-bio.png'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/ResurgenceBioWebsite/logos/resurgence-bio.w9ndq6p4d0.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\logos\resurgence-bio.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"w9ndq6p4d0"},{"Name":"integrity","Value":"sha256-FHnipZ79HdUCJKYX\u002BWD3sl\u002B9cgiDSiwuPaONH6wLJbU="},{"Name":"label","Value":"_content/ResurgenceBioWebsite/images/resurgence-bio.png"}]]]></EndpointProperties>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"w9ndq6p4d0"},{"Name":"integrity","Value":"sha256-FHnipZ79HdUCJKYX\u002BWD3sl\u002B9cgiDSiwuPaONH6wLJbU="},{"Name":"label","Value":"_content/ResurgenceBioWebsite/logos/resurgence-bio.png"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"16797"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022FHnipZ79HdUCJKYX\u002BWD3sl\u002B9cgiDSiwuPaONH6wLJbU=\u0022"},{"Name":"Last-Modified","Value":"Sat, 17 Aug 2024 19:44:43 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ResurgenceBioWebsite/images/suspended-animation.pmi6s63bex.png">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\suspended-animation.png'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/ResurgenceBioWebsite/logos/suspended-animation.pmi6s63bex.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\logos\suspended-animation.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"pmi6s63bex"},{"Name":"integrity","Value":"sha256-0Qfe1VY1Ldp2RvVXEV8A2wJFVm3YC7B08WMb4cFChAc="},{"Name":"label","Value":"_content/ResurgenceBioWebsite/images/suspended-animation.png"}]]]></EndpointProperties>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"pmi6s63bex"},{"Name":"integrity","Value":"sha256-0Qfe1VY1Ldp2RvVXEV8A2wJFVm3YC7B08WMb4cFChAc="},{"Name":"label","Value":"_content/ResurgenceBioWebsite/logos/suspended-animation.png"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"8811"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00220Qfe1VY1Ldp2RvVXEV8A2wJFVm3YC7B08WMb4cFChAc=\u0022"},{"Name":"Last-Modified","Value":"Sat, 17 Aug 2024 06:38:39 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ResurgenceBioWebsite/images/suspended-animation.png">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\suspended-animation.png'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/ResurgenceBioWebsite/logos/suspended-animation.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\logos\suspended-animation.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-0Qfe1VY1Ldp2RvVXEV8A2wJFVm3YC7B08WMb4cFChAc="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"8811"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00220Qfe1VY1Ldp2RvVXEV8A2wJFVm3YC7B08WMb4cFChAc=\u0022"},{"Name":"Last-Modified","Value":"Sat, 17 Aug 2024 06:38:39 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ResurgenceBioWebsite/images/the-biostasis-commission.9f2dtayppq.png">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\the-biostasis-commission.png'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/ResurgenceBioWebsite/logos/the-biostasis-commission.9f2dtayppq.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\logos\the-biostasis-commission.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"9f2dtayppq"},{"Name":"integrity","Value":"sha256-e60v3VeV2cu//KJTBptEQ7GB71IjX6HSLqUz/HvdM3I="},{"Name":"label","Value":"_content/ResurgenceBioWebsite/images/the-biostasis-commission.png"}]]]></EndpointProperties>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"9f2dtayppq"},{"Name":"integrity","Value":"sha256-e60v3VeV2cu//KJTBptEQ7GB71IjX6HSLqUz/HvdM3I="},{"Name":"label","Value":"_content/ResurgenceBioWebsite/logos/the-biostasis-commission.png"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"141126"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022e60v3VeV2cu//KJTBptEQ7GB71IjX6HSLqUz/HvdM3I=\u0022"},{"Name":"Last-Modified","Value":"Thu, 29 Aug 2024 18:52:41 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ResurgenceBioWebsite/images/the-biostasis-commission.png">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\the-biostasis-commission.png'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/ResurgenceBioWebsite/logos/the-biostasis-commission.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\logos\the-biostasis-commission.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-e60v3VeV2cu//KJTBptEQ7GB71IjX6HSLqUz/HvdM3I="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"141126"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022e60v3VeV2cu//KJTBptEQ7GB71IjX6HSLqUz/HvdM3I=\u0022"},{"Name":"Last-Modified","Value":"Thu, 29 Aug 2024 18:52:41 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ResurgenceBioWebsite/images/tomorrow-bio.8u99ucry7i.png">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\tomorrow-bio.png'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/ResurgenceBioWebsite/logos/tomorrow-bio.8u99ucry7i.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\logos\tomorrow-bio.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"8u99ucry7i"},{"Name":"integrity","Value":"sha256-EFhhijBBNPh4bh0WUl597jN22gdJ6Mp3rXDRlnrOKCM="},{"Name":"label","Value":"_content/ResurgenceBioWebsite/images/tomorrow-bio.png"}]]]></EndpointProperties>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"8u99ucry7i"},{"Name":"integrity","Value":"sha256-EFhhijBBNPh4bh0WUl597jN22gdJ6Mp3rXDRlnrOKCM="},{"Name":"label","Value":"_content/ResurgenceBioWebsite/logos/tomorrow-bio.png"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"7859"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022EFhhijBBNPh4bh0WUl597jN22gdJ6Mp3rXDRlnrOKCM=\u0022"},{"Name":"Last-Modified","Value":"Sat, 17 Aug 2024 06:40:43 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ResurgenceBioWebsite/images/tomorrow-bio.png">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\tomorrow-bio.png'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/ResurgenceBioWebsite/logos/tomorrow-bio.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\logos\tomorrow-bio.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-EFhhijBBNPh4bh0WUl597jN22gdJ6Mp3rXDRlnrOKCM="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"7859"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022EFhhijBBNPh4bh0WUl597jN22gdJ6Mp3rXDRlnrOKCM=\u0022"},{"Name":"Last-Modified","Value":"Sat, 17 Aug 2024 06:40:43 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ResurgenceBioWebsite/js/interop.c21lna12oi.js">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\interop.js'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"c21lna12oi"},{"Name":"integrity","Value":"sha256-XJjtU15sXhW5Jd5bcqrFlYckVq0okjezhGJj6YCAktc="},{"Name":"label","Value":"_content/ResurgenceBioWebsite/js/interop.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"963"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022XJjtU15sXhW5Jd5bcqrFlYckVq0okjezhGJj6YCAktc=\u0022"},{"Name":"Last-Modified","Value":"Sun, 08 Sep 2024 18:24:16 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ResurgenceBioWebsite/js/interop.js">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\interop.js'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-XJjtU15sXhW5Jd5bcqrFlYckVq0okjezhGJj6YCAktc="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"963"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022XJjtU15sXhW5Jd5bcqrFlYckVq0okjezhGJj6YCAktc=\u0022"},{"Name":"Last-Modified","Value":"Sun, 08 Sep 2024 18:24:16 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>

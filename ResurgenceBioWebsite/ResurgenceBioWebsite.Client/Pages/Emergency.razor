@@ -1,6 +1,35 @@
 @page "/Emergency"
-<h3>Emergency</h3>
+
+<PageTitle>Emergency Contact</PageTitle>
+
+<article class="flex w-full flex-col items-center justify-center font-serif max-lg:gap-10 lg:gap-16">
+    <div class="w-full flex flex-col justify-center items-center">
+        <h1 class="max-md:text-3xl md:max-lg:text-4xl lg:text-5xl text-center">
+            Emergency Contact
+        </h1>
+
+        <p class="m-0 md:max-lg:text-xl lg:text-2xl text-rose-600 text-center">
+            IN CASE OF EMERGENCY CALL 911
+        </p>
+    </div>
+
+    <div class="w-full flex flex-col justify-center items-center rounded bg-[#030530] p-10 box-border gap-6">
+        <p class="m-0 max-md:text-lg md:text-xl text-center">
+            TO NOTIFY US OF AN EMERGENCY CALL:
+        </p>
+
+        <div class="w-full flex-1 flex max-md:flex-col md:flex-row justify-center items-center gap-2">
+            <a href="tel:+15612033725" class="flex cursor-pointer items-center justify-center rounded bg-[#202641] max-md:text-lg md:text-xl text-center text-white no-underline max-md:p-4 md:p-7 max-md:w-[155px] md:w-[170px]">+1 (561) 203-3725</a>
+
+            <a href="tel:+18882619007" class="flex cursor-pointer items-center justify-center rounded bg-[#202641] max-md:text-lg md:text-xl text-center text-white no-underline max-md:p-4 md:p-7 max-md:w-[155px] md:w-[170px]">+1 (888) 261-9007</a>
+        </div>
+
+        <p class="m-0 max-md:text-lg md:text-xl text-center">
+            OPEN 24 HOURS PER DAY
+        </p>
+    </div>
+</article>
 
 @code {
-    
+
 }

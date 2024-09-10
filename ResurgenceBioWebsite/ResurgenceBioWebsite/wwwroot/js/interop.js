@@ -28,3 +28,8 @@ window.scrollToSlide = (elementId, itemIndex, gapPixels) => {
 
   carousel.scrollTo({left: itemWidth * itemIndex, behavior: 'smooth' });
 };
+
+window.setFocusToElement = () => {
+  document.activeElement.blur();
+  document.body.focus();
+};
