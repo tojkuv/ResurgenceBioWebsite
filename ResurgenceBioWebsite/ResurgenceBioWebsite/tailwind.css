@@ -1,7 +1,0 @@
-/* note: @import directives go at the top of the file, when using postcss-import */
-
-@config "./tailwind.config.js"
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;

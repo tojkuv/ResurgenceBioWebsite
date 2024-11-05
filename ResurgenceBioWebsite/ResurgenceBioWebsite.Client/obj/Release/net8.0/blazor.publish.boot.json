@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "ResurgenceBioWebsite.Client",
   "resources": {
-    "hash": "sha256-vu5OH3E5n75F6O7kUrVUj3g1SwlkxxyCzKGP3sxGnu8=",
+    "hash": "sha256-pUAu4oUG8RSIMQoXrTTLz/UWGY8oNWcMeTHJ+BJzKQM=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-juC5sA7gHTLXFEhAKgdM2/RavswpwCtDfjYGsAz2FXg="
     },
@@ -33,8 +33,8 @@
       "Microsoft.FluentUI.AspNetCore.Components.wasm": "sha256-aQ8rjOqmQDvUvAHL/u8I0qIdPfFXQxxj4uLcjL+KmYs=",
       "Microsoft.JSInterop.wasm": "sha256-qb/dUXTAT2nkqAbdqUttefvmJSODIzgWOwVUn4bPH3Q=",
       "Microsoft.JSInterop.WebAssembly.wasm": "sha256-DwdIH1ydDREMe+gT+NPaWxTUdDh/bzbriY2XoySGIo4=",
-      "ResurgenceBioWebsite.Client.wasm": "sha256-gowX4fL1igXqkpEhOsy/vwUzzcTWb/WSUj2nvTyet5I=",
-      "ResurgenceBioWebsite.Shared.wasm": "sha256-IleXT8gXVgOxsxp4BP1iJLoxliUm9peVus86qn9MzLQ=",
+      "ResurgenceBioWebsite.Client.wasm": "sha256-kV6Cxxe1U1T3pNJXtiq772ZDY2A48fj5x24LZzcYpHY=",
+      "ResurgenceBioWebsite.Shared.wasm": "sha256-Ulf8CrJBZfNiKbnz4oLoR4fdEg+jpHKVuUHkGBS7hds=",
       "System.Collections.Concurrent.wasm": "sha256-lkreoSf4socD+QXYCH56KZN9EcXIv6zQ1CmqouyAgTE=",
       "System.Collections.wasm": "sha256-eGVtvmCIzOWnJmuRp67wQlFnAKkG1ZBElRik/sIJS7A=",
       "System.ComponentModel.Annotations.wasm": "sha256-Y21Fap+8Vv1hum98aC0Aqyl1/BCXriV10Q340M5hTjE=",
@@ -45,7 +45,7 @@
       "System.Private.CoreLib.wasm": "sha256-8EB3+MxzYAkcFm1BW2uWQNq+Dq/1DfWZUNGZ287glYc=",
       "System.Private.Uri.wasm": "sha256-sVGpJ15IrWMLTA3659maaa1Ak+zQAYf/mDvQMMbVYzg=",
       "System.Runtime.InteropServices.JavaScript.wasm": "sha256-81QJP75K8zgUDZAQUvHhUGqxJn9C6ZFGOhE5e6y7mDo=",
-      "System.Runtime.wasm": "sha256-wKYZNE17xkkcz7/VvVppxMD3IldHZCLMGiFi8qYwdHM=",
+      "System.Runtime.wasm": "sha256-Ap4JRM2omhw+hLknEh62LyzBREJ4xkOCnYLZ9TCDfrc=",
       "System.Text.Encodings.Web.wasm": "sha256-TmZ/+bpYGZV14weykPgCzp3lOt3Sc4yYZl664gJyYpA=",
       "System.Text.Json.wasm": "sha256-6KJt2ELNWoVv1I3DW4YeLrrFO3yRuE3FGO8guNcCBdA=",
       "System.Text.RegularExpressions.wasm": "sha256-5U0xTkJpBRN/4N3kS6BH2fptSTAK7m+f5r8R24cxy+k="

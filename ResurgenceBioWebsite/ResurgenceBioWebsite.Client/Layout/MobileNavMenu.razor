@@ -9,28 +9,10 @@
 <!-- drawer menu component -->
 @* todo: preserve the scroll position of the menu in website sessions *@
 <!-- todo: this div exists because tabindex on an element with the container utility is not working --->
-<nav id="@_drawerMenuId" tabindex="-1" class="@DrawerMenuVisibility w-screen bg-primary-600 lg:hidden">
-    <div class="">
-        <button @onclick="() => ToggleDropdownMenu(_aboutUs)" class="border-0 border-b border-primary-300 w-full p-0 px-4 py-3 bg-transparent shadow-none focus:outline-none focus:bg-transparent active:bg-transparent active:outline-none active:transform-none">
-            <div class="w-full flex flex-row items-center justify-between">
-                <p class="text-start text-base font-serif text-white m-0 p-0">
-                    About Us
-                </p>
-                <svg class="h-6 w-6 fill-white" style="@_aboutUsDropdownIconTransition">
-                    <use href="icons/arrow.svg#arrow-icon"></use>
-                </svg>
-            </div>
-        </button>
-
-        <div class="@_aboutUsVisibility flex flex-col items-start justify-center ">
-            <button @onclick='(() => { Navigation.NavigateTo("/BoardOfDirectors"); MobileNavMenuService.HideDrawerNavigationMenu(); })' class="bg-transparent text-start font-serif border-0 border-b border-primary-300 w-full ps-8 py-3 text-gray-400 no-underline text-base hover:text-white hover:underline hover:decoration-secondary-300 shadow-none focus:outline-none active:transform-none">
-                Board of Directors
-            </button>
-            <button @onclick='(() => { Navigation.NavigateTo("/Advisors"); MobileNavMenuService.HideDrawerNavigationMenu(); })' class="bg-transparent text-start font-serif border-0 border-b border-primary-300 w-full ps-8 py-3 text-gray-400 no-underline text-base hover:text-white hover:underline hover:decoration-secondary-300 shadow-none focus:outline-none active:transform-none">
-                Advisors
-            </button>
-        </div>
-    </div>
+<nav id="@_drawerMenuId" tabindex="-1" class="@DrawerMenuVisibility w-screen bg-primary-600 lg:hidden ">
+    <button @onclick='(() => { Navigation.NavigateTo("/AboutUs"); MobileNavMenuService.HideDrawerNavigationMenu(); })' class="bg-transparent text-start font-serif border-0 border-b border-primary-300 w-full p-0 px-4 py-3 text-gray-400 no-underline text-base hover:text-white hover:underline hover:decoration-secondary-300 shadow-none focus:outline-none active:transform-none">
+        About Us
+    </button>
 
     <div class="">
         <button @onclick="() => ToggleDropdownMenu(_elevate)" class="border-0 border-b border-primary-300 w-full p-0 px-4 py-3 bg-transparent shadow-none focus:outline-none focus:bg-transparent active:bg-transparent active:outline-none active:transform-none">
@@ -45,7 +27,7 @@
         </button>
 
         <div class="@_elevateVisibility flex flex-col items-start justify-center ">
-            <button @onclick='(() => { Navigation.NavigateTo("/AatbAccreditation"); MobileNavMenuService.HideDrawerNavigationMenu(); })' class="bg-transparent text-start font-serif border-0 border-b border-primary-300 w-full ps-8 py-3 text-gray-400 no-underline text-base hover:text-white hover:underline hover:decoration-secondary-300 shadow-none focus:outline-none active:transform-none">
+            <button @onclick='(() => { Navigation.NavigateTo("/AatbAccreditation"); MobileNavMenuService.HideDrawerNavigationMenu(); })' class="bg-transparent text-start font-serif border-b border-primary-300 w-full ps-8 py-3 text-gray-400 text-base hover:text-white hover:underline hover:decoration-secondary-300 border-0 no-underline shadow-none focus:outline-none active:transform-none">
                 AATB Accreditation
             </button>
             <button @onclick='(() => { Navigation.NavigateTo("/CaresReporting"); MobileNavMenuService.HideDrawerNavigationMenu(); })' class="bg-transparent text-start font-serif border-0 border-b border-primary-300 w-full ps-8 py-3 text-gray-400 no-underline text-base hover:text-white hover:underline hover:decoration-secondary-300 shadow-none focus:outline-none active:transform-none">
@@ -73,7 +55,7 @@
         </button>
 
         <div class="@_educateVisibility flex flex-col items-start justify-center ">
-            <button @onclick='(() => { Navigation.NavigateTo("/TheStasisKnowledgeHub"); MobileNavMenuService.HideDrawerNavigationMenu(); })' class="bg-transparent text-start font-serif border-0 border-b border-primary-300 w-full ps-8 py-3 text-gray-400 no-underline text-base hover:text-white hover:underline hover:decoration-secondary-300 shadow-none focus:outline-none active:transform-none">
+            <button @onclick='(() => { Navigation.NavigateTo("/TheStasisKnowledgeHub"); MobileNavMenuService.HideDrawerNavigationMenu(); })' class="bg-transparent border-0 border-b border-primary-300 w-full ps-8 py-3 no-underline text-base text-start font-serif text-gray-400 hover:text-white hover:underline hover:decoration-secondary-300 shadow-none focus:outline-none active:transform-none">
                 The Stasis Knowledge Hub
             </button>
             <button @onclick='(() => { Navigation.NavigateTo("/Volunteering"); MobileNavMenuService.HideDrawerNavigationMenu(); })' class="bg-transparent text-start font-serif border-0 border-b border-primary-300 w-full ps-8 py-3 text-gray-400 no-underline text-base hover:text-white hover:underline hover:decoration-secondary-300 shadow-none focus:outline-none active:transform-none">
@@ -176,19 +158,16 @@
     }
 
     // note: drawer navigation menu dropdown components
-    private string _aboutUs = "aboutUs";
     private string _elevate = "elevate";
     private string _educate = "educate";
     private string _innovate = "innovate";
     private string _legalDisclosures = "legalDisclosures";
 
-    private string _aboutUsVisibility = "hidden";
     private string _elevateVisibility = "hidden";
     private string _educateVisibility = "hidden";
     private string _innovateVisibility = "hidden";
     private string _legalDisclosuresVisibility = "hidden";
 
-    private string _aboutUsDropdownIconTransition = "";
     private string _elevateDropdownIconTransition = "";
     private string _educateDropdownIconTransition = "";
     private string _innovateDropdownIconTransition = "";
@@ -196,12 +175,7 @@
 
     private void ToggleDropdownMenu(string value)
     {
-        if (value == _aboutUs)
-        {
-            _aboutUsVisibility = _aboutUsVisibility == "" ? "hidden" : "";
-            _aboutUsDropdownIconTransition = _aboutUsDropdownIconTransition == "" ? "transform: rotate(180deg);" : "";
-        }
-        else if (value == _elevate)
+        if (value == _elevate)
         {
             _elevateVisibility = _elevateVisibility == "" ? "hidden" : "";
             _elevateDropdownIconTransition = _elevateDropdownIconTransition == "" ? "transform: rotate(180deg);" : "";

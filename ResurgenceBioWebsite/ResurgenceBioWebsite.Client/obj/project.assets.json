@@ -591,7 +591,7 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Microsoft.NET.Sdk.WebAssembly.Pack/9.0.0-preview.7.24405.7": {
+      "Microsoft.NET.Sdk.WebAssembly.Pack/9.0.0-rc.1.24431.7": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.Sdk.WebAssembly.Pack.props": {},
@@ -1278,7 +1278,7 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Microsoft.NET.Sdk.WebAssembly.Pack/9.0.0-preview.7.24405.7": {
+      "Microsoft.NET.Sdk.WebAssembly.Pack/9.0.0-rc.1.24431.7": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.Sdk.WebAssembly.Pack.props": {},
@@ -2298,10 +2298,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.NET.Sdk.WebAssembly.Pack/9.0.0-preview.7.24405.7": {
-      "sha512": "eD8s3PNRQ4PawobRwvbs1AEU18/vFxjD2UMSyQVNC0MEIrGf25X8zvlXzaGPumbNFHjN6vXbHno77OjfT+VuZg==",
+    "Microsoft.NET.Sdk.WebAssembly.Pack/9.0.0-rc.1.24431.7": {
+      "sha512": "DFJcW6b/ZCG1IREFqI2Fk1c5Ko7E/iw/4nTQkqmFZ9YdedKwjMNI+1KBJg0q2IdjlyMZUQwreU3ymE2tdxPQbA==",
       "type": "package",
-      "path": "microsoft.net.sdk.webassembly.pack/9.0.0-preview.7.24405.7",
+      "path": "microsoft.net.sdk.webassembly.pack/9.0.0-rc.1.24431.7",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -2332,7 +2332,7 @@
         "build/Microsoft.NET.Sdk.WebAssembly.Pack.targets",
         "build/Wasm.web.config",
         "build/browser.runtimeconfig.template.json",
-        "microsoft.net.sdk.webassembly.pack.9.0.0-preview.7.24405.7.nupkg.sha512",
+        "microsoft.net.sdk.webassembly.pack.9.0.0-rc.1.24431.7.nupkg.sha512",
         "microsoft.net.sdk.webassembly.pack.nuspec",
         "tools/net472/Microsoft.Bcl.AsyncInterfaces.dll",
         "tools/net472/Microsoft.Build.dll",
@@ -2547,28 +2547,28 @@
     "net8.0": [
       "Microsoft.AspNetCore.Components.WebAssembly >= 8.0.8",
       "Microsoft.NET.ILLink.Tasks >= 8.0.8",
-      "Microsoft.NET.Sdk.WebAssembly.Pack >= 9.0.0-preview.7.24405.7",
+      "Microsoft.NET.Sdk.WebAssembly.Pack >= 9.0.0-rc.1.24431.7",
       "ResurgenceBioWebsite.Shared >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\machine\\.nuget\\packages\\": {},
+    "C:\\Users\\Livan\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\ResurgenceBioWebsite.Client.csproj",
+      "projectUniqueName": "C:\\Projects\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\ResurgenceBioWebsite.Client.csproj",
       "projectName": "ResurgenceBioWebsite.Client",
-      "projectPath": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\ResurgenceBioWebsite.Client.csproj",
-      "packagesPath": "C:\\Users\\machine\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\obj\\",
+      "projectPath": "C:\\Projects\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\ResurgenceBioWebsite.Client.csproj",
+      "packagesPath": "C:\\Users\\Livan\\.nuget\\packages\\",
+      "outputPath": "C:\\Projects\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\machine\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Livan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2584,8 +2584,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Shared\\ResurgenceBioWebsite.Shared.csproj": {
-              "projectPath": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Shared\\ResurgenceBioWebsite.Shared.csproj"
+            "C:\\Projects\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Shared\\ResurgenceBioWebsite.Shared.csproj": {
+              "projectPath": "C:\\Projects\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Shared\\ResurgenceBioWebsite.Shared.csproj"
             }
           }
         }
@@ -2599,8 +2599,7 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "all"
-      },
-      "SdkAnalysisLevel": "9.0.100"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -2617,7 +2616,7 @@
           "Microsoft.NET.Sdk.WebAssembly.Pack": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[9.0.0-preview.7.24405.7, )",
+            "version": "[9.0.0-rc.1.24431.7, )",
             "autoReferenced": true
           }
         },
@@ -2643,7 +2642,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.7.24407.12/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.1.24452.12/PortableRuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {
@@ -2653,6 +2652,17 @@
     }
   },
   "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Text.Json' 8.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-8g4q-xg66-9fp4",
+      "libraryId": "System.Text.Json",
+      "targetGraphs": [
+        "net8.0",
+        "net8.0/browser-wasm"
+      ]
+    },
     {
       "code": "NU1903",
       "level": "Warning",

@@ -5,6 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
   <ItemGroup>
+    <PackageReference Include="Tailwind.Extensions.AspNetCore" Version="1.0.0" />
     <ProjectReference Include="..\..\ResurgenceBioWebsite.Shared\ResurgenceBioWebsite.Shared.csproj" />
     <ProjectReference Include="..\ResurgenceBioWebsite.Client\ResurgenceBioWebsite.Client.csproj" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="8.0.8" />
@@ -46,6 +47,6 @@
   </Target>
   <Target Name="Tailwind:Run" AfterTargets="AfterBuild" DependsOnTargets="Tailwind:Permission">
     <Message Importance="high" Text="Building CSS with Tailwind" />
-    <Exec Command="$(TailwindExecutable) -i .\tailwind.css -o .\wwwroot\css\site.css" />
+    <Exec Command="$(TailwindExecutable) -i .\Styles\tailwind.css -o .\wwwroot\css\site.css" />
   </Target>
 </Project>

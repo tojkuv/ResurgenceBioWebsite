@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\ResurgenceBioWebsite.Client.csproj": {}
+    "C:\\Projects\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\ResurgenceBioWebsite.Client.csproj": {}
   },
   "projects": {
-    "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Shared\\ResurgenceBioWebsite.Shared.csproj": {
+    "C:\\Projects\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Shared\\ResurgenceBioWebsite.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Shared\\ResurgenceBioWebsite.Shared.csproj",
+        "projectUniqueName": "C:\\Projects\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Shared\\ResurgenceBioWebsite.Shared.csproj",
         "projectName": "ResurgenceBioWebsite.Shared",
-        "projectPath": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Shared\\ResurgenceBioWebsite.Shared.csproj",
-        "packagesPath": "C:\\Users\\machine\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Shared\\obj\\",
+        "projectPath": "C:\\Projects\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Shared\\ResurgenceBioWebsite.Shared.csproj",
+        "packagesPath": "C:\\Users\\Livan\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\machine\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Livan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,8 +44,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -84,24 +83,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.7.24407.12/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.1.24452.12/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\ResurgenceBioWebsite.Client.csproj": {
+    "C:\\Projects\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\ResurgenceBioWebsite.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\ResurgenceBioWebsite.Client.csproj",
+        "projectUniqueName": "C:\\Projects\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\ResurgenceBioWebsite.Client.csproj",
         "projectName": "ResurgenceBioWebsite.Client",
-        "projectPath": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\ResurgenceBioWebsite.Client.csproj",
-        "packagesPath": "C:\\Users\\machine\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\obj\\",
+        "projectPath": "C:\\Projects\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\ResurgenceBioWebsite.Client.csproj",
+        "packagesPath": "C:\\Users\\Livan\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\machine\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Livan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -117,8 +116,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Shared\\ResurgenceBioWebsite.Shared.csproj": {
-                "projectPath": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Shared\\ResurgenceBioWebsite.Shared.csproj"
+              "C:\\Projects\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Shared\\ResurgenceBioWebsite.Shared.csproj": {
+                "projectPath": "C:\\Projects\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Shared\\ResurgenceBioWebsite.Shared.csproj"
               }
             }
           }
@@ -132,8 +131,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -150,7 +148,7 @@
             "Microsoft.NET.Sdk.WebAssembly.Pack": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.0-preview.7.24405.7, )",
+              "version": "[9.0.0-rc.1.24431.7, )",
               "autoReferenced": true
             }
           },
@@ -176,7 +174,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.7.24407.12/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.1.24452.12/PortableRuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

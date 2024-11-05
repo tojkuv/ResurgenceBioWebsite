@@ -1,6 +1,14 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\content-images\\gradient-background.jpeg",
+      "PackagePath": "staticwebassets\\content-images\\gradient-background.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\content-images\\home-hero-image.jpeg",
+      "PackagePath": "staticwebassets\\content-images\\home-hero-image.jpeg"
+    },
+    {
       "Id": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\content-images\\online-learning-hub.jpeg",
       "PackagePath": "staticwebassets\\content-images\\online-learning-hub.jpeg"
     },

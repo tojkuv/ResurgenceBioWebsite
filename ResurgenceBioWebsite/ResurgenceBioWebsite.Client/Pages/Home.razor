@@ -7,105 +7,63 @@
 
 <PageTitle>Home</PageTitle>
 
-<article class="flex w-full flex-col items-center justify-center font-serif max-lg:gap-10 lg:gap-16">
+<article class="w-full flex flex-col items-center justify-center font-serif max-lg:gap-6 lg:gap-10">
 @* note: hero section *@
-<div class="w-full flex flex-col justify-center items-center gap-6">
-    <div class="flex-1 flex flex-col justify-center items-center gap-4">
-        <h1 class="m-0 max-md:text-4xl md:max-lg:text-5xl lg:text-6xl text-center">
+<div class="flex flex-col justify-center items-center gap-4 w-full h-[250px] md:h-[450px] xl:h-[615px] bg-[url('/content-images/home-hero-image.jpeg')] bg-cover bg-center rounded">
+    <div class="w-full flex-1 flex flex-col justify-center items-center gap-2">
+        <h1 class="m-0 text-center text-white max-md:text-3xl md:max-lg:text-4xl lg:text-5xl">
             Hero Section Title
         </h1>
 
-        <p class="m-0 prose prose-sm sm:prose-base lg:prose-lg dark:prose-invert text-center">
+        <p class="max-lg:max-w-[90%] lg:max-w-[50%] m-0 text-center prose prose-sm sm:prose-base lg:prose-lg dark:prose-invert">
             Description olutpat habitant augue fames; senectus donec nibh. Tellus montes iaculis, praesent gravida dolor dui penatibus condimentum.
         </p>
     </div>
 
-    <div class="flex-1 aspect-[16/9] bg-primary-400 rounded">
-        <img src="https://placehold.co/1600x900" alt="" class="m-0 w-full h-full object-cover rounded"/>
-    </div>
+    @* <div class="max-lg:w-[90%] lg:w-[65%] flex-1 aspect-[3/2] bg-primary-400 rounded"> *@
+    @*     <img src="https://placehold.co/300x200" alt="" class="m-0 w-full h-full object-cover rounded"/> *@
+    @* </div> *@
 
-    <div class="w-full flex max-md:flex-col md:flex-row justify-center items-center gap-4">
-        <div class="w-full flex flex-row justify-start items-start gap-2">
-            <svg class="max-lg:h-8 max-lg:w-8 lg:h-9 lg:w-9 text-secondary-500">
-                <use href="icons/icon.svg#icon-icon"></use>
-            </svg>
 
-            <div class="flex-1 flex flex-col justify-start items-start gap-2 prose prose-sm sm:prose-base lg:prose-lg dark:prose-invert">
-                <h4 class="!m-0">
-                    Item Tittle
-                </h4>
-                <p class="!m-0">
-                    Tellus montes iaculis, praesent gravida dolor dui penatibus condimentum.
-                </p>
-            </div>
-        </div>
-
-        <div class="w-full flex flex-row justify-start items-start gap-2">
-            <svg class="max-lg:h-8 max-lg:w-8 lg:h-9 lg:w-9 text-secondary-500">
-                <use href="icons/icon.svg#icon-icon"></use>
-            </svg>
-
-            <div class="flex-1 flex flex-col justify-start items-start gap-2 prose prose-sm sm:prose-base lg:prose-lg dark:prose-invert">
-                <h4 class="!m-0">
-                    Item Tittle
-                </h4>
-                <p class="!m-0">
-                    Tellus montes iaculis, praesent gravida dolor dui penatibus condimentum.
-                </p>
-            </div>
-        </div>
-
-        <div class="w-full flex flex-row justify-start items-start gap-2">
-            <svg class="max-lg:h-8 max-lg:w-8 lg:h-9 lg:w-9 text-secondary-500">
-                <use href="icons/icon.svg#icon-icon"></use>
-            </svg>
-
-            <div class="flex-1 flex flex-col justify-start items-start gap-2 prose prose-sm sm:prose-base lg:prose-lg dark:prose-invert">
-                <h4 class="!m-0">
-                    Item Tittle
-                </h4>
-                <p class="!m-0">
-                    Tellus montes iaculis, praesent gravida dolor dui penatibus condimentum.
-                </p>
-            </div>
-        </div>
-    </div>
 </div>
 
 @* note: previous events images section *@
 <div class="w-full flex flex-col justify-center items-center gap-4">
-    <h1 class="m-0 text-center md:max-lg:text-3xl lg:text-4xl">
+    <h1 class="m-0 text-center md:max-lg:text-2xl lg:text-3xl">
         Volunteering Events
     </h1>
 
-    <a href="Volunteering" class="prose prose-sm sm:prose-base lg:prose-lg dark:prose-invert inline-block cursor-pointer rounded bg-secondary-600 hover:bg-secondary-500 px-4 py-1.5 text-white no-underline">
-        See our events
-    </a>
-
-    <div class="max-md:hidden grid grid-flow-row-dense grid-cols-4 grid-rows-2 w-full h-[390px] auto-rows-min place-content-center gap-4">
-        <div class="col-span-2 w-full h-full self-center rounded box-border">
-            <img src="https://placehold.co/500x500" alt="" class="h-full w-full rounded object-cover" />
-        </div>
+    <div class="max-md:hidden grid grid-flow-row-dense grid-cols-5 grid-rows-2 w-full md:h-[250px] lg:h-[350px] xl:h-[450px] auto-rows-min place-content-center gap-4">
         <div class="w-full h-full self-center rounded">
-            <img src="https://placehold.co/500x500" alt="" class="h-full w-full rounded object-cover" />
-        </div>
-        <div class="w-full h-full self-center rounded">
-            <img src="https://placehold.co/500x500" alt="" class="h-full w-full rounded object-cover" />
-        </div>
-        <div class="w-full h-full self-center rounded">
-            <img src="https://placehold.co/500x500" alt="" class="h-full w-full rounded object-cover" />
+            <img src="https://placehold.co/500x500" alt="" class="h-full w-full rounded object-cover"/>
         </div>
         <div class="col-span-2 w-full h-full self-center rounded box-border">
-            <img src="https://placehold.co/500x500" alt="" class="h-full w-full rounded object-cover" />
+            <img src="https://placehold.co/500x500" alt="" class="h-full w-full rounded object-cover"/>
         </div>
         <div class="w-full h-full self-center rounded">
-            <img src="https://placehold.co/500x500" alt="" class="h-full w-full rounded object-cover" />
+            <img src="https://placehold.co/500x500" alt="" class="h-full w-full rounded object-cover"/>
+        </div>
+        <div class="w-full h-full self-center rounded">
+            <img src="https://placehold.co/500x500" alt="" class="h-full w-full rounded object-cover"/>
+        </div>
+        <div class="w-full h-full self-center rounded">
+            <img src="https://placehold.co/500x500" alt="" class="h-full w-full rounded object-cover"/>
+        </div>
+        <div class="w-full h-full self-center rounded">
+            <img src="https://placehold.co/500x500" alt="" class="h-full w-full rounded object-cover"/>
+        </div>
+        <div class="col-span-2 w-full h-full self-center rounded box-border">
+            <img src="https://placehold.co/500x500" alt="" class="h-full w-full rounded object-cover"/>
+        </div>
+        <div class="w-full h-full self-center rounded">
+            <img src="https://placehold.co/500x500" alt="" class="h-full w-full rounded object-cover"/>
         </div>
     </div>
 
     @* todo: update the button to resemble the following: https://flowbite.com/blocks/marketing/hero/#hero-section-with-carousel-slider *@
+    @* todo: fix the position of the carousel to the center of the second image *@
     <div class="md:hidden relative w-full max-sm:max-w-[458px] sm:max-lg:w-[608px] lg:w-[858px]">
-        <div id="@_carouselId" class="flex flex-row items-center justify-start gap-2 overscroll-none overflow-y-hidden overflow-x-scroll scroll-smooth custom-scrollbar-hide">
+        <div id="@_carouselId" class="flex flex-row items-center justify-start gap-2 overscroll-none overflow-y-hidden overflow-x-scroll scroll-smooth custom-scrollbar-hide rounded">
             @foreach (var img in @_images)
             {
                 <div class="flex-none flex aspect-video max-sm:w-[225px] sm:max-lg:w-[300px] lg:w-[425px]">
@@ -126,18 +84,70 @@
             </svg>
         </button>
     </div>
+
+    <a href="Volunteering" class="sm:hidden prose prose-sm sm:prose-base lg:prose-lg dark:prose-invert inline-block cursor-pointer rounded bg-secondary-600 hover:bg-secondary-500 px-4 py-1.5 text-white no-underline">
+        See our events
+    </a>
+</div>
+
+@* note: features section *@
+<div class="grid sm:grid-cols-3 grid-flow-row place-content-center justify-items-center items-stretch gap-4 ">
+    <div class="xl:max-w-[330px] md:h-full flex flex-row justify-start items-start gap-1 p-4 bg-primary-600 rounded box-border">
+        <svg class="max-lg:h-8 max-lg:w-8 lg:h-9 lg:w-9 text-secondary-500">
+            <use href="icons/icon.svg#icon-icon"></use>
+        </svg>
+
+        <div class="flex-1 flex flex-col justify-start items-start gap-1 prose prose-sm sm:prose-base lg:prose-lg dark:prose-invert">
+            <h4 class="m-0">
+                Item Tittle
+            </h4>
+            <p class="m-0">
+                Tellus montes iaculis, praesent gravida dolor dui penatibus condimentum.
+            </p>
+        </div>
+    </div>
+
+    <div class="xl:max-w-[330px] md:h-full flex flex-row justify-start items-start gap-1 p-4 bg-primary-600 rounded box-border">
+        <svg class="max-lg:h-8 max-lg:w-8 lg:h-9 lg:w-9 text-secondary-500">
+            <use href="icons/icon.svg#icon-icon"></use>
+        </svg>
+
+        <div class="flex-1 flex flex-col justify-start items-start gap-1 prose prose-sm sm:prose-base lg:prose-lg dark:prose-invert">
+            <h4 class="m-0">
+                Item Tittle
+            </h4>
+            <p class="m-0">
+                Tellus montes iaculis, praesent gravida dolor dui penatibus condimentum.
+            </p>
+        </div>
+    </div>
+
+    <div class="xl:max-w-[330px] md:h-full flex flex-row justify-start items-start gap-1 p-4 bg-primary-600 rounded box-border">
+        <svg class="max-lg:h-8 max-lg:w-8 lg:h-9 lg:w-9 text-secondary-500">
+            <use href="icons/icon.svg#icon-icon"></use>
+        </svg>
+
+        <div class="flex-1 flex flex-col justify-start items-start gap-1 prose prose-sm sm:prose-base lg:prose-lg dark:prose-invert">
+            <h4 class="m-0">
+                Item Tittle
+            </h4>
+            <p class="m-0">
+                Tellus montes iaculis, praesent gravida dolor dui penatibus condimentum.
+            </p>
+        </div>
+    </div>
 </div>
 
 @* note: projects section *@
-<div class="w-full flex flex-col justify-center items-center">
-    <h1 class="mt-0 max-md:text-3xl md:max-lg:text-4xl lg:text-5xl text-center">
+<div class="w-full flex flex-col justify-center items-center gap-4">
+    <h1 class="m-0 text-center md:max-lg:text-2xl lg:text-3xl">
         Projects
     </h1>
 
-    <div class="w-full grid sm:max-md:grid-cols-2 max-md:grid-flow-row-dense place-content-center gap-4">
-        <a href="TheStasisKnowledgeHub" class="w-full flex max-md:flex-col md:flex-row justify-start items-start gap-6 bg-primary-600 rounded p-6 no-underline active:bg-primary-300 box-border">
-            <div class="flex-none aspect-[5/4] max-md:w-full md:w-[35%] bg-primary-400 self-center rounded">
-                <img src="/content-images/online-learning-hub.jpeg" alt="" class="w-full h-full object-cover"/>
+    <div class="w-full h-fit grid sm:max-lg:grid-cols-2 lg:max-xl:grid-cols-3 xl:grid-cols-2 grid-flow-row place-content-center gap-4">
+        <a href="TheStasisKnowledgeHub" class="w-full flex max-xl:flex-col xl:flex-row justify-start items-start gap-6 bg-primary-600 rounded p-6 no-underline active:bg-primary-300 box-border">
+            <div class="flex-none aspect-[5/4] max-xl:w-full xl:w-[35%] bg-primary-400 self-center rounded">
+                <img src="/content-images/online-learning-hub.jpeg" alt="" class="w-full h-full object-cover rounded"/>
             </div>
 
             <div class="flex-1 grow flex flex-col justify-start items-start prose prose-neutral max-w-none">
@@ -161,8 +171,8 @@
             </div>
         </a>
 
-        <a href="SstOptimization" class="w-full flex max-md:flex-col md:flex-row justify-start items-start gap-6 bg-primary-600 rounded p-6 no-underline active:bg-primary-300 box-border">
-            <div class="flex-none aspect-[5/4] max-md:w-full md:w-[35%] bg-primary-400 self-center rounded">
+        <a href="SstOptimization" class="w-full flex max-xl:flex-col xl:flex-row justify-start items-start gap-6 bg-primary-600 rounded p-6 no-underline active:bg-primary-300 box-border">
+            <div class="flex-none aspect-[5/4] max-xl:w-full xl:w-[35%] bg-primary-400 self-center rounded">
                 <img src="https://placehold.co/500x400" alt="" class="w-full h-full object-cover rounded"/>
             </div>
 
@@ -183,8 +193,8 @@
             </div>
         </a>
 
-        <a href="RegionalReadinessDevelopment" class="w-full flex max-md:flex-col md:flex-row justify-start items-start gap-6 bg-primary-600 rounded p-6 no-underline active:bg-primary-300 box-border">
-            <div class="flex-none aspect-[5/4] max-md:w-full md:w-[35%] bg-primary-400 self-center rounded">
+        <a href="RegionalReadinessDevelopment" class="w-full flex max-xl:flex-col xl:flex-row justify-start items-start gap-6 bg-primary-600 rounded p-6 no-underline active:bg-primary-300 box-border">
+            <div class="flex-none aspect-[5/4] max-xl:w-full xl:w-[35%] bg-primary-400 self-center rounded">
                 <img src="https://placehold.co/500x400" alt="" class="w-full h-full object-cover rounded"/>
             </div>
 
@@ -205,8 +215,8 @@
             </div>
         </a>
 
-        <a href="AldehydeStabilizedPreservationProtocol" class="w-full flex max-md:flex-col md:flex-row justify-start items-start gap-6 bg-primary-600 rounded p-6 no-underline active:bg-primary-300 box-border">
-            <div class="flex-none aspect-[5/4] max-md:w-full md:w-[35%] bg-primary-400 self-center rounded">
+        <a href="AldehydeStabilizedPreservationProtocol" class="w-full flex max-xl:flex-col xl:flex-row justify-start items-start gap-6 bg-primary-600 rounded p-6 no-underline active:bg-primary-300 box-border">
+            <div class="flex-none aspect-[5/4] max-xl:w-full xl:w-[35%] bg-primary-400 self-center rounded">
                 <img src="https://placehold.co/500x400" alt="" class="w-full h-full object-cover rounded"/>
             </div>
 
@@ -226,197 +236,246 @@
                 </p>
             </div>
         </a>
+
+        <a href="RegionalInventoryManagement" class="sm:max-lg:hidden xl:hidden w-full flex max-xl:flex-col xl:flex-row justify-start items-start gap-6 bg-primary-600 rounded p-6 no-underline active:bg-primary-300 box-border">
+            <div class="flex-none aspect-[5/4] max-xl:w-full xl:w-[35%] bg-primary-400 self-center rounded">
+                <img src="https://placehold.co/500x400" alt="" class="w-full h-full object-cover rounded"/>
+            </div>
+
+            <div class="flex-1 grow flex flex-col justify-start items-start prose prose-neutral max-w-none">
+                <div class="flex flex-row justify-center items-center gap-2 me-1.5">
+                    <p class="m-0 text-center text-xs font-semibold py-1 px-2 rounded bg-sky-200 !border-sky-600 text-sky-700" style="border: 1px solid">
+                        Research
+                    </p>
+                </div>
+
+                <h3 class="m-0 text-white">
+                    Regional Inventory Management
+                </h3>
+
+                <p class="text-gray-400">
+                    Description facilisi eu ultrices mi varius. Augue posuere nostra fusce nam diam in convallis maximus. Tellus turpis aliquet fusce vehicula rutrum est facilisis purus.
+                </p>
+            </div>
+        </a>
+
+        <a href="LifebridgeProgram" class="sm:max-lg:hidden xl:hidden w-full flex max-xl:flex-col xl:flex-row justify-start items-start gap-6 bg-primary-600 rounded p-6 no-underline active:bg-primary-300 box-border">
+            <div class="flex-none aspect-[5/4] max-xl:w-full xl:w-[35%] bg-primary-400 self-center rounded">
+                <img src="https://placehold.co/500x400" alt="" class="w-full h-full object-cover rounded"/>
+            </div>
+
+            <div class="flex-1 grow flex flex-col justify-start items-start prose prose-neutral max-w-none">
+                <div class="flex flex-row justify-center items-center gap-2 me-1.5">
+                    <p class="m-0 text-center text-xs font-semibold py-1 px-2 rounded bg-sky-200 !border-sky-600 text-sky-700" style="border: 1px solid">
+                        Research
+                    </p>
+                </div>
+
+                <h3 class="m-0 text-white">
+                    Lifebridge Program
+                </h3>
+
+                <p class="text-gray-400">
+                    Description facilisi eu ultrices mi varius. Augue posuere nostra fusce nam diam in convallis maximus. Tellus turpis aliquet fusce vehicula rutrum est facilisis purus.
+                </p>
+            </div>
+        </a>
     </div>
 </div>
 
-<div class="w-full flex flex-col justify-center items-center h-fit p-8 gap-4 bg-primary-600 box-border">
-    <h1 class="mt-0 mb-4 max-md:text-3xl md:max-lg:text-4xl lg:text-5xl text-center">
-        Contact Us
-    </h1>
 
-    <form class="w-full flex flex-col justify-center items-center gap-4">
-        <div class="flex flex-row justify-center items-center gap-4 w-full">
-            <div class="flex-1 flex flex-col justify-start items-start gap-1">
-                <label for="firstName">First Name</label>
-                <input id="firstName" required value="@_firstName" @oninput="e => _firstName = e.Value?.ToString()" class="h-10 rounded border-none bg-primary-300 px-2.5 font-serif text-gray-400 no-underline shadow-none focus:outline-none active:transform-none w-full box-border"/>
-            </div>
+@* note: contact methods *@
+<div class="w-full flex flex-col justify-center items-center gap-4">
+    <div class="max-sm:w-full sm:w-[80%] h-auto flex flex-row justify-center items-center bg-primary-600 rounded overflow-x-clip ">
+        <div class="max-lg:w-full lg:w-1/2 h-fit flex flex-col justify-center items-center p-6 gap-4 box-border">
+            <h2 class="m-0 text-center">
+                Contact Us
+            </h2>
 
-            <div class="flex-1 flex flex-col justify-start items-start gap-1">
-                <label for="lastName">Last Name</label>
-                <input id="lastName" required value="@_lastName" @oninput="e => _lastName = e.Value?.ToString()" class="h-10 rounded border-none bg-primary-300 px-2.5 font-serif text-gray-400 no-underline shadow-none focus:outline-none active:transform-none w-full box-border"/>
-            </div>
+            <form class="w-full flex flex-col justify-center items-center gap-4">
+                <div class="flex flex-row justify-center items-center gap-4 w-full">
+                    <div class="flex-1 flex flex-col justify-start items-start gap-1">
+                        <label for="firstName">First Name</label>
+                        <input id="firstName" required value="@_firstName" @oninput="e => _firstName = e.Value?.ToString()" class="h-10 rounded border-none bg-primary-300 px-2.5 font-serif text-gray-400 no-underline shadow-none focus:outline-none active:transform-none w-full box-border"/>
+                    </div>
+
+                    <div class="flex-1 flex flex-col justify-start items-start gap-1">
+                        <label for="lastName">Last Name</label>
+                        <input id="lastName" required value="@_lastName" @oninput="e => _lastName = e.Value?.ToString()" class="h-10 rounded border-none bg-primary-300 px-2.5 font-serif text-gray-400 no-underline shadow-none focus:outline-none active:transform-none w-full box-border"/>
+                    </div>
+                </div>
+
+                <div class="flex flex-col justify-start items-start gap-1 w-full">
+                    <label for="email">Email</label>
+                    <input required id="email" type="email" value="@_email.EmailAddress" @oninput="e => _email.EmailAddress = e.Value?.ToString()" class="h-10 rounded border-none bg-primary-300 px-2.5 font-serif text-gray-400 no-underline shadow-none focus:outline-none active:transform-none w-full box-border"/>
+                </div>
+
+                <div class="flex flex-col justify-start items-start gap-1 w-full">
+                    <label for="phone">Phone Number</label>
+                    <input required id="phone" type="tel" value="@_phoneNumber" @oninput="e => _phoneNumber = e.Value?.ToString()" class="h-10 rounded border-none bg-primary-300 px-2.5 font-serif text-gray-400 no-underline shadow-none focus:outline-none active:transform-none w-full box-border"/>
+                </div>
+
+                <div class="flex flex-col justify-start items-start gap-1 w-full">
+                    <label for="message">Message</label>
+                    <textarea required id="message" name="message" rows="5" value="@_message" @oninput="e => _message = e.Value?.ToString()" class="rounded border-none bg-primary-300 p-2.5 font-serif text-gray-400 no-underline shadow-none focus:outline-none active:transform-none w-full box-border"></textarea>
+                </div>
+
+                <button type="submit" class="w-full h-10 cursor-pointer rounded border-none bg-secondary-600 font-serif text-white no-underline shadow-none hover:bg-secondary-500 focus:outline-none active:transform-none box-border">
+                    Send Message
+                </button>
+            </form>
         </div>
 
-        <div class="flex flex-col justify-start items-start gap-1 w-full">
-            <label for="email">Email</label>
-            <input required id="email" type="email" value="@_email.EmailAddress" @oninput="e => _email.EmailAddress = e.Value?.ToString()" class="h-10 rounded border-none bg-primary-300 px-2.5 font-serif text-gray-400 no-underline shadow-none focus:outline-none active:transform-none w-full box-border"/>
+        <div class="max-lg:hidden w-1/2 h-[499px] rounded-br rounded-tr">
+            <img src="/content-images/gradient-background.jpeg" alt="" class="m-0 w-full h-full object-cover rounded-br rounded-tr"/>
         </div>
-
-        <div class="flex flex-col justify-start items-start gap-1 w-full">
-            <label for="phone">Phone Number</label>
-            <input required id="phone" type="tel" value="@_phoneNumber" @oninput="e => _phoneNumber = e.Value?.ToString()" class="h-10 rounded border-none bg-primary-300 px-2.5 font-serif text-gray-400 no-underline shadow-none focus:outline-none active:transform-none w-full box-border"/>
-        </div>
-
-        <div class="flex flex-col justify-start items-start gap-1 w-full">
-            <label for="message">Message</label>
-            <textarea required id="message" name="message" rows="10" value="@_message" @oninput="e => _message = e.Value?.ToString()" class="rounded border-none bg-primary-300 p-2.5 font-serif text-gray-400 no-underline shadow-none focus:outline-none active:transform-none w-full box-border"></textarea>
-        </div>
-
-        <button type="submit" class="w-full h-10 cursor-pointer rounded border-none bg-secondary-600 font-serif text-white no-underline shadow-none hover:bg-secondary-500 focus:outline-none active:transform-none box-border">
-            Send Message
-        </button>
-    </form>
-
-    <hr class="m-0 h-px w-[90%] box-border border-none bg-primary-300"/>
-
-    <h4 class="m-0 prose prose-sm sm:prose-base lg:prose-lg dark:prose-invert">
-        Contact us directly
-    </h4>
-
-    <div class="flex max-md:flex-col md:flex-row justify-center items-center gap-2">
-        <a href="mailto:christine@resurgencebio.org" class="flex cursor-pointer items-center justify-center rounded bg-primary-400 prose prose-sm sm:prose-base lg:prose-lg dark:prose-invert text-center text-white no-underline max-md:p-2 md:p-4">christine@resurgencebio.org</a>
-
-        <a href="tel:+15612033725" class="flex cursor-pointer items-center justify-center rounded bg-primary-400 prose prose-sm sm:prose-base lg:prose-lg dark:prose-invert text-center text-white no-underline max-md:p-2 md:p-4 max-md:w-full box-border">+1 (561) 203-3725</a>
     </div>
 
-    <hr class="m-0 h-px w-[90%] box-border border-none bg-primary-300"/>
+    <div class="max-sm:w-full sm:w-[80%] h-fit grid max-sm:grid-rows-2 sm:grid-cols-2 place-content-stretch items-stretch gap-4 box-border">
 
-    <h4 class="m-0 prose prose-sm sm:prose-base lg:prose-lg dark:prose-invert">
-        Use your preferred platform
-    </h4>
+        <div class="flex flex-col justify-center items-center gap-4 p-4 bg-primary-600 rounded">
+            <h2 class="m-0 text-center">
+                Contact us directly
+            </h2>
 
-    <div class="grid grid-flow-col-dense place-content-evenly gap-2">
-        <a href="https://whatsapp.com/" class="flex h-11 w-11 cursor-pointer items-center justify-center bg-primary-400 rounded no-underline">
-            <svg class="max-md:p-0.5 md:p-1 max-lg:h-8 max-lg:w-8 lg:h-9 lg:w-9 fill-secondary-500">
-                <use href="icons/whatsapp.svg#whatsapp-icon"></use>
-            </svg>
-        </a>
+            <div class="flex flex-col justify-center items-center gap-2">
+                <a href="mailto:christine@resurgencebio.org" class="flex cursor-pointer items-center justify-center rounded bg-primary-400 hover:bg-primary-300 prose prose-sm sm:prose-base lg:prose-lg dark:prose-invert text-center text-white no-underline max-md:p-2 md:p-3">
+                    christine@resurgencebio.org
+                </a>
 
-        <a href="https://instagram.com/" class="flex h-11 w-11 cursor-pointer items-center justify-center bg-primary-400 rounded no-underline">
-            <svg class="max-md:p-0.5 md:p-1 max-lg:h-8 max-lg:w-8 fill-secondary-500 lg:h-9 lg:w-9">
-                <use href="icons/instagram.svg#instagram-icon"></use>
-            </svg>
-        </a>
+                <a href="tel:+15612033725" class="flex cursor-pointer items-center justify-center rounded bg-primary-400 hover:bg-primary-300 prose prose-sm sm:prose-base lg:prose-lg dark:prose-invert text-center text-white no-underline max-md:p-2 md:p-3 w-full box-border">
+                    +1 (561) 203-3725
+                </a>
+            </div>
+        </div>
 
-        <a href="https://discord.com/" class="flex h-11 w-11 cursor-pointer items-center justify-center bg-primary-400 rounded no-underline">
-            <svg class="max-md:p-0.5 md:p-1 max-lg:h-8 max-lg:w-8 fill-secondary-500 lg:h-9 lg:w-9">
-                <use href="icons/discord.svg#discord-icon"></use>
-            </svg>
-        </a>
+        <div class="flex flex-col justify-center items-center gap-4 p-4 bg-primary-600 rounded">
+            <h2 class="m-0 text-center">
+                Use your preferred platform
+            </h2>
 
-        <a href="https://linkedin.com/" class="flex h-11 w-11 cursor-pointer items-center justify-center bg-primary-400 rounded no-underline">
-            <svg class="max-md:p-0.5 md:p-1 max-lg:h-8 max-lg:w-8 fill-secondary-500 lg:h-9 lg:w-9">
-                <use href="icons/linkedin.svg#linkedin-icon"></use>
-            </svg>
-        </a>
+            <div class="grid grid-flow-col-dense place-content-evenly gap-2">
+                <a href="https://whatsapp.com/" target="_blank" class="flex max-lg:h-7 max-lg:w-7 lg:h-8 lg:w-8 p-2 cursor-pointer items-center justify-center bg-primary-400 hover:bg-primary-300 rounded no-underline">
+                    <svg class="w-full h-full fill-secondary-500">
+                        <use href="icons/whatsapp.svg#whatsapp-icon"></use>
+                    </svg>
+                </a>
+
+                <a href="https://instagram.com/" target="_blank" class="flex max-lg:h-7 max-lg:w-7 lg:h-8 lg:w-8 p-2 cursor-pointer items-center justify-center bg-primary-400 hover:bg-primary-300 rounded no-underline">
+                    <svg class="w-full h-full fill-secondary-500">
+                        <use href="icons/instagram.svg#instagram-icon"></use>
+                    </svg>
+                </a>
+
+                <a href="https://discord.com/" target="_blank" class="flex max-lg:h-7 max-lg:w-7 lg:h-8 lg:w-8 p-2 cursor-pointer items-center justify-center bg-primary-400 hover:bg-primary-300 rounded no-underline">
+                    <svg class="w-full h-full fill-secondary-500">
+                        <use href="icons/discord.svg#discord-icon"></use>
+                    </svg>
+                </a>
+
+                <a href="https://linkedin.com/" target="_blank" class="flex max-lg:h-7 max-lg:w-7 lg:h-8 lg:w-8 p-2 cursor-pointer items-center justify-center bg-primary-400 hover:bg-primary-300 rounded no-underline">
+                    <svg class="w-full h-full fill-secondary-500">
+                        <use href="icons/linkedin.svg#linkedin-icon"></use>
+                    </svg>
+                </a>
+            </div>
+        </div>
     </div>
 </div>
 
 @* note: faq section *@
-<div class="flex flex-col items-center justify-center gap-4 w-full">
-    <h1 class="m-0 text-center md:hidden text-2xl">
+<div cnlass="max-xl:w-full xl:w-[750px] flex flex-col justify-center items-center px-6 pt-6 bg-primary-600 rounded box-border">
+    <h2 class="m-0 mb-4 text-center md:hidden">
         FAQs
-    </h1>
-    <h1 class="m-0 text-center max-md:hidden md:max-lg:text-3xl lg:text-4xl">
+    </h2>
+    <h2 class="m-0 mb-4 text-center max-md:hidden">
         Frequently asked questions
-    </h1>
+    </h2>
 
-    <nav class="w-full">
-        <div class="">
-            <button @onclick="() => ToggleDropdownMenu(_faq1)" class="!border-primary-300 w-full p-0 px-4 py-3 bg-transparent shadow-none focus:outline-none focus:bg-transparent active:bg-transparent active:outline-none active:transform-none" style="border: none;">
-                <div class="w-full flex flex-row items-center justify-between">
-                    <p class="text-start text-base font-serif text-white m-0 p-0">
-                        In pretium ultrices enim urna consequat?
-                    </p>
-                    <svg class="h-6 w-6 fill-white" style="@_faq1.DropdownIconTransition">
-                        <use href="icons/arrow.svg#arrow-icon"></use>
-                    </svg>
-                </div>
-            </button>
-
-            <div class="@_faq1.Visibility flex flex-col items-start justify-center px-4 py-3">
-                <p class="prose prose-sm sm:prose-base lg:prose-lg dark:prose-invert m-0">
-                    Blandit posuere inceptos condimentum tempus senectus cras suscipit neque imperdiet. Facilisis molestie libero eu nulla posuere metus. Nunc facilisi convallis imperdiet suspendisse vivamus. Aptent quis senectus porttitor commodo ipsum cras vivamus eu. Natoque erat orci, ultricies habitant vestibulum laoreet.
-                </p>
-            </div>
+    <button @onclick="() => ToggleDropdownMenu(_faq1)" class="!border-primary-300 p-0 py-4 bg-transparent shadow-none focus:outline-none focus:bg-transparent active:bg-transparent active:outline-none active:transform-none cursor-pointer w-full box-border" style="border: none; border-top: 1px solid;">
+        <div class="flex flex-row items-center justify-between">
+            <p class="font-serif text-lg text-white m-0 p-0">
+                What is Biostasis?
+            </p>
+            <svg class="h-6 w-6 fill-white" style="@_faq1.DropdownIconTransition">
+                <use href="icons/arrow.svg#arrow-icon"></use>
+            </svg>
         </div>
 
-        <div class="">
-            <button @onclick="() => ToggleDropdownMenu(_faq2)" class="!border-primary-300 w-full p-0 px-4 py-3 bg-transparent shadow-none focus:outline-none focus:bg-transparent active:bg-transparent active:outline-none active:transform-none" style="border: none; border-top: 1px solid;">
-                <div class="w-full flex flex-row items-center justify-between">
-                    <p class="text-start text-base font-serif text-white m-0 p-0">
-                        In pretium ultrices enim urna consequat?
-                    </p>
-                    <svg class="h-6 w-6 fill-white" style="@_faq2.DropdownIconTransition">
-                        <use href="icons/arrow.svg#arrow-icon"></use>
-                    </svg>
-                </div>
-            </button>
+        <div class="@_faq1.Visibility flex flex-col justify-start items-start pt-3 w-full">
+            <p class="m-0 font-serif text-start prose prose-sm sm:prose-base lg:prose-lg dark:prose-invert">
+                Blandit posuere inceptos condimentum tempus senectus cras suscipit neque imperdiet. Facilisis molestie libero eu nulla posuere metus. Nunc facilisi convallis imperdiet suspendisse vivamus. Aptent quis senectus porttitor commodo ipsum cras vivamus eu. Natoque erat orci, ultricies habitant vestibulum laoreet.
+            </p>
+        </div>
+    </button>
 
-            <div class="@_faq2.Visibility flex flex-col items-start justify-center px-4 py-3">
-                <p class="prose prose-sm sm:prose-base lg:prose-lg dark:prose-invert m-0">
-                    Blandit posuere inceptos condimentum tempus senectus cras suscipit neque imperdiet. Facilisis molestie libero eu nulla posuere metus. Nunc facilisi convallis imperdiet suspendisse vivamus. Aptent quis senectus porttitor commodo ipsum cras vivamus eu. Natoque erat orci, ultricies habitant vestibulum laoreet.
-                </p>
-            </div>
+    <button @onclick="() => ToggleDropdownMenu(_faq2)" class="!border-primary-300 p-0 py-4 bg-transparent shadow-none focus:outline-none focus:bg-transparent active:bg-transparent active:outline-none active:transform-none cursor-pointer w-full box-border" style="border: none; border-top: 1px solid;">
+        <div class="flex flex-row items-center justify-between">
+            <p class="font-serif text-lg text-white m-0 p-0">
+                In pretium ultrices enim urna consequat?
+            </p>
+            <svg class="h-6 w-6 fill-white" style="@_faq2.DropdownIconTransition">
+                <use href="icons/arrow.svg#arrow-icon"></use>
+            </svg>
         </div>
 
-        <div class="">
-            <button @onclick="() => ToggleDropdownMenu(_faq3)" class="!border-primary-300 w-full p-0 px-4 py-3 bg-transparent shadow-none focus:outline-none focus:bg-transparent active:bg-transparent active:outline-none active:transform-none" style="border: none; border-top: 1px solid;">
-                <div class="w-full flex flex-row items-center justify-between">
-                    <p class="text-start text-base font-serif text-white m-0 p-0">
-                        In pretium ultrices enim urna consequat?
-                    </p>
-                    <svg class="h-6 w-6 fill-white" style="@_faq3.DropdownIconTransition">
-                        <use href="icons/arrow.svg#arrow-icon"></use>
-                    </svg>
-                </div>
-            </button>
+        <div class="@_faq2.Visibility flex flex-col justify-start items-start pt-3 w-full">
+            <p class="m-0 font-serif text-start prose prose-sm sm:prose-base lg:prose-lg dark:prose-invert">
+                Blandit posuere inceptos condimentum tempus senectus cras suscipit neque imperdiet. Facilisis molestie libero eu nulla posuere metus. Nunc facilisi convallis imperdiet suspendisse vivamus. Aptent quis senectus porttitor commodo ipsum cras vivamus eu. Natoque erat orci, ultricies habitant vestibulum laoreet.
+            </p>
+        </div>
+    </button>
 
-            <div class="@_faq3.Visibility flex flex-col items-start justify-center px-4 py-3">
-                <p class="prose prose-sm sm:prose-base lg:prose-lg dark:prose-invert m-0">
-                    Blandit posuere inceptos condimentum tempus senectus cras suscipit neque imperdiet. Facilisis molestie libero eu nulla posuere metus. Nunc facilisi convallis imperdiet suspendisse vivamus. Aptent quis senectus porttitor commodo ipsum cras vivamus eu. Natoque erat orci, ultricies habitant vestibulum laoreet.
-                </p>
-            </div>
+    <button @onclick="() => ToggleDropdownMenu(_faq3)" class="!border-primary-300 p-0 py-4 bg-transparent shadow-none focus:outline-none focus:bg-transparent active:bg-transparent active:outline-none active:transform-none cursor-pointer w-full box-border" style="border: none; border-top: 1px solid;">
+        <div class="flex flex-row items-center justify-between">
+            <p class="font-serif text-lg text-white m-0 p-0">
+                In pretium ultrices enim urna consequat?
+            </p>
+            <svg class="h-6 w-6 fill-white" style="@_faq3.DropdownIconTransition">
+                <use href="icons/arrow.svg#arrow-icon"></use>
+            </svg>
         </div>
 
-        <div class="">
-            <button @onclick="() => ToggleDropdownMenu(_faq4)" class="!border-primary-300 w-full p-0 px-4 py-3 bg-transparent shadow-none focus:outline-none focus:bg-transparent active:bg-transparent active:outline-none active:transform-none" style="border: none; border-top: 1px solid;">
-                <div class="w-full flex flex-row items-center justify-between">
-                    <p class="text-start text-base font-serif text-white m-0 p-0">
-                        In pretium ultrices enim urna consequat?
-                    </p>
-                    <svg class="h-6 w-6 fill-white" style="@_faq4.DropdownIconTransition">
-                        <use href="icons/arrow.svg#arrow-icon"></use>
-                    </svg>
-                </div>
-            </button>
+        <div class="@_faq3.Visibility flex flex-col justify-start items-start pt-3 w-full">
+            <p class="m-0 font-serif text-start prose prose-sm sm:prose-base lg:prose-lg dark:prose-invert">
+                Blandit posuere inceptos condimentum tempus senectus cras suscipit neque imperdiet. Facilisis molestie libero eu nulla posuere metus. Nunc facilisi convallis imperdiet suspendisse vivamus. Aptent quis senectus porttitor commodo ipsum cras vivamus eu. Natoque erat orci, ultricies habitant vestibulum laoreet.
+            </p>
+        </div>
+    </button>
 
-            <div class="@_faq4.Visibility flex flex-col items-start justify-center px-4 py-3">
-                <p class="prose prose-sm sm:prose-base lg:prose-lg dark:prose-invert m-0">
-                    Blandit posuere inceptos condimentum tempus senectus cras suscipit neque imperdiet. Facilisis molestie libero eu nulla posuere metus. Nunc facilisi convallis imperdiet suspendisse vivamus. Aptent quis senectus porttitor commodo ipsum cras vivamus eu. Natoque erat orci, ultricies habitant vestibulum laoreet.
-                </p>
-            </div>
+    <button @onclick="() => ToggleDropdownMenu(_faq4)" class="!border-primary-300 p-0 py-4 bg-transparent shadow-none focus:outline-none focus:bg-transparent active:bg-transparent active:outline-none active:transform-none cursor-pointer w-full box-border" style="border: none; border-top: 1px solid;">
+        <div class="flex flex-row items-center justify-between">
+            <p class="font-serif text-lg text-white m-0 p-0">
+                In pretium ultrices enim urna consequat?
+            </p>
+            <svg class="h-6 w-6 fill-white" style="@_faq4.DropdownIconTransition">
+                <use href="icons/arrow.svg#arrow-icon"></use>
+            </svg>
         </div>
 
-        <div class="">
-            <button @onclick="() => ToggleDropdownMenu(_faq5)" class="!border-primary-300 w-full p-0 px-4 py-3 bg-transparent shadow-none focus:outline-none focus:bg-transparent active:bg-transparent active:outline-none active:transform-none" style="border: none; border-top: 1px solid;">
-                <div class="w-full flex flex-row items-center justify-between">
-                    <p class="text-start text-base font-serif text-white m-0 p-0">
-                        In pretium ultrices enim urna consequat?
-                    </p>
-                    <svg class="h-6 w-6 fill-white" style="@_faq5.DropdownIconTransition">
-                        <use href="icons/arrow.svg#arrow-icon"></use>
-                    </svg>
-                </div>
-            </button>
-
-            <div class="@_faq5.Visibility flex flex-col items-start justify-center px-4 py-3">
-                <p class="prose prose-sm sm:prose-base lg:prose-lg dark:prose-invert m-0">
-                    Blandit posuere inceptos condimentum tempus senectus cras suscipit neque imperdiet. Facilisis molestie libero eu nulla posuere metus. Nunc facilisi convallis imperdiet suspendisse vivamus. Aptent quis senectus porttitor commodo ipsum cras vivamus eu. Natoque erat orci, ultricies habitant vestibulum laoreet.
-                </p>
-            </div>
+        <div class="@_faq4.Visibility flex flex-col justify-start items-start pt-3 w-full">
+            <p class="m-0 font-serif text-start prose prose-sm sm:prose-base lg:prose-lg dark:prose-invert">
+                Blandit posuere inceptos condimentum tempus senectus cras suscipit neque imperdiet. Facilisis molestie libero eu nulla posuere metus. Nunc facilisi convallis imperdiet suspendisse vivamus. Aptent quis senectus porttitor commodo ipsum cras vivamus eu. Natoque erat orci, ultricies habitant vestibulum laoreet.
+            </p>
         </div>
-    </nav>
+    </button>
+
+    <button @onclick="() => ToggleDropdownMenu(_faq5)" class="!border-primary-300 p-0 py-4 bg-transparent shadow-none focus:outline-none focus:bg-transparent active:bg-transparent active:outline-none active:transform-none cursor-pointer w-full box-border" style="border: none; border-top: 1px solid;">
+        <div class="flex flex-row items-center justify-between">
+            <p class="font-serif text-lg text-white m-0 p-0">
+                In pretium ultrices enim urna consequat?
+            </p>
+            <svg class="h-6 w-6 fill-white" style="@_faq5.DropdownIconTransition">
+                <use href="icons/arrow.svg#arrow-icon"></use>
+            </svg>
+        </div>
+
+        <div class="@_faq5.Visibility flex flex-col justify-start items-start pt-3 w-full">
+            <p class="m-0 font-serif text-start prose prose-sm sm:prose-base lg:prose-lg dark:prose-invert">
+                Blandit posuere inceptos condimentum tempus senectus cras suscipit neque imperdiet. Facilisis molestie libero eu nulla posuere metus. Nunc facilisi convallis imperdiet suspendisse vivamus. Aptent quis senectus porttitor commodo ipsum cras vivamus eu. Natoque erat orci, ultricies habitant vestibulum laoreet.
+            </p>
+        </div>
+    </button>
 </div>
 </article>
 

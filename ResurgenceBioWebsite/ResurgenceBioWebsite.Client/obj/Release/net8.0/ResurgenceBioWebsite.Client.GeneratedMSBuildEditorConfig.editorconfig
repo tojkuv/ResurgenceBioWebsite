@@ -35,12 +35,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdkJhci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/machine/OneDrive/source/repos/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/About Us/Advisors.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXQgVXNcQWR2aXNvcnMucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/machine/OneDrive/source/repos/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/About Us/BoardOfDirectors.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXQgVXNcQm9hcmRPZkRpcmVjdG9ycy5yYXpvcg==
+[C:/Users/machine/OneDrive/source/repos/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/AboutUs.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXRVcy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/machine/OneDrive/source/repos/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/Educate/TheStasisKnowledgeHub.razor]

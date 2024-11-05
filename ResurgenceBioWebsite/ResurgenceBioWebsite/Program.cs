@@ -1,7 +1,9 @@
+using System.Diagnostics;
 using Microsoft.FluentUI.AspNetCore.Components;
 using ResurgenceBioWebsite.Client.Layout;
 using ResurgenceBioWebsite.Client.Pages;
 using ResurgenceBioWebsite.Components;
+using Tailwind;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -21,11 +23,6 @@ builder.Services.AddScoped<MobileNavMenuService>();
 builder.Services.AddScoped<NavBarService>();
 
 builder.Services.AddHttpClient();
-
-builder.Services.AddFluentUIComponents(options =>
-{
-	options.ValidateClassNames = false;
-});
 
 
 var app = builder.Build();

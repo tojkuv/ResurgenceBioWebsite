@@ -1,4 +1,3 @@
-C:\Users\machine\OneDrive\source\repos\ResurgenceBioWebsite\ResurgenceBioWebsite\ResurgenceBioWebsite\bin\Release\net8.0\package.json
 C:\Users\machine\OneDrive\source\repos\ResurgenceBioWebsite\ResurgenceBioWebsite\ResurgenceBioWebsite\bin\Release\net8.0\ResurgenceBioWebsite.Shared.staticwebassets.runtime.json
 C:\Users\machine\OneDrive\source\repos\ResurgenceBioWebsite\ResurgenceBioWebsite\ResurgenceBioWebsite\bin\Release\net8.0\ResurgenceBioWebsite.Shared.staticwebassets.endpoints.json
 C:\Users\machine\OneDrive\source\repos\ResurgenceBioWebsite\ResurgenceBioWebsite\ResurgenceBioWebsite\bin\Release\net8.0\ResurgenceBioWebsite.Client.staticwebassets.runtime.json
@@ -67,3 +66,5 @@ C:\Users\machine\OneDrive\source\repos\ResurgenceBioWebsite\ResurgenceBioWebsite
 C:\Users\machine\OneDrive\source\repos\ResurgenceBioWebsite\ResurgenceBioWebsite\ResurgenceBioWebsite\obj\Release\net8.0\ResurgenceBioWebsite.pdb
 C:\Users\machine\OneDrive\source\repos\ResurgenceBioWebsite\ResurgenceBioWebsite\ResurgenceBioWebsite\obj\Release\net8.0\ResurgenceBioWebsite.genruntimeconfig.cache
 C:\Users\machine\OneDrive\source\repos\ResurgenceBioWebsite\ResurgenceBioWebsite\ResurgenceBioWebsite\obj\Release\net8.0\ref\ResurgenceBioWebsite.dll
+C:\Users\machine\OneDrive\source\repos\ResurgenceBioWebsite\ResurgenceBioWebsite\ResurgenceBioWebsite\bin\Release\net8.0\Microsoft.AspNetCore.SpaServices.Extensions.dll
+C:\Users\machine\OneDrive\source\repos\ResurgenceBioWebsite\ResurgenceBioWebsite\ResurgenceBioWebsite\bin\Release\net8.0\Tailwind.Extensions.AspNetCore.dll

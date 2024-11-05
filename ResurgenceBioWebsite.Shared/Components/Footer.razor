@@ -8,7 +8,7 @@
 @*     <InputText @bind-Value="_email.EmailAddress" type="email" placeholder="Email" class="border-none shadow-none no-underline focus:outline-none active:transform-none w-40 h-10 rounded bg-[#1e1e2e] text-white flex-auto"/> *@
 @* </EditForm> *@
 
-<footer class="w-full text-white max-lg:pt-6 lg:pt-10 box-border">
+<footer class="w-full text-white pt-4 box-border">
     <hr class="h-px border-none bg-primary-300" />
 
     @* Submit address section *@
@@ -44,11 +44,11 @@
         <div class="grid grid-cols-5 place-content-evenly gap-2">
             @foreach (var item in _socialMedia)
             {
-                <button class="flex h-11 w-11 cursor-pointer items-center justify-center rounded border-none bg-primary-400 text-white no-underline shadow-none hover:bg-primary-300 focus:outline-none active:transform-none">
-                    <svg class="max-md:p-0.5 md:p-1 max-lg:h-8 max-lg:w-8 fill-secondary-500 lg:h-9 lg:w-9">
-                        <use href="@item"></use>
+                <a href="https://linkedin.com/" target="_blank" class="flex max-lg:h-7 max-lg:w-7 lg:h-8 lg:w-8 p-2 cursor-pointer items-center justify-center bg-primary-400 hover:bg-primary-300 rounded no-underline">
+                    <svg class="w-full h-full fill-secondary-500">
+                        <use href="@item" ></use>
                     </svg>
-                </button>
+                </a>
             }
         </div>
     </div>
@@ -59,16 +59,9 @@
     <div class="m-4 flex flex-row items-center justify-between max-lg:hidden">
         <div class="grid grid-cols-4 gap-5 place-content-stretch w-full text-sm">
             <div class="flex flex-col gap-3">
-                <p class="m-0 font-semibold">
-                    About US
-                </p>
-
                 <nav class="flex flex-col gap-3">
-                    <a href="BoardOfDirectors" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-secondary-300">
-                        Board of Directors
-                    </a>
-                    <a href="Advisors" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-secondary-300">
-                        Advisors
+                    <a href="AboutUs" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-secondary-300">
+                        About Us
                     </a>
                 </nav>
             </div>
@@ -91,9 +84,6 @@
                     <a href="Beacon" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-secondary-300">
                         BEACON
                     </a>
-                    <a href="SafetyReviewCommittee" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-secondary-300">
-                        Safety Review Committee (SRC)
-                    </a>
                 </nav>
             </div>
 
@@ -103,7 +93,7 @@
                 </p>
 
                 <nav class="flex flex-col gap-3">
-                    <a href="StasisKnowledgeHub" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-secondary-300">
+                    <a href="TheStasisKnowledgeHub" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-secondary-300">
                         The Stasis Knowledge Hub
                     </a>
                     <a href="Volunteering" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-secondary-300">
@@ -131,7 +121,7 @@
                         Regional Readiness Development
                     </a>
                     <a href="RegionalInventoryManagement" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-secondary-300">
-                        Regional Readiness Development
+                        Regional Inventory Management
                     </a>
                     <a href="DocumentationDevelopment" class="text-gray-400 no-underline hover:text-white hover:underline hover:decoration-secondary-300">
                         Documentation Development
@@ -226,5 +216,4 @@
     //         Description = "Lorem ipsum odor amet, consectetuer adipiscing elit. Platea habitasse nisl laoreet vel arcu lobortis maecenas. Vulputate hac ultricies justo purus ex; dolor urna fames interdum. Nullam scelerisque in porta blandit potenti hac placerat. Libero nunc condimentum potenti vivamus in justo. Ultricies nunc mi non magnis ut. Venenatis cubilia habitant pharetra fringilla hac vel phasellus aenean? Dis nam sed scelerisque enim nascetur."
     //     }
     // ];
-
 }

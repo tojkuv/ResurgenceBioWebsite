@@ -3,12 +3,13 @@
 
 @inject NavigationManager Navigation
 
+@inject IJSRuntime JsRuntime
+
 @* <div class="flex flex-col items-center justify-center pb-4"> *@
-<div @onmouseover="MenuPersistence" @onmouseleave="HideAndResetMenuPersistence" class="@_navBarBackground relative overscroll-none w-full flex flex-row items-center justify-center overflow-x-clip !border-primary-300" style="border-bottom: 1px solid;">
-    @* todo: make the navigation bar a grid instead of a flex box for the tabs get horizontally centered *@
-    <nav class="container mx-auto flex flex-row items-center justify-center py-2 px-4 lg:py-3 lg:px-5 max-lg:justify-between">
+<div class="@_navBarBackground relative overscroll-none w-full flex flex-row items-center justify-center overflow-x-clip !border-primary-300" style="border-bottom: 1px solid;">
+    <nav class="container mx-auto flex flex-row items-center justify-center py-2 px-4 lg:py-3 lg:px-5 max-lg:justify-between max-md:h-9 md:max-lg:h-11 lg:h-14">
         <div class="group flex flex-row items-center max-lg:flex-none lg:hidden">
-            <a @onclick="(() => { ToggleMobileNavigationMenu(); HideMenu(); })" class="flex items-center justify-center lg:hidden relative cursor-pointer rounded bg-primary-400 lg:px-3 lg:py-2 max-lg:p-1 text-white text-lg font-semibold no-underline hover:bg-primary-300 max-md:h-7 max-md:w-9 md:max-lg:h-9 md:max-lg:w-11">
+            <a @onclick="(() => { ToggleMobileNavigationMenu(); ResetAllMenus(); })" class="flex items-center justify-center relative cursor-pointer rounded bg-primary-400 lg:px-3 lg:py-2 max-lg:p-1 text-white text-lg font-semibold no-underline hover:bg-secondary-300 max-md:h-7 max-md:w-9 md:max-lg:h-9 md:max-lg:w-11">
                 <svg class="stroke-secondary-500 max-md:h-7 max-md:w-9 md:max-lg:h-9 md:max-lg:w-11">
                     <use href="icons/nav.svg#nav-icon"></use>
                 </svg>
@@ -21,224 +22,206 @@
             </a>
         </div>
 
-        <div class="max-lg:hidden flex-1 h-full flex flex-row items-center justify-center space-x-6">
-            <div @onclick="() => ToggleMenuVisibility(_aboutUs)" @onmouseover="() => ShowMenu(_aboutUs)" @onmouseleave="() => HideMenu(_aboutUs)" class="flex h-full flex-col justify-center">
-                <p class="@(_menuToggleService.IsMenuVisible(_aboutUs) ? "text-secondary-300" : "text-white") m-0 inline-block cursor-default no-underline text-lg">
-                    About Us
-                </p>
+        <div class="max-lg:hidden flex-1 flex flex-row items-center justify-center space-x-6 h-full ">
+            <a @onclick="ResetAllMenus" href="AboutUs" class="relative cursor-pointer text-white text-lg no-underline hover:underline hover:underline-offset-4 hover:decoration-secondary-300 pe-2">
+                About Us
+            </a>
 
-                <nav @onmouseover="() => ShowMenu(_aboutUs)" @onmouseleave="() => HideMenu(_aboutUs)" class="@(_menuToggleService.IsMenuVisible(_aboutUs) ? "" : "hidden") absolute top-full -ms-4 !border-primary-300 bg-primary-500 p-4 shadow flex flex-col gap-5 min-w-max" style="border: 1px solid;">
-                    <a @onclick="() => HideMenu(_aboutUs)" href="BoardOfDirectors" class="relative cursor-pointer text-white text-lg no-underline hover:text-white hover:underline hover:decoration-secondary-300">
-                        Board of Directors
-                    </a>
-                    <a @onclick="() => HideMenu(_aboutUs)" href="Advisors" class="relative cursor-pointer text-white text-lg no-underline hover:text-white hover:underline hover:decoration-secondary-300">
-                        Advisors
-                    </a>
-                </nav>
-            </div>
+            <div class="flex flex-col justify-center w-fit h-fit">
+                <div @onclick="() => ToggleMenuVisibility(_elevate)" class="flex flex-row justify-center items-center gap-2 select-none cursor-pointer">
+                    <p class="@(IsMenuVisible(_elevate) ? "underline underline-offset-4 decoration-secondary-300" : "") m-0 inline-block text-white text-lg">
+                        Elevate
+                    </p>
 
-            <div @onmouseover="() => ShowMenu(_elevate)" @onmouseleave="() => HideMenu(_elevate)" class="flex h-full flex-col justify-center">
-                <p class="@(_menuToggleService.IsMenuVisible(_elevate) ? "text-secondary-300" : "text-white") m-0 inline-block cursor-default no-underline text-lg">
-                    Elevate
-                </p>
+                    <svg class="h-6 w-6 mt-1 fill-white transform transition-transform duration-300 ease-in-out" style="@(IsMenuVisible(_elevate) ? "transform: rotate(180deg);" : "")">
+                        <use href="icons/arrow.svg#arrow-icon"></use>
+                    </svg>
+                </div>
 
-                <nav @onmouseover="() => ShowMenu(_elevate)" @onmouseleave="() => HideMenu(_elevate)" class="absolute top-full -ms-4 !border-primary-300 bg-primary-500 p-4 shadow flex-col gap-5 min-w-max @(_menuToggleService.IsMenuVisible(_elevate) ? "flex" : "hidden")" style="border: 1px solid;">
-                    <a @onclick="() => HideMenu(_elevate)" href="AatbAccreditation" class="relative inline-flex cursor-pointer text-white text-lg no-underline hover:text-white hover:underline hover:decoration-secondary-300">
+                <nav id="@_elevate.ToString()" class="absolute top-full -ms-4 !border-primary-300 bg-primary-500 p-4 box-border shadow flex-col gap-5 w-[300px] @(IsMenuVisible(_elevate) ? "flex" : "hidden")" style="border: 1px solid;">
+                    <a @onclick="ResetAllMenus" href="AatbAccreditation" class="relative inline-flex cursor-pointer text-white text-lg no-underline hover:text-white hover:underline hover:decoration-secondary-300">
                         AATB Accreditation
                     </a>
-                    <a @onclick="() => HideMenu(_elevate)" href="CaresReporting" class="relative inline-flex cursor-pointer text-white text-lg no-underline hover:text-white hover:underline hover:decoration-secondary-300">
+                    <a @onclick="ResetAllMenus" href="CaresReporting" class="relative inline-flex cursor-pointer text-white text-lg no-underline hover:text-white hover:underline hover:decoration-secondary-300">
                         CARES Reporting
                     </a>
-                    <a @onclick="() => HideMenu(_elevate)" href="SpearInitiative" class="relative inline-flex cursor-pointer text-white text-lg no-underline hover:text-white hover:underline hover:decoration-secondary-300">
+                    <a @onclick="ResetAllMenus" href="SpearInitiative" class="relative inline-flex cursor-pointer text-white text-lg no-underline hover:text-white hover:underline hover:decoration-secondary-300">
                         SPEAR Initiative
                     </a>
-                    <a @onclick="() => HideMenu(_elevate)" href="Beacon" class="relative inline-flex cursor-pointer text-white text-lg no-underline hover:text-white hover:underline hover:decoration-secondary-300">
+                    <a @onclick="ResetAllMenus" href="Beacon" class="relative inline-flex cursor-pointer text-white text-lg no-underline hover:text-white hover:underline hover:decoration-secondary-300">
                         BEACON
                     </a>
                 </nav>
             </div>
 
-            <div @onmouseover="() => ShowMenu(_educate)" @onmouseleave="() => HideMenu(_educate)" class="flex h-full flex-col justify-center">
-                <p class="@(_menuToggleService.IsMenuVisible(_educate) ? "text-secondary-300" : "text-white") m-0 inline-block cursor-default no-underline text-lg">
-                    Educate
-                </p>
+            <div class="flex flex-col justify-center w-fit h-fit">
+                <div @onclick="() => ToggleMenuVisibility(_educate)" class="flex flex-row justify-center items-center gap-2 select-none cursor-pointer">
+                    <p class="@(IsMenuVisible(_educate) ? "underline underline-offset-4 decoration-secondary-300" : "") m-0 inline-block text-white text-lg">
+                        Educate
+                    </p>
 
-                <nav @onmouseover="() => ShowMenu(_educate)" @onmouseleave="() => HideMenu(_educate)" class="absolute top-full -ms-4 !border-primary-300 bg-primary-500 p-4 shadow flex-col gap-5 min-w-max @(_menuToggleService.IsMenuVisible(_educate) ? "flex" : "hidden")" style="border: 1px solid;">
-                    <a @onclick="() => HideMenu(_educate)" href="TheStasisKnowledgeHub" class="relative inline-flex cursor-pointer text-white text-lg no-underline hover:text-white hover:underline hover:decoration-secondary-300">
+                    <svg class="h-6 w-6 mt-1 fill-white transform transition-transform duration-300 ease-in-out" style="@(IsMenuVisible(_educate) ? "transform: rotate(180deg);" : "")">
+                        <use href="icons/arrow.svg#arrow-icon"></use>
+                    </svg>
+                </div>
+
+                <nav id="@_educate.ToString()" class="absolute top-full -ms-4 !border-primary-300 bg-primary-500 p-4 box-border shadow flex-col gap-5 w-[300px] @(IsMenuVisible(_educate) ? "flex" : "hidden")" style="border: 1px solid;">
+                    <a @onclick="ResetAllMenus" href="TheStasisKnowledgeHub" class="relative inline-flex cursor-pointer text-white text-lg no-underline hover:text-white hover:underline hover:decoration-secondary-300">
                         The Stasis Knowledge Hub
                     </a>
-                    <a @onclick="() => HideMenu(_educate)" href="Volunteering" class="relative inline-block cursor-pointer text-white text-lg no-underline hover:text-white hover:underline hover:decoration-secondary-300">
+                    <a @onclick="ResetAllMenus" href="Volunteering" class="relative inline-block cursor-pointer text-white text-lg no-underline hover:text-white hover:underline hover:decoration-secondary-300">
                         Volunteering
                     </a>
                 </nav>
             </div>
 
-            <div @onmouseover="() => ShowMenu(_innovate)" @onmouseleave="() => HideMenu(_innovate)" class="flex h-full flex-col justify-center">
-                <p class="@(_menuToggleService.IsMenuVisible(_innovate) ? "text-secondary-300" : "text-white") m-0 inline-block cursor-default no-underline text-lg">
-                    Innovate
-                </p>
+            <div class="flex flex-col justify-center w-fit h-fit">
+                <div @onclick="() => ToggleMenuVisibility(_innovate)" class="flex flex-row justify-center items-center gap-2 select-none cursor-pointer">
+                    <p class="@(IsMenuVisible(_innovate) ? "underline underline-offset-4 decoration-secondary-300" : "") m-0 inline-block text-white text-lg">
+                        Innovate
+                    </p>
 
-                <nav @onmouseover="() => ShowMenu(_innovate)" @onmouseleave="() => HideMenu(_innovate)" class="absolute top-full -ms-4 !border-primary-300 bg-primary-500 p-4 shadow flex-col gap-5 min-w-max @(_menuToggleService.IsMenuVisible(_innovate) ? "flex" : "hidden")" style="border: 1px solid;">
-                    <a @onclick="() => HideMenu(_innovate)" href="AldehydeStabilizedPreservationProtocol" class="relative inline-flex cursor-pointer text-white text-lg no-underline hover:text-white hover:underline hover:decoration-secondary-300">
+                    <svg class="h-6 w-6 mt-1 fill-white transform transition-transform duration-300 ease-in-out" style="@(IsMenuVisible(_innovate) ? "transform: rotate(180deg);" : "")">
+                        <use href="icons/arrow.svg#arrow-icon"></use>
+                    </svg>
+                </div>
+
+                <nav id="@_innovate.ToString()" class="absolute top-full -ms-4 !border-primary-300 bg-primary-500 p-4 box-border shadow flex-col gap-5 w-[300px] @(IsMenuVisible(_innovate) ? "flex" : "hidden")" style="border: 1px solid;">
+                    <a @onclick="ResetAllMenus" href="AldehydeStabilizedPreservationProtocol" class="relative inline-flex cursor-pointer text-white text-lg no-underline hover:text-white hover:underline hover:decoration-secondary-300">
                         Aldehyde Stabilized <br/>
                         Preservation Protocol
                     </a>
-                    <a @onclick="() => HideMenu(_innovate)" href="WholeBodyFieldCryoprotection" class="relative inline-flex cursor-pointer text-white text-lg no-underline hover:text-white hover:underline hover:decoration-secondary-300">
+                    <a @onclick="ResetAllMenus" href="WholeBodyFieldCryoprotection" class="relative inline-flex cursor-pointer text-white text-lg no-underline hover:text-white hover:underline hover:decoration-secondary-300">
                         Whole Body Field Cryoprotection
                     </a>
-                    <a @onclick="() => HideMenu(_innovate)" href="SstOptimization" class="relative inline-flex cursor-pointer text-white text-lg no-underline hover:text-white hover:underline hover:decoration-secondary-300">
+                    <a @onclick="ResetAllMenus" href="SstOptimization" class="relative inline-flex cursor-pointer text-white text-lg no-underline hover:text-white hover:underline hover:decoration-secondary-300">
                         Standby, Stabilization, and <br/>
                         Transport (SST) Optimization
                     </a>
-                    <a @onclick="() => HideMenu(_innovate)" href="RegionalReadinessDevelopment" class="relative inline-flex cursor-pointer text-white text-lg no-underline hover:text-white hover:underline hover:decoration-secondary-300">
+                    <a @onclick="ResetAllMenus" href="RegionalReadinessDevelopment" class="relative inline-flex cursor-pointer text-white text-lg no-underline hover:text-white hover:underline hover:decoration-secondary-300">
                         Regional Readiness Development
                     </a>
-                    <a @onclick="() => HideMenu(_innovate)" href="RegionalInventoryManagement" class="relative inline-flex cursor-pointer text-white text-lg no-underline hover:text-white hover:underline hover:decoration-secondary-300">
+                    <a @onclick="ResetAllMenus" href="RegionalInventoryManagement" class="relative inline-flex cursor-pointer text-white text-lg no-underline hover:text-white hover:underline hover:decoration-secondary-300">
                         Regional Inventory Management
                     </a>
-                    <a @onclick="() => HideMenu(_innovate)" href="DocumentationDevelopment" class="relative inline-flex cursor-pointer text-white text-lg no-underline hover:text-white hover:underline hover:decoration-secondary-300">
+                    <a @onclick="ResetAllMenus" href="DocumentationDevelopment" class="relative inline-flex cursor-pointer text-white text-lg no-underline hover:text-white hover:underline hover:decoration-secondary-300">
                         Documentation Development
                     </a>
-                    <a @onclick="() => HideMenu(_innovate)" href="LifebridgeProgram" class="relative inline-flex cursor-pointer text-white text-lg no-underline hover:text-white hover:underline hover:decoration-secondary-300">
+                    <a @onclick="ResetAllMenus" href="LifebridgeProgram" class="relative inline-flex cursor-pointer text-white text-lg no-underline hover:text-white hover:underline hover:decoration-secondary-300">
                         Lifebridge Program
                     </a>
                 </nav>
             </div>
-
-            @* <a @onclick="HideMenu" href="Faq" class="relative inline-block cursor-pointer text-white text-lg no-underline hover:text-white hover:underline hover:decoration-secondary-300"> *@
-            @*     FAQ *@
-            @* </a> *@
         </div>
 
         @* todo refactor: make this anchor button a component *@
-        <div class="lg:w-60 flex items-center justify-end lg:space-x-3">
-            <a @onclick="HideMenu" href="Emergency" class="max-lg:hidden relative inline-block cursor-pointer rounded bg-rose-600 px-3 py-2 text-white text-lg no-underline hover:bg-rose-400">
+        <div class="lg:w-60 flex items-center justify-end md:space-x-3">
+            <a @onclick="ResetAllMenus" href="Emergency" class="max-lg:hidden relative inline-block cursor-pointer rounded bg-rose-600 px-3 py-2 text-white text-lg no-underline hover:bg-rose-400">
                 Emergency
             </a>
-            <a @onclick="HideMenu" href="Emergency" class="flex items-center justify-center lg:hidden relative cursor-pointer rounded bg-rose-600 lg:px-3 lg:py-2 max-lg:p-1 text-white text-lg font-semibold no-underline hover:bg-rose-400 max-md:h-7 max-md:w-9 md:max-lg:h-9 md:max-lg:w-11">
+            <a @onclick="ResetAllMenus" href="Emergency" class="flex items-center justify-center lg:hidden relative cursor-pointer rounded bg-rose-600 p-1 text-white text-lg font-semibold no-underline hover:bg-rose-400 max-md:h-7 max-md:w-9">
                 SOS
             </a>
         </div>
     </nav>
 </div>
-@* </div> *@
 
 @code
 {
+    // note: overridden methods
+    protected override void OnInitialized()
+    {
+        _objRef = DotNetObjectReference.Create(this);
+
+        AddMenu(_elevate);
+        AddMenu(_educate);
+        AddMenu(_innovate);
+    }
+
+    protected override void OnAfterRender(bool firstRender)
+    {
+        if (!firstRender) return;
+
+        _navBar = this;
+        NavBarService.SetNavBar(_navBar);
+    }
+
+    public void Dispose()
+    {
+        _objRef?.Dispose();
+    }
+
+    private NavBar? _navBar;
+
     // note: navigation bar menu component
-    private Guid _aboutUs = Guid.NewGuid();
     private Guid _elevate = Guid.NewGuid();
     private Guid _educate = Guid.NewGuid();
     private Guid _innovate = Guid.NewGuid();
 
-    private MenuToggleService _menuToggleService = new();
+    private DotNetObjectReference<NavBar> _objRef = null!;
+    private readonly Dictionary<Guid, bool> _menuStates = new();
 
-    protected override void OnInitialized()
-    {
-        _menuToggleService.AddMenu(_aboutUs);
-        _menuToggleService.AddMenu(_innovate);
-        _menuToggleService.AddMenu(_elevate);
-    }
 
-    private void ShowMenu(Guid menuId)
+    public void AddMenu(Guid menuId)
     {
-        _menuToggleService.ToggleMenuVisible(menuId);
-    }
-
-    private void HideMenu(Guid menuId)
-    {
-        _menuToggleService.ToggleMenuInvisible(menuId);
-        _menuToggleService.LastHovered = menuId;
-    }
-
-    private void HideMenu()
-    {
-        _menuToggleService.ToggleMenuInvisible();
+        _menuStates.TryAdd(menuId, false);
     }
 
     private void ToggleMenuVisibility(Guid menuId)
     {
-        if (_menuToggleService.IsMenuVisible(menuId))
+        if (IsMenuVisible(menuId))
         {
-            _menuToggleService.ToggleMenuInvisible(menuId);
+            ToggleMenuInvisible(menuId);
+            return;
         }
 
-        _menuToggleService.ToggleMenuVisible(menuId);
+        ToggleMenuVisible(menuId);
     }
 
-    private void MenuPersistence()
+    public async void ToggleMenuVisible(Guid menuId)
     {
-        _menuToggleService.ToggleMenuVisibleLastHovered();
+        ResetAllMenus();
+
+        await JsRuntime.InvokeVoidAsync("setupFocusListener", _objRef, menuId.ToString(), "ResetAllMenus", "click");
+
+        _menuStates[menuId] = true;
+
+        StateHasChanged();
     }
 
-    private void HideAndResetMenuPersistence()
+    public async void ToggleMenuInvisible(Guid menuId)
     {
-        _menuToggleService.ToggleMenuInvisibleLastHovered();
+        if (_menuStates.ContainsKey(menuId))
+        {
+            _menuStates[menuId] = false;
+        }
+
+        await JsRuntime.InvokeVoidAsync("removeFocusListener", menuId.ToString(), "click");
+        StateHasChanged();
     }
 
-    private class MenuToggleService
+    public void ToggleMenuInvisible()
     {
-        private readonly Dictionary<Guid, bool> _menuStates = new();
-        public Guid? LastHovered;
-
-        public void AddMenu(Guid menuId)
+        foreach (var key in _menuStates.Keys.ToList())
         {
-            _menuStates.TryAdd(menuId, false);
+            _menuStates[key] = false;
+        }
+    }
+
+    public bool IsMenuVisible(Guid menuId)
+    {
+        return _menuStates.TryGetValue(menuId, out var isVisible) && isVisible;
+    }
+
+    [JSInvokable]
+    public void ResetAllMenus()
+    {
+        foreach (var key in _menuStates.Keys.ToList())
+        {
+            _menuStates[key] = false;
         }
 
-        public void ToggleMenuVisible(Guid menuId)
-        {
-            ResetAllMenus();
-            _menuStates[menuId] = true;
-            LastHovered = menuId;
-        }
-
-        public void ToggleMenuInvisible(Guid menuId)
-        {
-            if (_menuStates.ContainsKey(menuId))
-            {
-                _menuStates[menuId] = false;
-            }
-        }
-
-        public void ToggleMenuInvisible()
-        {
-            foreach (var key in _menuStates.Keys.ToList())
-            {
-                _menuStates[key] = false;
-            }
-
-            LastHovered = null;
-        }
-
-        public void ToggleMenuVisibleLastHovered()
-        {
-            if (LastHovered.HasValue)
-            {
-                ToggleMenuVisible(LastHovered.Value);
-            }
-        }
-
-        public void ToggleMenuInvisibleLastHovered()
-        {
-            if (!LastHovered.HasValue) return;
-
-            ToggleMenuInvisible(LastHovered.Value);
-            LastHovered = null;
-        }
-
-        public bool IsMenuVisible(Guid menuId)
-        {
-            return _menuStates.TryGetValue(menuId, out var isVisible) && isVisible;
-        }
-
-        public void ResetAllMenus()
-        {
-            foreach (var key in _menuStates.Keys.ToList())
-            {
-                _menuStates[key] = false;
-            }
-        }
+        StateHasChanged();
     }
 
     // note: mobile navigation menu
@@ -260,16 +243,5 @@
     {
         _navBarBackground = value ?? "bg-primary-500";
         StateHasChanged();
-    }
-
-    // note: overridden methods
-    private NavBar? _navBar;
-
-    protected override void OnAfterRender(bool firstRender)
-    {
-        if (!firstRender) return;
-
-        _navBar = this;
-        NavBarService.SetNavBar(_navBar);
     }
 }

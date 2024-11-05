@@ -1,4 +1,3 @@
-C:\Users\machine\OneDrive\source\repos\ResurgenceBioWebsite\ResurgenceBioWebsite\ResurgenceBioWebsite\bin\Debug\net8.0\package.json
 C:\Users\machine\OneDrive\source\repos\ResurgenceBioWebsite\ResurgenceBioWebsite\ResurgenceBioWebsite\bin\Debug\net8.0\ResurgenceBioWebsite.Shared.staticwebassets.runtime.json
 C:\Users\machine\OneDrive\source\repos\ResurgenceBioWebsite\ResurgenceBioWebsite\ResurgenceBioWebsite\bin\Debug\net8.0\ResurgenceBioWebsite.Shared.staticwebassets.endpoints.json
 C:\Users\machine\OneDrive\source\repos\ResurgenceBioWebsite\ResurgenceBioWebsite\ResurgenceBioWebsite\bin\Debug\net8.0\ResurgenceBioWebsite.Client.staticwebassets.runtime.json
@@ -30,6 +29,7 @@ C:\Users\machine\OneDrive\source\repos\ResurgenceBioWebsite\ResurgenceBioWebsite
 C:\Users\machine\OneDrive\source\repos\ResurgenceBioWebsite\ResurgenceBioWebsite\ResurgenceBioWebsite\bin\Debug\net8.0\Microsoft.AspNetCore.Components.WebAssembly.dll
 C:\Users\machine\OneDrive\source\repos\ResurgenceBioWebsite\ResurgenceBioWebsite\ResurgenceBioWebsite\bin\Debug\net8.0\Microsoft.AspNetCore.Components.WebAssembly.Server.dll
 C:\Users\machine\OneDrive\source\repos\ResurgenceBioWebsite\ResurgenceBioWebsite\ResurgenceBioWebsite\bin\Debug\net8.0\Microsoft.AspNetCore.Metadata.dll
+C:\Users\machine\OneDrive\source\repos\ResurgenceBioWebsite\ResurgenceBioWebsite\ResurgenceBioWebsite\bin\Debug\net8.0\Microsoft.AspNetCore.SpaServices.Extensions.dll
 C:\Users\machine\OneDrive\source\repos\ResurgenceBioWebsite\ResurgenceBioWebsite\ResurgenceBioWebsite\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
 C:\Users\machine\OneDrive\source\repos\ResurgenceBioWebsite\ResurgenceBioWebsite\ResurgenceBioWebsite\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\machine\OneDrive\source\repos\ResurgenceBioWebsite\ResurgenceBioWebsite\ResurgenceBioWebsite\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
@@ -39,6 +39,7 @@ C:\Users\machine\OneDrive\source\repos\ResurgenceBioWebsite\ResurgenceBioWebsite
 C:\Users\machine\OneDrive\source\repos\ResurgenceBioWebsite\ResurgenceBioWebsite\ResurgenceBioWebsite\bin\Debug\net8.0\Microsoft.FluentUI.AspNetCore.Components.Icons.dll
 C:\Users\machine\OneDrive\source\repos\ResurgenceBioWebsite\ResurgenceBioWebsite\ResurgenceBioWebsite\bin\Debug\net8.0\Microsoft.JSInterop.dll
 C:\Users\machine\OneDrive\source\repos\ResurgenceBioWebsite\ResurgenceBioWebsite\ResurgenceBioWebsite\bin\Debug\net8.0\Microsoft.JSInterop.WebAssembly.dll
+C:\Users\machine\OneDrive\source\repos\ResurgenceBioWebsite\ResurgenceBioWebsite\ResurgenceBioWebsite\bin\Debug\net8.0\Tailwind.Extensions.AspNetCore.dll
 C:\Users\machine\OneDrive\source\repos\ResurgenceBioWebsite\ResurgenceBioWebsite\ResurgenceBioWebsite\bin\Debug\net8.0\ResurgenceBioWebsite.Client.dll
 C:\Users\machine\OneDrive\source\repos\ResurgenceBioWebsite\ResurgenceBioWebsite\ResurgenceBioWebsite\bin\Debug\net8.0\ResurgenceBioWebsite.Shared.dll
 C:\Users\machine\OneDrive\source\repos\ResurgenceBioWebsite\ResurgenceBioWebsite\ResurgenceBioWebsite\bin\Debug\net8.0\ResurgenceBioWebsite.Shared.pdb

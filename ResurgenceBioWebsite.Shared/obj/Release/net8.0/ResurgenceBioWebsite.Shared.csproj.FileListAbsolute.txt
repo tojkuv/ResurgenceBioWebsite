@@ -1,4 +1,3 @@
-C:\Users\machine\OneDrive\source\repos\ResurgenceBioWebsite\ResurgenceBioWebsite.Shared\bin\Release\net8.0\package.json
 C:\Users\machine\OneDrive\source\repos\ResurgenceBioWebsite\ResurgenceBioWebsite.Shared\bin\Release\net8.0\ResurgenceBioWebsite.Shared.staticwebassets.runtime.json
 C:\Users\machine\OneDrive\source\repos\ResurgenceBioWebsite\ResurgenceBioWebsite.Shared\bin\Release\net8.0\ResurgenceBioWebsite.Shared.staticwebassets.endpoints.json
 C:\Users\machine\OneDrive\source\repos\ResurgenceBioWebsite\ResurgenceBioWebsite.Shared\bin\Release\net8.0\ResurgenceBioWebsite.Shared.deps.json

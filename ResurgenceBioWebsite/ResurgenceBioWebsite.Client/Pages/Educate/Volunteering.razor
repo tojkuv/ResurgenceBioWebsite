@@ -206,111 +206,99 @@
     </div>
 </div>
 
-@* note: FAQ section *@
-<div class="flex flex-col items-center justify-center gap-4 w-full">
-    <h1 class="m-0 text-center md:hidden text-2xl">
+@* note: faq section *@
+<div class="max-xl:w-full xl:w-[750px] flex flex-col justify-center items-center px-6 pt-6 bg-primary-600 rounded box-border">
+    <h2 class="m-0 mb-4 text-center md:hidden">
         FAQs
-    </h1>
-    <h1 class="m-0 text-center max-md:hidden md:max-lg:text-3xl lg:text-4xl">
+    </h2>
+    <h2 class="m-0 mb-4 text-center max-md:hidden">
         Frequently asked questions
-    </h1>
+    </h2>
 
-    <nav class="w-full">
-        <div class="">
-            <button @onclick="() => ToggleDropdownMenu(_faq1)" class="!border-primary-300 w-full p-0 px-4 py-3 bg-transparent shadow-none focus:outline-none focus:bg-transparent active:bg-transparent active:outline-none active:transform-none" style="border: none;">
-                <div class="w-full flex flex-row items-center justify-between">
-                    <p class="text-start text-base font-serif text-white m-0 p-0">
-                        In pretium ultrices enim urna consequat?
-                    </p>
-                    <svg class="h-6 w-6 fill-white" style="@_faq1.DropdownIconTransition">
-                        <use href="icons/arrow.svg#arrow-icon"></use>
-                    </svg>
-                </div>
-            </button>
-
-            <div class="@_faq1.Visibility flex flex-col items-start justify-center px-4 py-3">
-                <p class="prose prose-sm sm:prose-base lg:prose-lg dark:prose-invert m-0">
-                    Blandit posuere inceptos condimentum tempus senectus cras suscipit neque imperdiet. Facilisis molestie libero eu nulla posuere metus. Nunc facilisi convallis imperdiet suspendisse vivamus. Aptent quis senectus porttitor commodo ipsum cras vivamus eu. Natoque erat orci, ultricies habitant vestibulum laoreet.
-                </p>
-            </div>
+    <button @onclick="() => ToggleDropdownMenu(_faq1)" class="!border-primary-300 p-0 py-4 bg-transparent shadow-none focus:outline-none focus:bg-transparent active:bg-transparent active:outline-none active:transform-none cursor-pointer w-full box-border" style="border: none; border-top: 1px solid;">
+        <div class="flex flex-row items-center justify-between">
+            <p class="font-serif text-lg text-white m-0 p-0">
+                In pretium ultrices enim urna consequat?
+            </p>
+            <svg class="h-6 w-6 fill-white" style="@_faq1.DropdownIconTransition">
+                <use href="icons/arrow.svg#arrow-icon"></use>
+            </svg>
         </div>
 
-        <div class="">
-            <button @onclick="() => ToggleDropdownMenu(_faq2)" class="!border-primary-300 w-full p-0 px-4 py-3 bg-transparent shadow-none focus:outline-none focus:bg-transparent active:bg-transparent active:outline-none active:transform-none" style="border: none; border-top: 1px solid;">
-                <div class="w-full flex flex-row items-center justify-between">
-                    <p class="text-start text-base font-serif text-white m-0 p-0">
-                        In pretium ultrices enim urna consequat?
-                    </p>
-                    <svg class="h-6 w-6 fill-white" style="@_faq2.DropdownIconTransition">
-                        <use href="icons/arrow.svg#arrow-icon"></use>
-                    </svg>
-                </div>
-            </button>
+        <div class="@_faq1.Visibility flex flex-col justify-start items-start pt-3 w-full">
+            <p class="m-0 font-serif text-start prose prose-sm sm:prose-base lg:prose-lg dark:prose-invert">
+                Blandit posuere inceptos condimentum tempus senectus cras suscipit neque imperdiet. Facilisis molestie libero eu nulla posuere metus. Nunc facilisi convallis imperdiet suspendisse vivamus. Aptent quis senectus porttitor commodo ipsum cras vivamus eu. Natoque erat orci, ultricies habitant vestibulum laoreet.
+            </p>
+        </div>
+    </button>
 
-            <div class="@_faq2.Visibility flex flex-col items-start justify-center px-4 py-3">
-                <p class="prose prose-sm sm:prose-base lg:prose-lg dark:prose-invert m-0">
-                    Blandit posuere inceptos condimentum tempus senectus cras suscipit neque imperdiet. Facilisis molestie libero eu nulla posuere metus. Nunc facilisi convallis imperdiet suspendisse vivamus. Aptent quis senectus porttitor commodo ipsum cras vivamus eu. Natoque erat orci, ultricies habitant vestibulum laoreet.
-                </p>
-            </div>
+    <button @onclick="() => ToggleDropdownMenu(_faq2)" class="!border-primary-300 p-0 py-4 bg-transparent shadow-none focus:outline-none focus:bg-transparent active:bg-transparent active:outline-none active:transform-none cursor-pointer w-full box-border" style="border: none; border-top: 1px solid;">
+        <div class="flex flex-row items-center justify-between">
+            <p class="font-serif text-lg text-white m-0 p-0">
+                In pretium ultrices enim urna consequat?
+            </p>
+            <svg class="h-6 w-6 fill-white" style="@_faq2.DropdownIconTransition">
+                <use href="icons/arrow.svg#arrow-icon"></use>
+            </svg>
         </div>
 
-        <div class="">
-            <button @onclick="() => ToggleDropdownMenu(_faq3)" class="!border-primary-300 w-full p-0 px-4 py-3 bg-transparent shadow-none focus:outline-none focus:bg-transparent active:bg-transparent active:outline-none active:transform-none" style="border: none; border-top: 1px solid;">
-                <div class="w-full flex flex-row items-center justify-between">
-                    <p class="text-start text-base font-serif text-white m-0 p-0">
-                        In pretium ultrices enim urna consequat?
-                    </p>
-                    <svg class="h-6 w-6 fill-white" style="@_faq3.DropdownIconTransition">
-                        <use href="icons/arrow.svg#arrow-icon"></use>
-                    </svg>
-                </div>
-            </button>
+        <div class="@_faq2.Visibility flex flex-col justify-start items-start pt-3 w-full">
+            <p class="m-0 font-serif text-start prose prose-sm sm:prose-base lg:prose-lg dark:prose-invert">
+                Blandit posuere inceptos condimentum tempus senectus cras suscipit neque imperdiet. Facilisis molestie libero eu nulla posuere metus. Nunc facilisi convallis imperdiet suspendisse vivamus. Aptent quis senectus porttitor commodo ipsum cras vivamus eu. Natoque erat orci, ultricies habitant vestibulum laoreet.
+            </p>
+        </div>
+    </button>
 
-            <div class="@_faq3.Visibility flex flex-col items-start justify-center px-4 py-3">
-                <p class="prose prose-sm sm:prose-base lg:prose-lg dark:prose-invert m-0">
-                    Blandit posuere inceptos condimentum tempus senectus cras suscipit neque imperdiet. Facilisis molestie libero eu nulla posuere metus. Nunc facilisi convallis imperdiet suspendisse vivamus. Aptent quis senectus porttitor commodo ipsum cras vivamus eu. Natoque erat orci, ultricies habitant vestibulum laoreet.
-                </p>
-            </div>
+    <button @onclick="() => ToggleDropdownMenu(_faq3)" class="!border-primary-300 p-0 py-4 bg-transparent shadow-none focus:outline-none focus:bg-transparent active:bg-transparent active:outline-none active:transform-none cursor-pointer w-full box-border" style="border: none; border-top: 1px solid;">
+        <div class="flex flex-row items-center justify-between">
+            <p class="font-serif text-lg text-white m-0 p-0">
+                In pretium ultrices enim urna consequat?
+            </p>
+            <svg class="h-6 w-6 fill-white" style="@_faq3.DropdownIconTransition">
+                <use href="icons/arrow.svg#arrow-icon"></use>
+            </svg>
         </div>
 
-        <div class="">
-            <button @onclick="() => ToggleDropdownMenu(_faq4)" class="!border-primary-300 w-full p-0 px-4 py-3 bg-transparent shadow-none focus:outline-none focus:bg-transparent active:bg-transparent active:outline-none active:transform-none" style="border: none; border-top: 1px solid;">
-                <div class="w-full flex flex-row items-center justify-between">
-                    <p class="text-start text-base font-serif text-white m-0 p-0">
-                        In pretium ultrices enim urna consequat?
-                    </p>
-                    <svg class="h-6 w-6 fill-white" style="@_faq4.DropdownIconTransition">
-                        <use href="icons/arrow.svg#arrow-icon"></use>
-                    </svg>
-                </div>
-            </button>
+        <div class="@_faq3.Visibility flex flex-col justify-start items-start pt-3 w-full">
+            <p class="m-0 font-serif text-start prose prose-sm sm:prose-base lg:prose-lg dark:prose-invert">
+                Blandit posuere inceptos condimentum tempus senectus cras suscipit neque imperdiet. Facilisis molestie libero eu nulla posuere metus. Nunc facilisi convallis imperdiet suspendisse vivamus. Aptent quis senectus porttitor commodo ipsum cras vivamus eu. Natoque erat orci, ultricies habitant vestibulum laoreet.
+            </p>
+        </div>
+    </button>
 
-            <div class="@_faq4.Visibility flex flex-col items-start justify-center px-4 py-3">
-                <p class="prose prose-sm sm:prose-base lg:prose-lg dark:prose-invert m-0">
-                    Blandit posuere inceptos condimentum tempus senectus cras suscipit neque imperdiet. Facilisis molestie libero eu nulla posuere metus. Nunc facilisi convallis imperdiet suspendisse vivamus. Aptent quis senectus porttitor commodo ipsum cras vivamus eu. Natoque erat orci, ultricies habitant vestibulum laoreet.
-                </p>
-            </div>
+    <button @onclick="() => ToggleDropdownMenu(_faq4)" class="!border-primary-300 p-0 py-4 bg-transparent shadow-none focus:outline-none focus:bg-transparent active:bg-transparent active:outline-none active:transform-none cursor-pointer w-full box-border" style="border: none; border-top: 1px solid;">
+        <div class="flex flex-row items-center justify-between">
+            <p class="font-serif text-lg text-white m-0 p-0">
+                In pretium ultrices enim urna consequat?
+            </p>
+            <svg class="h-6 w-6 fill-white" style="@_faq4.DropdownIconTransition">
+                <use href="icons/arrow.svg#arrow-icon"></use>
+            </svg>
         </div>
 
-        <div class="">
-            <button @onclick="() => ToggleDropdownMenu(_faq5)" class="!border-primary-300 w-full p-0 px-4 py-3 bg-transparent shadow-none focus:outline-none focus:bg-transparent active:bg-transparent active:outline-none active:transform-none" style="border: none; border-top: 1px solid;">
-                <div class="w-full flex flex-row items-center justify-between">
-                    <p class="text-start text-base font-serif text-white m-0 p-0">
-                        In pretium ultrices enim urna consequat?
-                    </p>
-                    <svg class="h-6 w-6 fill-white" style="@_faq5.DropdownIconTransition">
-                        <use href="icons/arrow.svg#arrow-icon"></use>
-                    </svg>
-                </div>
-            </button>
-
-            <div class="@_faq5.Visibility flex flex-col items-start justify-center px-4 py-3">
-                <p class="prose prose-sm sm:prose-base lg:prose-lg dark:prose-invert m-0">
-                    Blandit posuere inceptos condimentum tempus senectus cras suscipit neque imperdiet. Facilisis molestie libero eu nulla posuere metus. Nunc facilisi convallis imperdiet suspendisse vivamus. Aptent quis senectus porttitor commodo ipsum cras vivamus eu. Natoque erat orci, ultricies habitant vestibulum laoreet.
-                </p>
-            </div>
+        <div class="@_faq4.Visibility flex flex-col justify-start items-start pt-3 w-full">
+            <p class="m-0 font-serif text-start prose prose-sm sm:prose-base lg:prose-lg dark:prose-invert">
+                Blandit posuere inceptos condimentum tempus senectus cras suscipit neque imperdiet. Facilisis molestie libero eu nulla posuere metus. Nunc facilisi convallis imperdiet suspendisse vivamus. Aptent quis senectus porttitor commodo ipsum cras vivamus eu. Natoque erat orci, ultricies habitant vestibulum laoreet.
+            </p>
         </div>
-    </nav>
+    </button>
+
+    <button @onclick="() => ToggleDropdownMenu(_faq5)" class="!border-primary-300 p-0 py-4 bg-transparent shadow-none focus:outline-none focus:bg-transparent active:bg-transparent active:outline-none active:transform-none cursor-pointer w-full box-border" style="border: none; border-top: 1px solid;">
+        <div class="flex flex-row items-center justify-between">
+            <p class="font-serif text-lg text-white m-0 p-0">
+                In pretium ultrices enim urna consequat?
+            </p>
+            <svg class="h-6 w-6 fill-white" style="@_faq5.DropdownIconTransition">
+                <use href="icons/arrow.svg#arrow-icon"></use>
+            </svg>
+        </div>
+
+        <div class="@_faq5.Visibility flex flex-col justify-start items-start pt-3 w-full">
+            <p class="m-0 font-serif text-start prose prose-sm sm:prose-base lg:prose-lg dark:prose-invert">
+                Blandit posuere inceptos condimentum tempus senectus cras suscipit neque imperdiet. Facilisis molestie libero eu nulla posuere metus. Nunc facilisi convallis imperdiet suspendisse vivamus. Aptent quis senectus porttitor commodo ipsum cras vivamus eu. Natoque erat orci, ultricies habitant vestibulum laoreet.
+            </p>
+        </div>
+    </button>
 </div>
 </article>
 
