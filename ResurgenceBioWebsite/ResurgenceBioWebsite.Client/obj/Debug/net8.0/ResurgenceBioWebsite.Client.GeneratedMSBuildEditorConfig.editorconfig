@@ -13,121 +13,121 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = ResurgenceBioWebsite.Client
 build_property.RootNamespace = ResurgenceBioWebsite.Client
-build_property.ProjectDir = C:\Projects\ResurgenceBioWebsite\ResurgenceBioWebsite\ResurgenceBioWebsite.Client\
+build_property.ProjectDir = C:\Projects\_Archive\ResurgenceBioWebsite\ResurgenceBioWebsite\ResurgenceBioWebsite.Client\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = false
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Projects\ResurgenceBioWebsite\ResurgenceBioWebsite\ResurgenceBioWebsite.Client
+build_property.MSBuildProjectDirectory = C:\Projects\_Archive\ResurgenceBioWebsite\ResurgenceBioWebsite\ResurgenceBioWebsite.Client
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Projects/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Layout/MainLayout.razor]
+[C:/Projects/_Archive/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Layout/MobileNavMenu.razor]
+[C:/Projects/_Archive/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Layout/MobileNavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1vYmlsZU5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Layout/NavBar.razor]
+[C:/Projects/_Archive/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Layout/NavBar.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdkJhci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/AboutUs.razor]
+[C:/Projects/_Archive/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/AboutUs.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXRVcy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/Educate/TheStasisKnowledgeHub.razor]
+[C:/Projects/_Archive/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/Educate/TheStasisKnowledgeHub.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWR1Y2F0ZVxUaGVTdGFzaXNLbm93bGVkZ2VIdWIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/Educate/UpcomingVolunteeringEvent.razor]
+[C:/Projects/_Archive/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/Educate/UpcomingVolunteeringEvent.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWR1Y2F0ZVxVcGNvbWluZ1ZvbHVudGVlcmluZ0V2ZW50LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/Educate/Volunteering.razor]
+[C:/Projects/_Archive/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/Educate/Volunteering.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWR1Y2F0ZVxWb2x1bnRlZXJpbmcucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/Elevate/AatbAccreditation.razor]
+[C:/Projects/_Archive/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/Elevate/AatbAccreditation.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWxldmF0ZVxBYXRiQWNjcmVkaXRhdGlvbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/Elevate/Beacon.razor]
+[C:/Projects/_Archive/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/Elevate/Beacon.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWxldmF0ZVxCZWFjb24ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/Elevate/CaresReporting.razor]
+[C:/Projects/_Archive/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/Elevate/CaresReporting.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWxldmF0ZVxDYXJlc1JlcG9ydGluZy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/Elevate/SpearInitiative.razor]
+[C:/Projects/_Archive/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/Elevate/SpearInitiative.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWxldmF0ZVxTcGVhckluaXRpYXRpdmUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/Emergency.razor]
+[C:/Projects/_Archive/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/Emergency.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1lcmdlbmN5LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/Home.razor]
+[C:/Projects/_Archive/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/Innovate/AldehydeStabilizedPreservationProtocol.razor]
+[C:/Projects/_Archive/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/Innovate/AldehydeStabilizedPreservationProtocol.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5ub3ZhdGVcQWxkZWh5ZGVTdGFiaWxpemVkUHJlc2VydmF0aW9uUHJvdG9jb2wucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/Innovate/DocumentationDevelopment.razor]
+[C:/Projects/_Archive/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/Innovate/DocumentationDevelopment.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5ub3ZhdGVcRG9jdW1lbnRhdGlvbkRldmVsb3BtZW50LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/Innovate/LifebridgeProgram.razor]
+[C:/Projects/_Archive/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/Innovate/LifebridgeProgram.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5ub3ZhdGVcTGlmZWJyaWRnZVByb2dyYW0ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/Innovate/RegionalInventoryManagement.razor]
+[C:/Projects/_Archive/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/Innovate/RegionalInventoryManagement.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5ub3ZhdGVcUmVnaW9uYWxJbnZlbnRvcnlNYW5hZ2VtZW50LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/Innovate/RegionalReadinessDevelopment.razor]
+[C:/Projects/_Archive/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/Innovate/RegionalReadinessDevelopment.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5ub3ZhdGVcUmVnaW9uYWxSZWFkaW5lc3NEZXZlbG9wbWVudC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/Innovate/SstOptimization.razor]
+[C:/Projects/_Archive/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/Innovate/SstOptimization.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5ub3ZhdGVcU3N0T3B0aW1pemF0aW9uLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/Innovate/WholeBodyFieldCryoprotection.razor]
+[C:/Projects/_Archive/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/Innovate/WholeBodyFieldCryoprotection.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5ub3ZhdGVcV2hvbGVCb2R5RmllbGRDcnlvcHJvdGVjdGlvbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/Legal Disclosures/Accessibility.razor]
+[C:/Projects/_Archive/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/Legal Disclosures/Accessibility.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGVnYWwgRGlzY2xvc3VyZXNcQWNjZXNzaWJpbGl0eS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/Legal Disclosures/PrivacyPolicy.razor]
+[C:/Projects/_Archive/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/Legal Disclosures/PrivacyPolicy.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGVnYWwgRGlzY2xvc3VyZXNcUHJpdmFjeVBvbGljeS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/Legal Disclosures/TermsAndConditions.razor]
+[C:/Projects/_Archive/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/Legal Disclosures/TermsAndConditions.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGVnYWwgRGlzY2xvc3VyZXNcVGVybXNBbmRDb25kaXRpb25zLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/Legal Disclosures/TrademarkPolicy.razor]
+[C:/Projects/_Archive/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/Legal Disclosures/TrademarkPolicy.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGVnYWwgRGlzY2xvc3VyZXNcVHJhZGVtYXJrUG9saWN5LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/PageNotFound.razor]
+[C:/Projects/_Archive/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Pages/PageNotFound.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZU5vdEZvdW5kLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Routes.razor]
+[C:/Projects/_Archive/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/Routes.razor]
 build_metadata.AdditionalFiles.TargetPath = Um91dGVzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projects/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/_Imports.razor]
+[C:/Projects/_Archive/ResurgenceBioWebsite/ResurgenceBioWebsite/ResurgenceBioWebsite.Client/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 

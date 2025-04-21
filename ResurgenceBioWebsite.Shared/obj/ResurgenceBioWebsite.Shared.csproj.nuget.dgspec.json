@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Shared\\ResurgenceBioWebsite.Shared.csproj": {}
+    "C:\\Projects\\_Archive\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Shared\\ResurgenceBioWebsite.Shared.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Shared\\ResurgenceBioWebsite.Shared.csproj": {
+    "C:\\Projects\\_Archive\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Shared\\ResurgenceBioWebsite.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Shared\\ResurgenceBioWebsite.Shared.csproj",
+        "projectUniqueName": "C:\\Projects\\_Archive\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Shared\\ResurgenceBioWebsite.Shared.csproj",
         "projectName": "ResurgenceBioWebsite.Shared",
-        "projectPath": "C:\\Projects\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Shared\\ResurgenceBioWebsite.Shared.csproj",
+        "projectPath": "C:\\Projects\\_Archive\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Shared\\ResurgenceBioWebsite.Shared.csproj",
         "packagesPath": "C:\\Users\\Livan\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Shared\\obj\\",
+        "outputPath": "C:\\Projects\\_Archive\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,7 +44,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "all"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
