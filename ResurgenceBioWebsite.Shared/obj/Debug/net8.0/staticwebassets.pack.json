@@ -1,11 +1,11 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Shared\\wwwroot\\background.png",
+      "Id": "C:\\Projects\\SSTBiostasisServicesCompanyWebiste\\ResurgenceBioWebsite.Shared\\wwwroot\\background.png",
       "PackagePath": "staticwebassets\\background.png"
     },
     {
-      "Id": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Shared\\wwwroot\\exampleJsInterop.js",
+      "Id": "C:\\Projects\\SSTBiostasisServicesCompanyWebiste\\ResurgenceBioWebsite.Shared\\wwwroot\\exampleJsInterop.js",
       "PackagePath": "staticwebassets\\exampleJsInterop.js"
     },
     {

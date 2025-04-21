@@ -1,123 +1,123 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\content-images\\gradient-background.jpeg",
+      "Id": "C:\\Projects\\SSTBiostasisServicesCompanyWebiste\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\content-images\\gradient-background.jpeg",
       "PackagePath": "staticwebassets\\content-images\\gradient-background.jpeg"
     },
     {
-      "Id": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\content-images\\home-hero-image.jpeg",
+      "Id": "C:\\Projects\\SSTBiostasisServicesCompanyWebiste\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\content-images\\home-hero-image.jpeg",
       "PackagePath": "staticwebassets\\content-images\\home-hero-image.jpeg"
     },
     {
-      "Id": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\content-images\\online-learning-hub.jpeg",
+      "Id": "C:\\Projects\\SSTBiostasisServicesCompanyWebiste\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\content-images\\online-learning-hub.jpeg",
       "PackagePath": "staticwebassets\\content-images\\online-learning-hub.jpeg"
     },
     {
-      "Id": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\css\\site.css",
+      "Id": "C:\\Projects\\SSTBiostasisServicesCompanyWebiste\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\icons\\arrow.svg",
+      "Id": "C:\\Projects\\SSTBiostasisServicesCompanyWebiste\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\icons\\arrow.svg",
       "PackagePath": "staticwebassets\\icons\\arrow.svg"
     },
     {
-      "Id": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\icons\\calendar.svg",
+      "Id": "C:\\Projects\\SSTBiostasisServicesCompanyWebiste\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\icons\\calendar.svg",
       "PackagePath": "staticwebassets\\icons\\calendar.svg"
     },
     {
-      "Id": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\icons\\discord.svg",
+      "Id": "C:\\Projects\\SSTBiostasisServicesCompanyWebiste\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\icons\\discord.svg",
       "PackagePath": "staticwebassets\\icons\\discord.svg"
     },
     {
-      "Id": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\icons\\facebook.svg",
+      "Id": "C:\\Projects\\SSTBiostasisServicesCompanyWebiste\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\icons\\facebook.svg",
       "PackagePath": "staticwebassets\\icons\\facebook.svg"
     },
     {
-      "Id": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\icons\\icon.svg",
+      "Id": "C:\\Projects\\SSTBiostasisServicesCompanyWebiste\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\icons\\icon.svg",
       "PackagePath": "staticwebassets\\icons\\icon.svg"
     },
     {
-      "Id": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\icons\\instagram.svg",
+      "Id": "C:\\Projects\\SSTBiostasisServicesCompanyWebiste\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\icons\\instagram.svg",
       "PackagePath": "staticwebassets\\icons\\instagram.svg"
     },
     {
-      "Id": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\icons\\linkedin.svg",
+      "Id": "C:\\Projects\\SSTBiostasisServicesCompanyWebiste\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\icons\\linkedin.svg",
       "PackagePath": "staticwebassets\\icons\\linkedin.svg"
     },
     {
-      "Id": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\icons\\location.svg",
+      "Id": "C:\\Projects\\SSTBiostasisServicesCompanyWebiste\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\icons\\location.svg",
       "PackagePath": "staticwebassets\\icons\\location.svg"
     },
     {
-      "Id": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\icons\\nav.svg",
+      "Id": "C:\\Projects\\SSTBiostasisServicesCompanyWebiste\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\icons\\nav.svg",
       "PackagePath": "staticwebassets\\icons\\nav.svg"
     },
     {
-      "Id": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\icons\\parking.svg",
+      "Id": "C:\\Projects\\SSTBiostasisServicesCompanyWebiste\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\icons\\parking.svg",
       "PackagePath": "staticwebassets\\icons\\parking.svg"
     },
     {
-      "Id": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\icons\\sos-button-svgrepo-com.svg",
+      "Id": "C:\\Projects\\SSTBiostasisServicesCompanyWebiste\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\icons\\sos-button-svgrepo-com.svg",
       "PackagePath": "staticwebassets\\icons\\sos-button-svgrepo-com.svg"
     },
     {
-      "Id": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\icons\\sos.svg",
+      "Id": "C:\\Projects\\SSTBiostasisServicesCompanyWebiste\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\icons\\sos.svg",
       "PackagePath": "staticwebassets\\icons\\sos.svg"
     },
     {
-      "Id": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\icons\\whatsapp.svg",
+      "Id": "C:\\Projects\\SSTBiostasisServicesCompanyWebiste\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\icons\\whatsapp.svg",
       "PackagePath": "staticwebassets\\icons\\whatsapp.svg"
     },
     {
-      "Id": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\icons\\x.svg",
+      "Id": "C:\\Projects\\SSTBiostasisServicesCompanyWebiste\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\icons\\x.svg",
       "PackagePath": "staticwebassets\\icons\\x.svg"
     },
     {
-      "Id": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\icons\\youtube.svg",
+      "Id": "C:\\Projects\\SSTBiostasisServicesCompanyWebiste\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\icons\\youtube.svg",
       "PackagePath": "staticwebassets\\icons\\youtube.svg"
     },
     {
-      "Id": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\js\\interop.js",
+      "Id": "C:\\Projects\\SSTBiostasisServicesCompanyWebiste\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\js\\interop.js",
       "PackagePath": "staticwebassets\\js\\interop.js"
     },
     {
-      "Id": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\logos\\biomedical-research.png",
+      "Id": "C:\\Projects\\SSTBiostasisServicesCompanyWebiste\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\logos\\biomedical-research.png",
       "PackagePath": "staticwebassets\\logos\\biomedical-research.png"
     },
     {
-      "Id": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\logos\\biostasis-consortium.png",
+      "Id": "C:\\Projects\\SSTBiostasisServicesCompanyWebiste\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\logos\\biostasis-consortium.png",
       "PackagePath": "staticwebassets\\logos\\biostasis-consortium.png"
     },
     {
-      "Id": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\logos\\biostasis-technologies.png",
+      "Id": "C:\\Projects\\SSTBiostasisServicesCompanyWebiste\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\logos\\biostasis-technologies.png",
       "PackagePath": "staticwebassets\\logos\\biostasis-technologies.png"
     },
     {
-      "Id": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\logos\\european-biostasis-foundation.png",
+      "Id": "C:\\Projects\\SSTBiostasisServicesCompanyWebiste\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\logos\\european-biostasis-foundation.png",
       "PackagePath": "staticwebassets\\logos\\european-biostasis-foundation.png"
     },
     {
-      "Id": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\logos\\favicon.png",
+      "Id": "C:\\Projects\\SSTBiostasisServicesCompanyWebiste\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\logos\\favicon.png",
       "PackagePath": "staticwebassets\\logos\\favicon.png"
     },
     {
-      "Id": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\logos\\pdc.png",
+      "Id": "C:\\Projects\\SSTBiostasisServicesCompanyWebiste\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\logos\\pdc.png",
       "PackagePath": "staticwebassets\\logos\\pdc.png"
     },
     {
-      "Id": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\logos\\resurgence-bio.png",
+      "Id": "C:\\Projects\\SSTBiostasisServicesCompanyWebiste\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\logos\\resurgence-bio.png",
       "PackagePath": "staticwebassets\\logos\\resurgence-bio.png"
     },
     {
-      "Id": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\logos\\suspended-animation.png",
+      "Id": "C:\\Projects\\SSTBiostasisServicesCompanyWebiste\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\logos\\suspended-animation.png",
       "PackagePath": "staticwebassets\\logos\\suspended-animation.png"
     },
     {
-      "Id": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\logos\\the-biostasis-commission.png",
+      "Id": "C:\\Projects\\SSTBiostasisServicesCompanyWebiste\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\logos\\the-biostasis-commission.png",
       "PackagePath": "staticwebassets\\logos\\the-biostasis-commission.png"
     },
     {
-      "Id": "C:\\Users\\machine\\OneDrive\\source\\repos\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\logos\\tomorrow-bio.png",
+      "Id": "C:\\Projects\\SSTBiostasisServicesCompanyWebiste\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\wwwroot\\logos\\tomorrow-bio.png",
       "PackagePath": "staticwebassets\\logos\\tomorrow-bio.png"
     },
     {
