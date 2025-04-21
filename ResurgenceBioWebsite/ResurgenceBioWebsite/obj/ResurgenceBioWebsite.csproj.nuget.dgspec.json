@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\_Archive\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.csproj": {}
+    "C:\\Projects\\SSTBiostasisServicesCompanyWebiste\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\_Archive\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Shared\\ResurgenceBioWebsite.Shared.csproj": {
+    "C:\\Projects\\SSTBiostasisServicesCompanyWebiste\\ResurgenceBioWebsite.Shared\\ResurgenceBioWebsite.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\_Archive\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Shared\\ResurgenceBioWebsite.Shared.csproj",
+        "projectUniqueName": "C:\\Projects\\SSTBiostasisServicesCompanyWebiste\\ResurgenceBioWebsite.Shared\\ResurgenceBioWebsite.Shared.csproj",
         "projectName": "ResurgenceBioWebsite.Shared",
-        "projectPath": "C:\\Projects\\_Archive\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Shared\\ResurgenceBioWebsite.Shared.csproj",
+        "projectPath": "C:\\Projects\\SSTBiostasisServicesCompanyWebiste\\ResurgenceBioWebsite.Shared\\ResurgenceBioWebsite.Shared.csproj",
         "packagesPath": "C:\\Users\\Livan\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\_Archive\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Shared\\obj\\",
+        "outputPath": "C:\\Projects\\SSTBiostasisServicesCompanyWebiste\\ResurgenceBioWebsite.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -88,14 +88,14 @@
         }
       }
     },
-    "C:\\Projects\\_Archive\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\ResurgenceBioWebsite.Client.csproj": {
+    "C:\\Projects\\SSTBiostasisServicesCompanyWebiste\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\ResurgenceBioWebsite.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\_Archive\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\ResurgenceBioWebsite.Client.csproj",
+        "projectUniqueName": "C:\\Projects\\SSTBiostasisServicesCompanyWebiste\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\ResurgenceBioWebsite.Client.csproj",
         "projectName": "ResurgenceBioWebsite.Client",
-        "projectPath": "C:\\Projects\\_Archive\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\ResurgenceBioWebsite.Client.csproj",
+        "projectPath": "C:\\Projects\\SSTBiostasisServicesCompanyWebiste\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\ResurgenceBioWebsite.Client.csproj",
         "packagesPath": "C:\\Users\\Livan\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\_Archive\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\obj\\",
+        "outputPath": "C:\\Projects\\SSTBiostasisServicesCompanyWebiste\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -117,8 +117,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Projects\\_Archive\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Shared\\ResurgenceBioWebsite.Shared.csproj": {
-                "projectPath": "C:\\Projects\\_Archive\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Shared\\ResurgenceBioWebsite.Shared.csproj"
+              "C:\\Projects\\SSTBiostasisServicesCompanyWebiste\\ResurgenceBioWebsite.Shared\\ResurgenceBioWebsite.Shared.csproj": {
+                "projectPath": "C:\\Projects\\SSTBiostasisServicesCompanyWebiste\\ResurgenceBioWebsite.Shared\\ResurgenceBioWebsite.Shared.csproj"
               }
             }
           }
@@ -185,14 +185,14 @@
         }
       }
     },
-    "C:\\Projects\\_Archive\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.csproj": {
+    "C:\\Projects\\SSTBiostasisServicesCompanyWebiste\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\_Archive\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.csproj",
+        "projectUniqueName": "C:\\Projects\\SSTBiostasisServicesCompanyWebiste\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.csproj",
         "projectName": "ResurgenceBioWebsite",
-        "projectPath": "C:\\Projects\\_Archive\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.csproj",
+        "projectPath": "C:\\Projects\\SSTBiostasisServicesCompanyWebiste\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.csproj",
         "packagesPath": "C:\\Users\\Livan\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\_Archive\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\obj\\",
+        "outputPath": "C:\\Projects\\SSTBiostasisServicesCompanyWebiste\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -214,11 +214,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Projects\\_Archive\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Shared\\ResurgenceBioWebsite.Shared.csproj": {
-                "projectPath": "C:\\Projects\\_Archive\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Shared\\ResurgenceBioWebsite.Shared.csproj"
+              "C:\\Projects\\SSTBiostasisServicesCompanyWebiste\\ResurgenceBioWebsite.Shared\\ResurgenceBioWebsite.Shared.csproj": {
+                "projectPath": "C:\\Projects\\SSTBiostasisServicesCompanyWebiste\\ResurgenceBioWebsite.Shared\\ResurgenceBioWebsite.Shared.csproj"
               },
-              "C:\\Projects\\_Archive\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\ResurgenceBioWebsite.Client.csproj": {
-                "projectPath": "C:\\Projects\\_Archive\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\ResurgenceBioWebsite.Client.csproj"
+              "C:\\Projects\\SSTBiostasisServicesCompanyWebiste\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\ResurgenceBioWebsite.Client.csproj": {
+                "projectPath": "C:\\Projects\\SSTBiostasisServicesCompanyWebiste\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\ResurgenceBioWebsite.Client.csproj"
               }
             }
           }

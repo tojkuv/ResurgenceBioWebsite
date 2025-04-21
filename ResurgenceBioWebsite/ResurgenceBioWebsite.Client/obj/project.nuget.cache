@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0AY25LvKg2A=",
+  "dgSpecHash": "fBX903PtfUE=",
   "success": true,
-  "projectFilePath": "C:\\Projects\\_Archive\\ResurgenceBioWebsite\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\ResurgenceBioWebsite.Client.csproj",
+  "projectFilePath": "C:\\Projects\\SSTBiostasisServicesCompanyWebiste\\ResurgenceBioWebsite\\ResurgenceBioWebsite.Client\\ResurgenceBioWebsite.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Livan\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.8\\microsoft.aspnetcore.authorization.8.0.8.nupkg.sha512",
     "C:\\Users\\Livan\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.8\\microsoft.aspnetcore.components.8.0.8.nupkg.sha512",
