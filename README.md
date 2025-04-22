@@ -29,7 +29,8 @@
 </div>
 
 ## Desktop Screenshots
-<img src="./Images/Desktop/2025-04-21%20204620.jpg" width="60%" />
-<img src="./Images/Desktop/2025-04-21%20204734.jpg" width="60%" />
-<img src="./Images/Desktop/2025-04-21%20204839.jpg" width="60%" />
+<img src="./Images/Desktop/2025-04-21%20204620.png" width="60%" />
+<img src="./Images/Desktop/2025-04-21%20204734.png" width="60%" />
+<img src="./Images/Desktop/2025-04-21%20204839.png" width="60%" />
+
 
