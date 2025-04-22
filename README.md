@@ -29,4 +29,7 @@
 </div>
 
 ## Desktop Screenshots
-### Home Page
+<img src="./Images/Desktop/2025-04-21%20204620.jpg" width="60%" />
+<img src="./Images/Desktop/2025-04-21%20204734.jpg" width="60%" />
+<img src="./Images/Desktop/2025-04-21%20204839.jpg" width="60%" />
+
